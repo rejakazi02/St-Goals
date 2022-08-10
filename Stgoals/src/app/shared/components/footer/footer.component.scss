@@ -1,7 +1,7 @@
 @import "./../../../../theme/variables";
 
 .footerMainDiv {
-  max-width: 100%;
+  width: 100%;
   position: fixed;
   bottom: 0;
   z-index: 100;
@@ -20,7 +20,7 @@
 .menuDiv{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  max-width: 100%;
+  width: 100%;
 }
 
 
