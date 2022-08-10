@@ -53,3 +53,24 @@
   color: #E45720;
 }
 
+@media only screen and (max-width: 768px) {
+
+  .IconSize{
+    font-size: 25px;
+
+
+  }
+
+  .SubMenuText{
+
+    font-size: 8px;
+    line-height: 19px;
+
+  }
+
+  .GFeeds{
+    border-bottom: 2px solid #E45720;
+    color: #E45720;
+  }
+
+}
