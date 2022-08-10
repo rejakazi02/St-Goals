@@ -107,20 +107,20 @@ display: grid;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 100%;
   line-height: 17px;
   color: #000000;
 }
 
-// .mainNav::before,.menuSection {
-// display: none;
-// }
+@media only screen and (max-width: 768px) {
+  .QRText {
 
-// .mainNav::after,.menuSection {
-//   background-color: $color-border;
-//   top: 100px;
-//   display: block;
-//   }
+    font-size: 30%;
+
+  }
+}
+
+
 
 .menuSection {
   display: grid;
