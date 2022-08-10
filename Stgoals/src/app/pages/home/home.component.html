@@ -1,0 +1,109 @@
+<!-- <div class="section1-main">
+  <app-product-card-one [product]="product" *ngFor="let product of products"></app-product-card-one>
+</div>
+
+
+
+<div class="section2-main">
+  <app-feature-card *ngFor="let data of  featureData" [data]="data"></app-feature-card>
+</div> -->
+<!-- banner  -->
+<div class="section-6">
+  <div class="container">
+    <!---section6-main-->
+    <div class="section6-main carousel">
+      <swiper [slidesPerView]="1" [spaceBetween]="16" [autoplay]="true" [loop]="true" [navigation]="true" [breakpoints]="{
+          '520': {
+            slidesPerView: 3,
+            spaceBetween: 15
+          },
+          '768': {
+            slidesPerView: 3.5
+          },
+          '1000': {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          '1200': {
+            slidesPerView: 2,
+            spaceBetween: 40
+          }
+        }" class="mySwiper">
+        <ng-template swiperSlide *ngFor="let data of productsData">
+          <!---category-card-->
+          <div class="category-card" [id]="data?._id">
+            <div class="category-image">
+              <img [src]="data?.image" alt="" />
+              <div class="link">
+                <a [routerLink]="[data?.routerLink]"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+            <div class="category-body">
+              <a [routerLink]="[data?.routerLink]">{{ data?.title }}</a>
+              <h4>{{ data?.subTitle }}</h4>
+            </div>
+          </div>
+        </ng-template>
+      </swiper>
+    </div>
+    <!-- <div class="view-btn">
+          <a href="#"><i class="fa fa-eye"></i>View All Category</a>
+      </div> -->
+  </div>
+</div>
+
+<swiper [slidesPerView]="1" [spaceBetween]="50" (swiper)="onSwiper($event)" (slideChange)="onSlideChange()"
+  [navigation]="false" [pagination]="{ clickable: false }" [scrollbar]="{ draggable: false }"
+  class="mainSlider-container">
+  <ng-template swiperSlide>
+    <img src="../../../assets/images/slider/slider1.jpg" alt="" srcset="" />
+  </ng-template>
+  <ng-template swiperSlide>
+    <img src="../../../assets/images/slider/slider2.png" alt="" srcset="" />
+  </ng-template>
+</swiper>
+
+<div class="angry-grid">
+  <div *ngFor="let product of products | slice: 0:3; let i = index" [id]="getProdId1(i)">
+    <img [src]="product.image" alt="" srcset="" />
+    <p>{{ product.title }}</p>
+    <h3>{{ product.subTitle }}</h3>
+  </div>
+</div>
+
+<div class="angry-grid2">
+  <div *ngFor="let product of products | slice: 3:6; let i = index" [id]="getProdId2(i)">
+    <img [src]="product.image" alt="" srcset="" />
+    <p>{{ product.title }}</p>
+    <h3>{{ product.subTitle }}</h3>
+  </div>
+</div>
+
+<div *ngFor="let product of products | slice: 6:8" class="banner1">
+  <img [src]="product.image" alt="" srcset="" />
+</div>
+
+<div class="new-arrival-section">
+  <div class="new-arrival-title">
+    <p>NEW ARRIVALS</p>
+    <h1>Boys & Girls</h1>
+  </div>
+
+  <div class="angry-grid3">
+    <div *ngFor="let product of products | slice: 8:12; let i = index" [id]="getProdId3(i)">
+      <img [src]="product.image" alt="" srcset="" />
+    </div>
+  </div>
+
+  <div class="textFiled">
+    <div class="tet">
+<h1 class="teth1">NEW COLLECTION</h1>
+    <h1>DRESS BRIGHT AND LIVELY</h1>
+    <h1 class="teth1">WITH J. YOUNGSTERS COLLECTION</h1>
+
+    </div>
+
+  </div>
+</div>
+
+<!---banner-area-->

@@ -1,0 +1,159 @@
+@import'./../../../theme/variables';
+
+
+
+.mainNav{
+  position: relative;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 4rem;
+    background-image: url('../../../assets/images/banner/banar.webp');
+    // object-fit: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+
+
+.container{
+  width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    overflow: auto;
+
+
+
+    background-color: #fff;
+    box-shadow: 0 1px 3pxrgba(51,65,80,.08);
+    min-height: 70px;
+
+}
+
+.navMainDiv{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+align-items: center;
+min-height: 70px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoImg{
+  height: 40px;
+  width: 130px;
+}
+
+
+// .mainNav::before,.menuSection {
+// display: none;
+// }
+
+// .mainNav::after,.menuSection {
+//   background-color: $color-border;
+//   top: 100px;
+//   display: block;
+//   }
+
+
+
+.menuSection{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.menuDiv{
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.subMenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuImg{
+  width: 25px;
+  height: 25px;
+}
+
+.menuATAg{
+  color: #1c3c6b;
+  font-weight: 600;
+  border: 2px solid transparent;
+  // padding: 16px;
+
+}
+.signInSection{
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  gap: 9px;
+}
+
+
+.signDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BDTBtn{
+
+  background-color: white;
+  color: #6e6b7b;
+  border: 2px solid transparent;
+  font-size: 0.857143rem;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+
+.signBtn a{
+  // box-shadow: 0 8px 25px -8px #1c3c6b;
+  color: #fff;
+     background-color: #142b4d;
+
+     border: 1px solid transparent;
+    padding: 0.786rem 0.786rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 0.358rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.signBtn a:hover{
+  box-shadow: 0 8px 25px -8px #1c3c6b;
+
+ }
+
