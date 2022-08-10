@@ -14,12 +14,13 @@ import {MatMenuModule} from '@angular/material/menu';
   imports: [
     CommonModule,
     RouterModule,
-    MatMenuModule
+    MatMenuModule,
+    MatIconModule
   ],
   exports:[
     HeaderComponent,
     MaterialModule,
-    MatIconModule
+
   ]
 })
 export class HeaderModule { }
