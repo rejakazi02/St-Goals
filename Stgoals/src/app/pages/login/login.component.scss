@@ -54,7 +54,7 @@ color: #FFFFFF;
 
 .LogoImg{
   width: 45%;
-    height: 209px;
+    // height: 209px;
     margin-top: -52px;
 }
 
@@ -65,6 +65,7 @@ color: #FFFFFF;
   flex-direction: column;
   align-items: center;
   margin-bottom: 8px;
+  z-index: 111111111111;
 }
 
 .Pleaselogin{
@@ -91,11 +92,14 @@ color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 111111111111;
 
 }
 
+
 .logggDiv{
   margin: 8px;
+  z-index: 111111111111;
 }
 
 .EduImgDiv{
@@ -103,13 +107,21 @@ color: #FFFFFF;
   justify-content: center;
 
   align-items: center;
+  // position: relative;
 }
 
 .EduImg{
+  // position: absolute;
   width: 30%;
-height: 194px;
-margin-left: 200px;
-margin-top: -70px;
+  margin-left: 230px;
+  margin-top: -74px;
 
+}
 
+.Info{
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+  align-items: center;
+  margin-top: 23px;
 }
