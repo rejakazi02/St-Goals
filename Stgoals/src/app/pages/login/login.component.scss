@@ -1,0 +1,114 @@
+@import "./../../../theme/variables";
+@import url('https://rsms.me/inter/inter.css');
+
+.loginMainDIV{
+  background-color: #8AABFF;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.headerDiv{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.RegisLoginBTN{
+  margin-top: 41px;
+  margin-left: 52px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+color: #FFFFFF;
+width: 99px;
+height: 17px;
+}
+
+
+.helpBTN{
+  margin-top: 41px;
+  margin-right: 77px;
+float: right;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+justify-content: end;
+color: #FFFFFF;
+
+}
+
+.LogoImgDiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.LogoImg{
+  width: 45%;
+    height: 209px;
+    margin-top: -52px;
+}
+
+
+.BtnDiv{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.Pleaselogin{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+padding-left: 5px;
+
+color: #FFFFFF;
+}
+
+.logBTTn{
+  width: 362px;
+  height: 42px;
+  margin-top: 8px;
+  background: #E45720;
+  color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logggDiv{
+  margin: 8px;
+}
+
+.EduImgDiv{
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.EduImg{
+  width: 599px;
+height: 194px;
+
+
+
+}
