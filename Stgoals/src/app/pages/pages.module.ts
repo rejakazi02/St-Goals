@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
 import { LoginComponent } from './login/login.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 
 
@@ -13,6 +14,7 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     PagesComponent,
     LoginComponent,
+    RegistrationComponent,
 
   ],
   imports: [

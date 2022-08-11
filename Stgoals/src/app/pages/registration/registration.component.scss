@@ -1,0 +1,73 @@
+@import "./../../../theme/variables";
+@import url("https://rsms.me/inter/inter.css");
+
+section {
+  background-color: #8aabff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.loginMainDIV {
+  // background-color: #8AABFF;
+  // height: 100vh;
+  // width: 100%;
+}
+
+.headerDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.RegisLoginBTN {
+  margin-top: 41px;
+  margin-left: 52px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+  width: 99px;
+  height: 17px;
+}
+
+.helpBTN {
+  margin-top: 41px;
+  margin-right: 77px;
+  float: right;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: end;
+  color: #ffffff;
+}
+
+.Info {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Pleaselogin {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 5px;
+
+  color: #ffffff;
+}
+
+.SubInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
