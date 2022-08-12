@@ -7,6 +7,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { RegformComponent } from './regform/regform.component';
 
 
 
@@ -15,6 +16,7 @@ import { RegistrationComponent } from './registration/registration.component';
     PagesComponent,
     LoginComponent,
     RegistrationComponent,
+    RegformComponent,
 
   ],
   imports: [
