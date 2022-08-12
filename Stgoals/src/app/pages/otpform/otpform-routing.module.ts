@@ -1,31 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { RegformComponent } from './regform.component';
-
+import { OtpformComponent } from './otpform.component';
 const routes: Routes = [
-
   {
     path:"",
-    component:RegformComponent
+    component:OtpformComponent
   },
 
   {
     path:"login",
       loadChildren: () => import('../login/login.module').then(m => m.LoginModule)
 
-
   },
-
-  {
-    path:"addressform",
-      loadChildren: () => import('../addressform/addressform.module').then(m => m.AddressformModule)
-
-  }
-
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class RegformRoutingModule { }
+export class OtpformRoutingModule { }

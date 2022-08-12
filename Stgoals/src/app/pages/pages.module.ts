@@ -8,6 +8,8 @@ import { PagesComponent } from './pages.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { RegformComponent } from './regform/regform.component';
+import { AddressformComponent } from './addressform/addressform.component';
+import { OtpformComponent } from './otpform/otpform.component';
 
 
 
@@ -17,6 +19,8 @@ import { RegformComponent } from './regform/regform.component';
     LoginComponent,
     RegistrationComponent,
     RegformComponent,
+    AddressformComponent,
+    OtpformComponent,
 
   ],
   imports: [
