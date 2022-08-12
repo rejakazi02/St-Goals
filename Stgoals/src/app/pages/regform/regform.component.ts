@@ -12,4 +12,8 @@ export class RegformComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  genders: any = ['Gender','Male', 'Female', 'Other'];
+  bloodGroup: any = ['Blood Group','A+', 'A-', 'AB+', 'AB-', 'B+', 'B-', 'O+', 'O-'];
+
 }

@@ -20,14 +20,50 @@
 
 <div class="regAllBtn">
 
+<div class="inputDiv">
+  <p>First Name</p>
+  <input class="InputFiled" type="text" name="" id="" placeholder="First Name">
+</div>
 
 
+<div class="inputDiv">
+  <p>Last Name</p>
+  <input class="InputFiled" type="text" name="" id="" placeholder="Last Name">
+</div>
 
-  <!-- <a class="regBtnText" href="" [routerLink]="['regform']" routerLinkActive="router-link-active"  >Students</a>
-  <a class="regBtnText" href="" [routerLink]="['regform']" routerLinkActive="router-link-active" >Teachers</a>
-  <a class="regBtnText" href="" [routerLink]="['regform']" routerLinkActive="router-link-active" >Parents</a>
-  <a class="regBtnText" href="" [routerLink]="['regform']" routerLinkActive="router-link-active" >Employee</a>
-  <a class="regBtnText" href="" [routerLink]="['regform']" routerLinkActive="router-link-active" >Others</a> -->
+
+<div class="inputDiv">
+  <p>Gender</p>
+  <select  class="InputFiled">
+    <option *ngFor="let option of genders" class=" select">{{option}}</option>
+</select>
+</div>
+
+<div class="inputDiv">
+  <p>Religion</p>
+  <input class="InputFiled" type="text" name="" id="" placeholder="Religion">
+</div>
+
+<div class="inputDiv">
+  <p>Blood Group</p>
+  <select  class="InputFiled">
+    <option *ngFor="let option of bloodGroup" class=" select">{{option}}</option>
+</select>
+</div>
+
+<div class="inputDiv">
+  <p>Date Of Birth</p>
+  <input class="InputFiled" type="date" name="" id="" >
+
+</div>
+
+<div class="inputDiv">
+  <p>Phone Number</p>
+  <input class="InputFiled" type="text" name="" id="" placeholder="Enter Your Phone Number Here">
+</div>
+
+<a class="submit" href="">Continue </a>
+<!-- <input class="submit" type="submit" value="Continue"> -->
 </div>
 
 
