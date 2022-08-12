@@ -8,8 +8,8 @@ const routes: Routes = [
   component:LoginComponent
 },
 {
-  path:"pagess",
-    loadChildren: () => import('../../pages/pages.module').then(m => m.PagesModule)
+  path:"userlogin",
+    loadChildren: () => import('../userlogin/userlogin.module').then(m => m.UserloginModule)
 
 
 },

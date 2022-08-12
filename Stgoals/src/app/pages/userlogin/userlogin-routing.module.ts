@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { OtpformComponent } from './otpform.component';
+import { UserloginComponent } from './userlogin.component';
 const routes: Routes = [
   {
     path:"",
-    component:OtpformComponent
+    component:UserloginComponent
   },
 
   {
@@ -12,15 +12,19 @@ const routes: Routes = [
       loadChildren: () => import('../login/login.module').then(m => m.LoginModule)
 
   },
+
   {
-    path:"userlogin",
-      loadChildren: () => import('../userlogin/userlogin.module').then(m => m.UserloginModule)
+    path:"pages",
+      loadChildren: () => import('../../pages/pages.module').then(m => m.PagesModule)
+
 
   }
+
+
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class OtpformRoutingModule { }
+export class UserloginRoutingModule { }
