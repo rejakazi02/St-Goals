@@ -4,9 +4,9 @@
       <!-- header section  -->
 
       <div class="headerDiv">
-        <a class="RegisLoginBTN" href="" [routerLink]="['registration']"
+        <a class="RegisLoginBTN" href="" routerLink="/registration"
           routerLinkActive="router-link-active">Register/Login</a>
-        <a class="helpBTN" href="" [routerLink]="['pagess']" routerLinkActive="router-link-active">Help</a>
+        <a class="helpBTN" href="" routerLink="/home" routerLinkActive="router-link-active">Help</a>
       </div>
 
       <div class="LogoImgDiv">
@@ -16,13 +16,12 @@
       <div class="BtnDiv">
         <div class="logggDiv">
           <p class="Pleaselogin">If you regitered here, Please login</p>
-          <a class="logBTTn" href="" [routerLink]="['userlogin']" routerLinkActive="router-link-active">Login</a>
+          <a class="logBTTn" routerLink="/userlogin" routerLinkActive="router-link-active">Login</a>
         </div>
 
         <div class="logggDiv">
           <p class="Pleaselogin">Or Register here</p>
-          <a class="logBTTn" href="" [routerLink]="['registration']"
-            routerLinkActive="router-link-active">Registration</a>
+          <a class="logBTTn" routerLink="/registration" routerLinkActive="router-link-active">Registration</a>
         </div>
       </div>
 

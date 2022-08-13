@@ -10,16 +10,7 @@ const routes: Routes = [
       component:AddressformComponent
     },
 
-    {
-      path:"login",
-        loadChildren: () => import('../login/login.module').then(m => m.LoginModule)
-
-    },
-    {
-      path:"otpform",
-        loadChildren: () => import('../otpform/otpform.module').then(m => m.OtpformModule)
-
-    }
+    
 ];
 
 @NgModule({

@@ -6,15 +6,6 @@ const routes: Routes = [
   {
     path:"",
     component:RegistrationComponent
-  },
-  {
-    path:"login",
-      loadChildren: () => import('../login/login.module').then(m => m.LoginModule)
-
-  },
-  {
-    path:"regform",
-    loadChildren: () => import('../regform/regform.module').then(m => m.RegformModule)
   }
 ];
 

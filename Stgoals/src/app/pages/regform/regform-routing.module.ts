@@ -9,18 +9,7 @@ const routes: Routes = [
     component:RegformComponent
   },
 
-  {
-    path:"login",
-      loadChildren: () => import('../login/login.module').then(m => m.LoginModule)
-
-
-  },
-
-  {
-    path:"addressform",
-      loadChildren: () => import('../addressform/addressform.module').then(m => m.AddressformModule)
-
-  }
+ 
 
 ];
 

@@ -7,16 +7,7 @@ const routes: Routes = [
     component:OtpformComponent
   },
 
-  {
-    path:"login",
-      loadChildren: () => import('../login/login.module').then(m => m.LoginModule)
-
-  },
-  {
-    path:"userlogin",
-      loadChildren: () => import('../userlogin/userlogin.module').then(m => m.UserloginModule)
-
-  }
+ 
 ];
 
 @NgModule({

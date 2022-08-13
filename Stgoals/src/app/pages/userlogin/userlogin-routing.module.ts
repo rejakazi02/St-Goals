@@ -7,18 +7,7 @@ const routes: Routes = [
     component:UserloginComponent
   },
 
-  {
-    path:"login",
-      loadChildren: () => import('../login/login.module').then(m => m.LoginModule)
-
-  },
-
-  {
-    path:"pages",
-      loadChildren: () => import('../../pages/pages.module').then(m => m.PagesModule)
-
-
-  }
+  
 
 
 ];
