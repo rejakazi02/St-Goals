@@ -10,6 +10,10 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
+import { FooterModule } from 'src/app/shared/components/footer/footer.module'; 
+import { HeaderModule } from 'src/app/core/header/header.module'; 
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +27,9 @@ import { HomeComponent } from './home.component';
     SlickCarouselModule,
     ProductCardOneModule,
     BlogCardModule,
-    FeatureCardModule
+    FeatureCardModule,
+    HeaderModule,
+    FooterModule
   ]
 })
 export class HomeModule { }
