@@ -8,11 +8,12 @@
 @import "~swiper/css/effect-coverflow";
 @import'./theme/variables';
 
+@import url("https://rsms.me/inter/inter.css");
 .slick-slider {
     width: 88%;
     margin: auto;
     background: rgb(14, 13, 13);
-    font-family: 'Alata', sans-serif;
+    font-family: "Inter";
   }
 
 body .slick-prev,
@@ -21,18 +22,19 @@ body .slick-next {
     width: 40px;
     background: grey !important;
     z-index: 100;
-    font-family: 'Alata', sans-serif;
+    font-family: "Inter";
 }
 ::selection{
   color: #fff;
   background-color: $color-primary;
-  font-family: 'Alata', sans-serif;
+  font-family: "Inter";
 }
 
 body {
   height: auto !important;
-  font-family: 'Alata', sans-serif;
+  font-family: "Inter";
+  background-color: #fff;
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Inter"; }
