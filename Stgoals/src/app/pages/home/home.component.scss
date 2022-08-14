@@ -278,12 +278,12 @@ color: rgba(0, 0, 0, 0.5);
 }
 
 .postText{
-
   display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 margin: 0 10px;
+
 }
 
 .postTextPtag{
@@ -295,4 +295,38 @@ margin: 0 10px;
   text-align: justify;
   color: #000000;
 margin: 0 10px;
+}
+
+.PostReactionDiv{
+  border-top: 0.3px solid #000000;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.reactionAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.IndiBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+  background-color: #FFFFFF;
+  gap: 5px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.IndiImg{
+  width: 28.56px;
+height: 26.78px;
 }
