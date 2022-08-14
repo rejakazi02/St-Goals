@@ -161,6 +161,7 @@ margin-top: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
  border: none;
  background-color: #FFFFFF;
   gap: 15px;
@@ -178,7 +179,7 @@ color: #000000;
 }
 
 .LookingImg{
-  width: 12px;
+  width: 15px;
     height: 11px;
 }
 
@@ -202,3 +203,96 @@ display: grid;
   gap: 10px;
 }
 
+.postProfileMainDiv{
+  display: grid;
+  grid-template-columns: .5fr 4fr;
+  gap: 10px;
+}
+
+.postProfileImgDiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.postProfileImg{
+  width: 59px;
+  height: 59px;
+  margin: 8px;
+ 
+}
+
+.postProfileDtailsDiv{
+display: flex;
+flex-direction: column;
+// align-items: center;
+justify-content: center;
+}
+
+
+.postProfileDtailsHTag{
+//   width: 89px;
+// height: 22px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.postProfileDtailsPTag{ 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  
+  color: rgba(228, 87, 32, 0.6);
+  
+}
+
+.postProfileDtailsBtn{
+  width: 103px;
+height: 17px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+background-color: #FFFFFF;
+border: none;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+
+.postText{
+
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+}
+
+.postTextPtag{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #000000;
+margin: 0 10px;
+}
