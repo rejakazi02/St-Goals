@@ -372,3 +372,110 @@ padding: 10px 0;
 // border: 1px solid rgba(0, 0, 0, 0.51);
 border-radius: 10px;
 }
+
+
+.addFeedDiv{
+  width: 340px;
+  height: 451px;
+  background: #FFFFFF;
+  border: 0.3px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+margin-top: 10px;
+}
+
+.addFeedHeader{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+padding: 10px 0 0 12px;
+}
+
+.addFollowDiv{
+  width: 330px;
+height: 79px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 25px;
+margin: 4px 0 0 4px;
+}
+
+.addFollowImg{
+  width: 59px;
+height: 59px
+}
+
+.personName{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.personTitle{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #E45720;
+}
+
+.addFollowBtn{
+  width: 88px;
+height: 31px;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+background: #E45720;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+
+.followBtnDiv{
+  margin: 36px 0 0 25px;
+}
+.viewAllBtn{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+border: none;
+color: rgba(0, 0, 0, 0.6);
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #FFFFFF;
+gap: 10px;
+}
+
+.arrowRight{
+  width: 18px;
+height: 13px;
+}
+
+
+
+
+
+
