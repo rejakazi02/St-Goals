@@ -1,58 +1,54 @@
-
-
-.homeMainDiv{
+.homeMainDiv {
   margin-top: 10px;
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
   position: relative;
-  
 }
 
-.leftSideNav{
+.leftSideNav {
   margin-left: 25px;
 }
+
 .leftmainDiv {
   margin-top: 28px;
 }
 
-.videoDiv{
+.videoDiv {
   display: flex;
-    gap: 12px;
-    align-items: center;
-    margin-top: 10px;
-position: relative;
-width: 100%;
-// height: 80vh;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  // height: 80vh;
 }
 
-.videoDivImg{
+.videoDivImg {
   // height: 20px;
-width: 26px;
-
+  width: 26px;
 }
-.videoDiv a{
 
-  font-family: 'Inter';
+.videoDiv a {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #E45720;
-  
+  color: #e45720;
 }
 
-.PageDivImg{
+.PageDivImg {
   // height: 20px;
   width: 30px;
 }
 
-.SubPageDiv{
+.SubPageDiv {
   margin-left: 41px;
   margin-top: 2px;
 }
 
-.submenus{
-  font-family: 'Inter';
+.submenus {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -60,247 +56,229 @@ width: 26px;
   color: #000000;
 }
 
-.SeeAll{
+.SeeAll {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 4px 115px 0px 0px;
 }
 
-
-.SeeAll a{ 
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-color: #E45720;
+.SeeAll a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e45720;
 }
 
-.educational{
+.educational {
   width: 32px;
 }
 
-.advertise{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
+.advertise {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 
-color: #000000;
-
+  color: #000000;
 }
 
-.advertiseImg{
+.advertiseImg {
   width: 279px;
-height: 127px;
-margin-top: 8px;
+  height: 127px;
+  margin-top: 8px;
 }
 
-.middlemenuMainDiv{
+.middlemenuMainDiv {
   margin: 10px 20px 90px 20px;
   // background-color: yellowgreen;
 }
 
-.postsection{
+.postsection {
   box-sizing: border-box;
   //position: absolute;
   width: 593px;
   height: 122px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.6);
   border-radius: 0px 0px 10px 10px;
   display: grid;
   grid-template-rows: 1px 1px;
   gap: 80px;
-  
 }
 
-.PostInputFiledDiv{
+.PostInputFiledDiv {
   box-sizing: border-box;
   width: 592px;
   height: 76px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   border-right: 1px solid rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 }
 
-
-.PostInputFiled{
+.PostInputFiled {
   width: 100%;
   height: 100%;
   border: none;
   padding-left: 20px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  
+
   color: rgba(0, 0, 0, 0.59);
-  
 }
 
-
-
-.postItemDiv{
+.postItemDiv {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   margin: 0 8px 0 10px;
 }
 
-.AllPostDiv{
+.AllPostDiv {
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
-.AllPostBtn{
+
+.AllPostBtn {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
- border: none;
- background-color: #FFFFFF;
+  border: none;
+  background-color: #ffffff;
   gap: 15px;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 
-color: #000000;
+  color: #000000;
 }
-.VideoClipImg{
+
+.VideoClipImg {
   width: 26px;
-    height: 25px;
+  height: 25px;
 }
 
-.LookingImg{
+.LookingImg {
   width: 15px;
-    height: 11px;
+  height: 11px;
 }
 
-.photoImg{
+.photoImg {
   width: 32px;
   height: 34px;
 }
 
-
-
-.textPostMainDiv{
+.textPostMainDiv {
   box-sizing: border-box;
-margin-top: 8px;
-width: 593px;
-// height: 184px;
-// background: #E45720;
-border: 1px solid rgba(0, 0, 0, 0.4);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-// display: grid;
+  margin-top: 8px;
+  width: 593px;
+  // height: 184px;
+  // background: #E45720;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  // display: grid;
   // grid-template-rows: 1fr 2fr 1fr;
   // gap: 10px;
 }
 
-.postProfileMainDiv{
+.postProfileMainDiv {
   display: grid;
-  grid-template-columns: .5fr 4fr;
+  grid-template-columns: 0.5fr 4fr;
   gap: 10px;
 }
 
-.postProfileImgDiv{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.postProfileImgDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-.postProfileImg{
+.postProfileImg {
   width: 59px;
   height: 59px;
   margin: 8px;
- 
 }
 
-.postProfileDtailsDiv{
-display: flex;
-flex-direction: column;
-// align-items: center;
-justify-content: center;
+.postProfileDtailsDiv {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
 }
 
+.postProfileDtailsHTag {
+  //   width: 89px;
+  // height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
 
-.postProfileDtailsHTag{
-//   width: 89px;
-// height: 22px;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-
-color: #000000;
+  color: #000000;
 }
 
-.postProfileDtailsPTag{ 
-  font-family: 'Inter';
+.postProfileDtailsPTag {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-  
-  
+
   color: rgba(228, 87, 32, 0.6);
-  
 }
 
-.postProfileDtailsBtn{
+.postProfileDtailsBtn {
   width: 103px;
-height: 17px;
+  height: 17px;
 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ffffff;
+  border: none;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-background-color: #FFFFFF;
-border: none;
-
-color: rgba(0, 0, 0, 0.5);
-
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.postText{
+.postText {
   display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin: 0px 10px;
-// height: auto;
-
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+  // height: auto;
 }
 
-.postTextPtag{
-  font-family: 'Inter';
+.postTextPtag {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   // text-align: justify;
   color: #000000;
-margin: 0px 10px;
-padding: 0px 0px 20px 0px;
+  margin: 0px 10px;
+  padding: 0px 0px 20px 0px;
 }
 
-.PostReactionDiv{
+.PostReactionDiv {
   border-top: 0.3px solid #000000;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -309,178 +287,171 @@ padding: 0px 0px 20px 0px;
   height: 50px;
 }
 
-.reactionAll{
+.reactionAll {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
-.IndiBtn{
+.IndiBtn {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   border: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   gap: 5px;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
 }
-.IndiImg{
+
+.IndiImg {
   width: 28.56px;
-height: 26.78px;
+  height: 26.78px;
 }
 
-.videoSectionMainDiv{
-//   display: grid;
-//   grid-template-rows: 3fr 1fr;
-// gap: 10px;
+.videoSectionMainDiv {
+  //   display: grid;
+  //   grid-template-rows: 3fr 1fr;
+  // gap: 10px;
   box-sizing: border-box;
-width: 593px;
-// height: 274px;
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.4);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-top: 8px;
-
+  width: 593px;
+  // height: 274px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 8px;
 }
 
-.SubInfoDiv{
+.SubInfoDiv {
   display: grid;
   grid-template-columns: 2fr 3fr;
 }
 
-
-
-.videoImgMainDiv{
+.videoImgMainDiv {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.postImg{
+.postImg {
   // box-sizing: border-box;
-width: 324px;
-height: 191px;
-padding: 10px 0;
-// border: 1px solid rgba(0, 0, 0, 0.51);
-border-radius: 10px;
+  width: 324px;
+  height: 191px;
+  padding: 10px 0;
+  // border: 1px solid rgba(0, 0, 0, 0.51);
+  border-radius: 10px;
 }
 
-.rightSideMainDiv{
+.rightSideMainDiv {
   margin: 0px 0px 90px 0px;
 }
 
-
-
-.addFeedDiv{
+.addFeedDiv {
   width: 340px;
   height: 451px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 0.3px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-margin-top: 10px;
+  margin-top: 10px;
 }
 
-.addFeedHeader{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
-padding: 10px 0 0 12px;
+.addFeedHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding: 10px 0 0 12px;
 }
 
-.addFollowDiv{
+.addFollowDiv {
   width: 330px;
-height: 79px;
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 25px;
-margin: 4px 0 0 4px;
+  height: 79px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 4px 0 0 4px;
 }
 
-.addFollowImg{
+.addFollowImg {
   width: 59px;
-height: 59px
+  height: 59px;
 }
 
-.personName{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+.personName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
 
-
-color: #000000;
+  color: #000000;
 }
 
-.personTitle{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+.personTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
 
-
-color: #E45720;
+  color: #e45720;
 }
 
-.addFollowBtn{
+.addFollowBtn {
   width: 88px;
-height: 31px;
-border: none;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-color: #FFFFFF;
-background: #E45720;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
+  height: 31px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #e45720;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
 }
 
-
-.followBtnDiv{
+.followBtnDiv {
   margin: 36px 0 0 25px;
 }
-.viewAllBtn{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-border: none;
-color: rgba(0, 0, 0, 0.6);
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #FFFFFF;
-gap: 10px;
+
+.viewAllBtn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  gap: 10px;
 }
 
-.arrowRight{
+.arrowRight {
   width: 18px;
-height: 13px;
+  height: 13px;
 }
 
-.recentChatMainDiv{
+.recentChatMainDiv {
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -489,8 +460,7 @@ height: 13px;
   position: relative;
 }
 
-
-.recentChatProfileDiv{
+.recentChatProfileDiv {
   margin-top: 15px;
   display: flex;
   align-items: center;
@@ -498,37 +468,19 @@ height: 13px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.21);
   gap: 10px;
   padding: 3px;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-border-top: none;
-border-left: none;
-border-right: none;
-background-color: #FFFFFF;
-color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #ffffff;
+  color: #000000;
 }
 
-.recentChatProfileImg{
+.recentChatProfileImg {
   width: 41px;
-height: 40px;
+  height: 40px;
 }
-
-
-.upArrowBtn{
-  position: absolute;
-  border: none;
-  background-color: #FFFFFF;
-  bottom: 87px;
- 
-    right: 0;
-    margin-right: 31px;
-}
-
-.upArrowImg{
-  width: 45.76px;
-height: 45.76px;
-}
-
-
