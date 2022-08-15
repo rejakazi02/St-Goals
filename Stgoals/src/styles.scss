@@ -28,13 +28,18 @@ body .slick-next {
   color: #fff;
   background-color: $color-primary;
   font-family: "Inter";
+  font-style: normal;
 }
 
 body {
   height: auto !important;
   font-family: "Inter";
   background-color: #fff;
+  font-style: normal;
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: "Inter"; }
+body { 
+  margin: 0; font-family: "Inter";
+  font-style: normal;
+ }
