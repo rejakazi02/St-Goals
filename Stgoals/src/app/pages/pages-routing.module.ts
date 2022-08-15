@@ -51,6 +51,11 @@ const routes: Routes = [
         path:"otpform",
           loadChildren: () => import('./otpform/otpform.module').then(m => m.OtpformModule)
       
+      },
+      {
+        path:"videos",
+          loadChildren: () => import('./videos/videos.module').then(m => m.VideosModule)
+      
       }
     ]
   }

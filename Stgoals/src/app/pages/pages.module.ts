@@ -12,6 +12,7 @@ import { RegformComponent } from './regform/regform.component';
 import { AddressformComponent } from './addressform/addressform.component';
 import { OtpformComponent } from './otpform/otpform.component';
 import { UserloginComponent } from './userlogin/userlogin.component';
+import { VideosComponent } from './videos/videos.component';
 
 
 
@@ -24,6 +25,7 @@ import { UserloginComponent } from './userlogin/userlogin.component';
     AddressformComponent,
     OtpformComponent,
     UserloginComponent,
+    VideosComponent,
 
   ],
   imports: [
