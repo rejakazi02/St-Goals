@@ -98,7 +98,7 @@ margin-top: 8px;
 }
 
 .middlemenuMainDiv{
-  margin: 10px 20px;
+  margin: 10px 20px 90px 20px;
   // background-color: yellowgreen;
 }
 
@@ -194,13 +194,13 @@ color: #000000;
   box-sizing: border-box;
 margin-top: 8px;
 width: 593px;
-height: 184px;
+// height: 184px;
 // background: #E45720;
 border: 1px solid rgba(0, 0, 0, 0.4);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+// display: grid;
+  // grid-template-rows: 1fr 2fr 1fr;
+  // gap: 10px;
 }
 
 .postProfileMainDiv{
@@ -282,7 +282,8 @@ color: rgba(0, 0, 0, 0.5);
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin: 0 10px;
+margin: 0px 10px;
+// height: auto;
 
 }
 
@@ -292,15 +293,19 @@ margin: 0 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  text-align: justify;
+  // text-align: justify;
   color: #000000;
-margin: 0 10px;
+margin: 0px 10px;
+padding: 0px 0px 20px 0px;
 }
 
 .PostReactionDiv{
   border-top: 0.3px solid #000000;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  // position: fixed;
+  // height: 30px;
+  height: 50px;
 }
 
 .reactionAll{
@@ -329,4 +334,41 @@ color: #000000;
 .IndiImg{
   width: 28.56px;
 height: 26.78px;
+}
+
+.videoSectionMainDiv{
+//   display: grid;
+//   grid-template-rows: 3fr 1fr;
+// gap: 10px;
+  box-sizing: border-box;
+width: 593px;
+// height: 274px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.4);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-top: 8px;
+
+}
+
+.SubInfoDiv{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+
+
+.videoImgMainDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.postImg{
+  // box-sizing: border-box;
+width: 324px;
+height: 191px;
+padding: 10px 0;
+// border: 1px solid rgba(0, 0, 0, 0.51);
+border-radius: 10px;
 }
