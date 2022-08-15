@@ -1,0 +1,516 @@
+.homeMainDiv {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  position: relative;
+}
+
+.leftSideNav {
+  margin-left: 25px;
+}
+
+.leftmainDiv {
+  margin-top: 28px;
+}
+
+
+
+
+
+.videoDiv {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+ 
+}
+
+.videoDivImg {
+  
+  width: 26px;
+}
+
+.videoDiv a {
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e45720;
+}
+
+.videoSearchFiled{
+  width: 303px;
+height: 29px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.6);
+border-radius: 20px;
+padding-left: 50px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgba(0, 0, 0, 0.6);
+margin: 20px 0;
+
+}
+
+.searchIcon{
+  width: 22px;
+    height: 17px;
+    position: absolute;
+    margin-left: 17px;
+}
+
+
+.AllVideoDiv{
+  border-bottom: 2px solid skyblue;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.suggestVideoDiv{
+  border: none;
+}
+
+.suggestVideoDivHeader{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 26px;
+  color: #000000;
+  
+}
+
+.videoSubDiv {
+  // margin-left: 17px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 10px;
+}
+
+.videoImg{
+  width: 140px;
+height: 61px;
+}
+.submenus {
+  
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.SeeAll {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin: 4px 77px 0px 0px;
+}
+
+.SeeAll a {
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e45720;
+}
+
+.educational {
+  width: 32px;
+}
+
+.advertise {
+  
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.advertiseImg {
+  width: 279px;
+  height: 127px;
+  margin-top: 8px;
+}
+
+
+
+
+
+
+.middlemenuMainDiv {
+  margin: 10px 20px 90px 20px;
+ 
+}
+
+.postsection {
+  box-sizing: border-box;
+  width: 593px;
+  height: 122px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 0px 10px 10px;
+  display: grid;
+  grid-template-rows: 1px 1px;
+  gap: 80px;
+}
+
+.PostInputFiledDiv {
+  box-sizing: border-box;
+  width: 592px;
+  height: 76px;
+  background: #ffffff;
+  border-right: 1px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.PostInputFiled {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.59);
+}
+
+.postItemDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 0 8px 0 10px;
+}
+
+.AllPostDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AllPostBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+  background-color: #ffffff;
+  gap: 15px;
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.VideoClipImg {
+  width: 26px;
+  height: 25px;
+}
+
+.LookingImg {
+  width: 15px;
+  height: 11px;
+}
+
+.photoImg {
+  width: 32px;
+  height: 34px;
+}
+
+.textPostMainDiv {
+  box-sizing: border-box;
+  margin-top: 8px;
+  width: 593px;
+  
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.postProfileMainDiv {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr;
+  gap: 10px;
+}
+
+.postProfileImgDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.postProfileImg {
+  width: 59px;
+  height: 59px;
+  margin: 8px;
+}
+
+.postProfileDtailsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.postProfileDtailsHTag {
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+ 
+
+  color: #000000;
+}
+
+.postProfileDtailsPTag {
+ 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+ 
+
+  color: rgba(228, 87, 32, 0.6);
+}
+
+.postProfileDtailsBtn {
+  width: 103px;
+  height: 17px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ffffff;
+  border: none;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.postText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+ 
+}
+
+.postTextPtag {
+ 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  // text-align: justify;
+  color: #000000;
+  margin: 0px 10px;
+  padding: 0px 0px 20px 0px;
+}
+
+.PostReactionDiv {
+  border-top: 0.3px solid #000000;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  
+  height: 50px;
+}
+
+.reactionAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.IndiBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+  background-color: #ffffff;
+  gap: 5px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.IndiImg {
+  width: 28.56px;
+  height: 26.78px;
+}
+
+
+
+.videoSectionMainDiv {
+  
+  box-sizing: border-box;
+  width: 593px;
+ 
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 8px;
+}
+
+.SubInfoDiv {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.videoImgMainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.postImg {
+ 
+  width: 324px;
+  height: 191px;
+  padding: 10px 0;
+
+  border-radius: 10px;
+}
+
+
+
+
+
+// right side menu 
+
+.rightSideMainDiv {
+  margin: 0px 0px 90px 0px;
+}
+
+.addFeedDiv {
+  width: 340px;
+  height: 451px;
+  background: #ffffff;
+  // border: 0.3px solid #000000;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  // border-radius: 5px;
+  margin-top: 10px;
+}
+
+.addFeedHeader {
+ 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding: 10px 0 0 12px;
+}
+
+.addFollowDiv {
+  width: 330px;
+  height: 79px;
+  background: #ffffff;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  margin: 4px 0 0 4px;
+}
+
+.addFollowImg {
+  width: 54px;
+height: 54px;
+}
+
+.personName {
+  
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+ 
+
+  color: #000000;
+}
+
+.personTitle {
+ 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+
+  color: #e45720;
+}
+
+.addFollowBtn {
+  width: 88px;
+  height: 31px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #e45720;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.followBtnDiv {
+  margin: 36px 0 0 25px;
+}
+
+.viewAllBtn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  gap: 10px;
+}
+
+.arrowRight {
+  width: 18px;
+  height: 13px;
+}
+
+.recentChatMainDiv {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.recentChatProfileDiv {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+  gap: 10px;
+  padding: 3px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.recentChatProfileImg {
+  width: 41px;
+  height: 40px;
+}
