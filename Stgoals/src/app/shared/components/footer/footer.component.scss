@@ -65,6 +65,20 @@
   color: #E45720;
 }
 
+.upArrowBtn{
+  position: absolute;
+  border: none;
+  background-color: #FFFFFF;
+  bottom: 87px;
+ 
+    right: 0;
+    margin-right: 31px;
+}
+
+.upArrowImg{
+  width: 45.76px;
+height: 45.76px;
+}
 @media only screen and (max-width: 768px) {
 
   .IconSize{
@@ -86,3 +100,5 @@
   }
 
 }
+
+

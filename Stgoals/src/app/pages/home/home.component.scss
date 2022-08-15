@@ -4,6 +4,7 @@
   margin-top: 10px;
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
+  position: relative;
   
 }
 
@@ -519,7 +520,7 @@ height: 40px;
   position: absolute;
   border: none;
   background-color: #FFFFFF;
-  bottom: 0;
+  bottom: 87px;
  
     right: 0;
     margin-right: 31px;
