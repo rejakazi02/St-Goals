@@ -373,6 +373,11 @@ padding: 10px 0;
 border-radius: 10px;
 }
 
+.rightSideMainDiv{
+  margin: 0px 0px 90px 0px;
+}
+
+
 
 .addFeedDiv{
   width: 340px;
@@ -474,8 +479,55 @@ gap: 10px;
 height: 13px;
 }
 
+.recentChatMainDiv{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
 
 
+.recentChatProfileDiv{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+  gap: 10px;
+  padding: 3px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: #FFFFFF;
+color: #000000;
+}
 
+.recentChatProfileImg{
+  width: 41px;
+height: 40px;
+}
+
+
+.upArrowBtn{
+  position: absolute;
+  border: none;
+  background-color: #FFFFFF;
+  bottom: 0;
+ 
+    right: 0;
+    margin-right: 31px;
+}
+
+.upArrowImg{
+  width: 45.76px;
+height: 45.76px;
+}
 
 
