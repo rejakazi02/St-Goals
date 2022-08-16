@@ -16,10 +16,10 @@
             <input class="videoSearchFiled" type="text" name="" id="" placeholder="Search video">
            <img class="searchIcon" src="../../../assets/images/header/icon _Search_.png" alt="">
           </div>
-          
+
         </div>
 
-        
+
 
         <div class="">
           <div class="videoDiv">
@@ -36,31 +36,31 @@
               <div class="postProfileDtailsDiv">
                 <h1 class="postProfileDtailsHTag">Content Share</h1>
                 <p class="postProfileDtailsPTag">9+ new video </p>
-              </div>           
+              </div>
             </div>
-  
+
             <div class="videoSubDiv">
               <img class="videoImg" src="../../../assets/images/video img/Rectangle 95.png" alt="">
               <div class="postProfileDtailsDiv">
                 <h1 class="postProfileDtailsHTag">Content Share</h1>
                 <p class="postProfileDtailsPTag">9+ new video </p>
-              </div>           
+              </div>
             </div>
-  
+
             <div class="videoSubDiv">
               <img class="videoImg" src="../../../assets/images/video img/Rectangle 93.png" alt="">
               <div class="postProfileDtailsDiv">
                 <h1 class="postProfileDtailsHTag">Content Share</h1>
                 <p class="postProfileDtailsPTag">9+ new video </p>
-              </div>           
+              </div>
             </div>
 
             <div class="SeeAll">
               <a href="">See All</a>
             </div>
           </div>
-  
-          
+
+
 
           <div class="AllVideoDiv suggestVideoDiv">
 <h1 class="suggestVideoDivHeader">Suggestion Videos</h1>
@@ -69,23 +69,23 @@
               <div class="postProfileDtailsDiv">
                 <h1 class="postProfileDtailsHTag">Content Share</h1>
                 <p class="postProfileDtailsPTag">9+ new video </p>
-              </div>           
+              </div>
             </div>
-  
+
             <div class="videoSubDiv">
               <img class="videoImg" src="../../../assets/images/video img/Rectangle 95.png" alt="">
               <div class="postProfileDtailsDiv">
                 <h1 class="postProfileDtailsHTag">Content Share</h1>
                 <p class="postProfileDtailsPTag">9+ new video </p>
-              </div>           
+              </div>
             </div>
-  
+
             <div class="videoSubDiv">
               <img class="videoImg" src="../../../assets/images/video img/Rectangle 93.png" alt="">
               <div class="postProfileDtailsDiv">
                 <h1 class="postProfileDtailsHTag">Content Share</h1>
                 <p class="postProfileDtailsPTag">9+ new video </p>
-              </div>           
+              </div>
             </div>
 
             <div class="SeeAll">
@@ -96,7 +96,7 @@
 
 
           </div>
-         
+
       </div>
     </div>
 
@@ -114,6 +114,7 @@
             <div class="">
               <div class="postProfileMainDiv">
                 <div class="postProfileImgDiv">
+
                   <img class="postProfileImg" src="../../../assets/images/postProfile/Ellipse 21.png" alt="" />
                 </div>
                 <div class="postProfileDtailsDiv">
@@ -134,7 +135,14 @@
 
             <!-- video or img section  -->
             <div class="videoImgMainDiv">
-              
+              <button class="videoDivMenu" mat-button [matMenuTriggerFor]="beforeMenu"><img src="../../../assets/images/footerIcon/icon _Overflow menu horizontal_.png" alt=""></button>
+              <mat-menu class="test" #beforeMenu="matMenu" xPosition="before">
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _save_.png" alt=""> Save video</button>
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _Copy_.png" alt=""> Copy Link</button>
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _user follow line_.png" alt=""> Follow</button>
+
+                <button mat-menu-item></button>
+              </mat-menu>
 
               <img class="postImg" src="../../../assets/images/postProfile/Rectangle 71.png" alt="" />
             </div>
@@ -213,6 +221,15 @@
 
             <!-- video or img section  -->
             <div class="videoImgMainDiv">
+              <button class="videoDivMenu" mat-button [matMenuTriggerFor]="beforeMenu"><img src="../../../assets/images/footerIcon/icon _Overflow menu horizontal_.png" alt=""></button>
+              <mat-menu class="test" #beforeMenu="matMenu" xPosition="before">
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _save_.png" alt=""> Save video</button>
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _Copy_.png" alt=""> Copy Link</button>
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _user follow line_.png" alt=""> Follow</button>
+
+                <button mat-menu-item></button>
+              </mat-menu>
+
               <img class="postImg" src="../../../assets/images/postProfile/Rectangle 71.png" alt="" />
             </div>
           </div>
@@ -291,6 +308,14 @@
 
             <!-- video or img section  -->
             <div class="videoImgMainDiv">
+              <button class="videoDivMenu" mat-button [matMenuTriggerFor]="beforeMenu"><img src="../../../assets/images/footerIcon/icon _Overflow menu horizontal_.png" alt=""></button>
+              <mat-menu class="test" #beforeMenu="matMenu" xPosition="before">
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _save_.png" alt=""> Save video</button>
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _Copy_.png" alt=""> Copy Link</button>
+                <button class="submenuBtn" mat-menu-item> <img class="videoDivImg1" src="../../../assets/images/footerIcon/icon _user follow line_.png" alt=""> Follow</button>
+
+                <button mat-menu-item></button>
+              </mat-menu>
               <img class="postImg" src="../../../assets/images/postProfile/Rectangle 71.png" alt="" />
             </div>
           </div>
@@ -357,7 +382,7 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-       
+
         </div>
 
         <div class="addFollowDiv">
@@ -366,7 +391,7 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-       
+
         </div>
 
         <div class="addFollowDiv">
@@ -375,7 +400,7 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-      
+
         </div>
 
         <div class="addFollowDiv">
@@ -384,7 +409,7 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-   
+
         </div>
 
         <div class="addFollowDiv">
@@ -393,13 +418,13 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-        
+
         </div>
 
-        
+
       </div>
 
-    
+
        <!-- Recent View  -->
        <div class="">
         <h1 class="addFeedHeader">Recent View</h1>
@@ -410,7 +435,7 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-       
+
         </div>
 
         <div class="addFollowDiv">
@@ -419,7 +444,7 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-       
+
         </div>
 
         <div class="addFollowDiv">
@@ -428,7 +453,7 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-        
+
         </div>
 
         <div class="addFollowDiv">
@@ -437,12 +462,12 @@
             <h1 class="personName">Content Share</h1>
             <p class="personTitle">9+ new video </p>
           </div>
-         
+
         </div>
 
-        
+
       </div>
-      
+
     </div>
   </div>
 </section>

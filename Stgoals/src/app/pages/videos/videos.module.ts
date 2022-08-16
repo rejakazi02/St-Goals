@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {MatMenuModule} from '@angular/material/menu';
 
 import { VideosRoutingModule } from './videos-routing.module';
 
@@ -8,7 +9,8 @@ import { VideosRoutingModule } from './videos-routing.module';
   declarations: [],
   imports: [
     CommonModule,
-    VideosRoutingModule
+    VideosRoutingModule,
+    MatMenuModule
   ]
 })
 export class VideosModule { }
