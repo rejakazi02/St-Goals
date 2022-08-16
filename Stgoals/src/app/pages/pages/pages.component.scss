@@ -258,11 +258,12 @@ color: #000000;
   flex-direction: column;
   // align-items: center;
   justify-content: center;
+  gap: 7px;
 }
 
 .personName {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 22px;
 
   color: #000000;
@@ -270,11 +271,28 @@ color: #000000;
 
 .personTitle {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
 
   color: #e45720;
 }
+
+.personTitle1{
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+.ClubeDiv{
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 
 .NotifyPostDIv{
   display: grid;
