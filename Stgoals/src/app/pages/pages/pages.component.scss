@@ -209,8 +209,8 @@ color: #000000;
 }
 
 .addFeedDiv {
-  width: 340px;
-  height: 451px;
+  width: 100%;
+  // height: 451px;
   background: #ffffff;
   // border: 0.3px solid #000000;
   // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -227,19 +227,37 @@ color: #000000;
 }
 
 .addFollowDiv {
-  width: 693px;
-  height: 91px;
+  width: 100%;
+  // height: 91px;
   margin-top: 20px;
 
   background: #FFFFFF;
   border: 0.4px solid rgba(0, 0, 0, 0.63);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
 }
 
+.PagesProfile{
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  gap: 10px;
+  // height: 12vh;
+  padding: 4% 8%;
+}
 .addFollowImg {
   width: 54px;
   height: 54px;
+}
+
+.PagesProfileTitel{
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
 }
 
 .personName {
@@ -256,4 +274,28 @@ color: #000000;
   line-height: 17px;
 
   color: #e45720;
+}
+
+.NotifyPostDIv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.notifyDiv{
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.TitelTag{
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(0, 0, 0, 0.56);
+
 }
