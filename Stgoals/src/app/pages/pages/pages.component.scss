@@ -1,0 +1,173 @@
+.homeMainDiv {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+}
+
+.leftSideNav {
+  margin-left: 25px;
+}
+
+.leftmainDiv {
+  margin-top: 28px;
+}
+
+.videoDiv {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.videoDivImg {
+  width: 26px;
+}
+
+.videoDivImg1 {
+  width: 23.18px;
+  height: 19.16px;
+}
+
+.videoDiv a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e45720;
+}
+
+.videoSearchFiled {
+  width: 303px;
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding-left: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 20px 0;
+}
+
+.searchIcon {
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  margin-left: 17px;
+}
+
+.AllVideoDiv {
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.suggestVideoDiv {
+  border: none;
+}
+
+.suggestVideoDivHeader {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 26px;
+  color: #000000;
+}
+
+.videoSubDiv {
+  // margin-left: 17px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.videoImg {
+  width: 140px;
+  height: 61px;
+}
+
+.submenus {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.SeeAll {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin: 4px 77px 0px 0px;
+}
+
+.SeeAll a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e45720;
+}
+
+
+
+
+// right side menu
+
+.rightSideMainDiv {
+  margin: 0px 0px 90px 0px;
+}
+
+.addFeedDiv {
+  width: 340px;
+  height: 451px;
+  background: #ffffff;
+  // border: 0.3px solid #000000;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  // border-radius: 5px;
+  margin-top: 10px;
+}
+
+.addFeedHeader {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding: 10px 0 0 12px;
+}
+
+.addFollowDiv {
+  width: 330px;
+  height: 79px;
+  background: #ffffff;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  margin: 4px 0 0 4px;
+}
+
+.addFollowImg {
+  width: 54px;
+  height: 54px;
+}
+
+.personName {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.personTitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #e45720;
+}

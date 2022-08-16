@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import {MatMenuModule} from '@angular/material/menu';
 import { PagesRoutingModule } from './pages-routing.module';
 
 
@@ -8,7 +8,8 @@ import { PagesRoutingModule } from './pages-routing.module';
   declarations: [],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    MatMenuModule
   ]
 })
 export class PagesModule { }

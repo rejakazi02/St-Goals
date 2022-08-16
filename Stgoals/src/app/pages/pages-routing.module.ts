@@ -12,7 +12,7 @@ const routes: Routes = [
         redirectTo:"login",
         pathMatch:"full"
       },
-      { 
+      {
         path:"home",
         loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
       },
@@ -28,34 +28,39 @@ const routes: Routes = [
       {
         path:"userlogin",
           loadChildren: () => import('./userlogin/userlogin.module').then(m => m.UserloginModule)
-      
-      
+
+
       },
       {
         path:"registration",
           loadChildren: () => import('./registration/registration.module').then(m => m.RegistrationModule)
-      
-      
+
+
       },
       {
         path:"regform",
           loadChildren: () => import('./regform/regform.module').then(m => m.RegformModule)
-      
+
       },
       {
         path:"addressform",
           loadChildren: () => import('./addressform/addressform.module').then(m => m.AddressformModule)
-      
+
       },
       {
         path:"otpform",
           loadChildren: () => import('./otpform/otpform.module').then(m => m.OtpformModule)
-      
+
       },
       {
         path:"videos",
           loadChildren: () => import('./videos/videos.module').then(m => m.VideosModule)
-      
+
+      },
+      {
+        path:"pages",
+          loadChildren: () => import('./pages/pages.module').then(m => m.PagesModule)
+
       }
     ]
   }
