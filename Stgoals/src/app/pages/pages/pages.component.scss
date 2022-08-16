@@ -1,12 +1,16 @@
-.homeMainDiv {
+ .homeMainDiv {
   margin-top: 10px;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   position: relative;
 }
 
 .leftSideNav {
   margin-left: 25px;
+  border-right: 1px solid rgba(0, 0, 0, 0.21);
+// transform: rotate(90deg);
+padding-right: 30px;
+// position: absolute;
 }
 
 .leftmainDiv {
@@ -17,7 +21,7 @@
   display: flex;
   gap: 12px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
   position: relative;
   width: 100%;
 }
@@ -32,10 +36,10 @@
 }
 
 .videoDiv a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #e45720;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .videoSearchFiled {
@@ -59,22 +63,64 @@
   margin-left: 17px;
 }
 
+
+.follow120Page{
+  width: 306px;
+height: 36px;
+color: #ffffff;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+background: #5B68C0;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+// flex-direction: column;
+text-align: center;
+
+}
+
 .AllVideoDiv {
-  border-bottom: 2px solid skyblue;
+
   padding-bottom: 10px;
   margin-top: 20px;
 }
 
-.suggestVideoDiv {
-  border: none;
+
+// .suggestVideoDiv {
+//   border: none;
+// }
+
+// .suggestVideoDivHeader {
+//   font-weight: 500;
+//   font-size: 20px;
+//   line-height: 24px;
+//   padding-left: 26px;
+//   color: #000000;
+// }
+
+.AllPagesBtn{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+border: none;
+background-color: #ffffff;
+width: 100%;
 }
 
-.suggestVideoDivHeader {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  padding-left: 26px;
-  color: #000000;
+.AllPagesBtn:hover {
+  background-color: skyblue;
+}
+
+.SuggestionPagesMainDiv{
+  margin-bottom: 80px;
 }
 
 .videoSubDiv {
@@ -82,43 +128,84 @@
   margin-top: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 10px;
 }
 
 .videoImg {
-  width: 140px;
-  height: 61px;
+  width: 35px;
+  height: 35px;
+  //border: 1px solid #E45720;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
-.submenus {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+
+.postProfileDtailsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.postProfileDtailsHTag {
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+
   color: #000000;
 }
 
+
+
+
 .SeeAll {
   display: flex;
-  align-items: end;
-  justify-content: end;
-  margin: 4px 77px 0px 0px;
+  align-items: center;
+  justify-content: center;
+  // margin: 4px 77px 0px 0px;
+  margin-top: 15px;
 }
 
 .SeeAll a {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 18px;
+  line-height: 22px;
   color: #e45720;
 }
 
+.createNewPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 307px;
+height: 39px;
+background: #E45720;
+border-radius: 10px;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+margin-top: 15px;
+}
 
-
-
-// right side menu
+.createNewPage:hover{
+background-color: skyblue;
+color: #000000;
+}
+// right side menu-----------------------------------------------------
 
 .rightSideMainDiv {
-  margin: 0px 0px 90px 0px;
+  margin: 0px 0px 90px 8%;
+  /* display: flex; */
+  /* align-items: center; */
+  flex-direction: column;
+  width: 90%;
 }
 
 .addFeedDiv {
@@ -132,23 +219,22 @@
 }
 
 .addFeedHeader {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000000;
-  padding: 10px 0 0 12px;
+  font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+  padding: 10px 0 0 8px;
 }
 
 .addFollowDiv {
-  width: 330px;
-  height: 79px;
-  background: #ffffff;
-  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  gap: 15px;
-  margin: 4px 0 0 4px;
+  width: 693px;
+  height: 91px;
+  margin-top: 20px;
+
+  background: #FFFFFF;
+  border: 0.4px solid rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .addFollowImg {
