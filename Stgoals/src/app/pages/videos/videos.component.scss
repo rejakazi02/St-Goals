@@ -13,10 +13,6 @@
   margin-top: 28px;
 }
 
-
-
-
-
 .videoDiv {
   display: flex;
   gap: 12px;
@@ -24,68 +20,61 @@
   margin-top: 10px;
   position: relative;
   width: 100%;
-
 }
 
 .videoDivImg {
-
   width: 26px;
 }
-.videoDivImg1 {
 
+.videoDivImg1 {
   width: 23.18px;
-height: 19.16px;
+  height: 19.16px;
 }
 
 .videoDiv a {
-
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #e45720;
 }
 
-.videoSearchFiled{
+.videoSearchFiled {
   width: 303px;
-height: 29px;
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.6);
-border-radius: 20px;
-padding-left: 50px;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: rgba(0, 0, 0, 0.6);
-margin: 20px 0;
-
+  height: 29px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding-left: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 20px 0;
 }
 
-.searchIcon{
+.searchIcon {
   width: 22px;
-    height: 17px;
-    position: absolute;
-    margin-left: 17px;
+  height: 17px;
+  position: absolute;
+  margin-left: 17px;
 }
 
-
-.AllVideoDiv{
+.AllVideoDiv {
   border-bottom: 2px solid skyblue;
-    padding-bottom: 10px;
-    margin-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
 }
 
-
-.suggestVideoDiv{
+.suggestVideoDiv {
   border: none;
 }
 
-.suggestVideoDivHeader{
+.suggestVideoDivHeader {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   padding-left: 26px;
   color: #000000;
-
 }
 
 .videoSubDiv {
@@ -94,15 +83,15 @@ margin: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-gap: 10px;
+  gap: 10px;
 }
 
-.videoImg{
+.videoImg {
   width: 140px;
-height: 61px;
+  height: 61px;
 }
-.submenus {
 
+.submenus {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -117,7 +106,6 @@ height: 61px;
 }
 
 .SeeAll a {
-
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -129,7 +117,6 @@ height: 61px;
 }
 
 .advertise {
-
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -143,14 +130,8 @@ height: 61px;
   margin-top: 8px;
 }
 
-
-
-
-
-
 .middlemenuMainDiv {
   margin: 10px 20px 90px 20px;
-
 }
 
 .postsection {
@@ -237,7 +218,6 @@ height: 61px;
 
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .postProfileMainDiv {
@@ -266,21 +246,17 @@ height: 61px;
 }
 
 .postProfileDtailsHTag {
-
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-
 
   color: #000000;
 }
 
 .postProfileDtailsPTag {
-
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-
 
   color: rgba(228, 87, 32, 0.6);
 }
@@ -304,11 +280,9 @@ height: 61px;
   align-items: center;
   justify-content: center;
   margin: 0px 10px;
-
 }
 
 .postTextPtag {
-
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -353,10 +327,7 @@ height: 61px;
   height: 26.78px;
 }
 
-
-
 .videoSectionMainDiv {
-
   box-sizing: border-box;
   width: 593px;
 
@@ -380,45 +351,38 @@ height: 61px;
   position: relative;
 }
 
+.videoDivMenu {
+  top: 0;
+  right: 0;
+  position: absolute;
 
-.videoDivMenu{
-top: 0;
-right: 0;
-position: absolute;
-
-display: flex;
-align-items: flex-end;
-flex-direction: column;
-justify-content: center;
-background-color: #ffffff !important;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff !important;
 }
 
-
-.submenuBtn{
+.submenuBtn {
   width: 100% !important;
   display: flex;
-align-items: center;
-gap: 10px;
-justify-content: center;
-border-bottom: 1px solid #000000;;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  border-bottom: 1px solid #000000;
 }
 
-.videoDivMenu:hover{
-background-color: #FFFFFF !important;
+.videoDivMenu:hover {
+  background-color: #ffffff !important;
 }
 
 .postImg {
-
   width: 324px;
   height: 191px;
   padding: 30px 0 10px 0;
 
   border-radius: 10px;
 }
-
-
-
-
 
 // right side menu
 
@@ -437,7 +401,6 @@ background-color: #FFFFFF !important;
 }
 
 .addFeedHeader {
-
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -459,28 +422,21 @@ background-color: #FFFFFF !important;
 
 .addFollowImg {
   width: 54px;
-height: 54px;
+  height: 54px;
 }
 
 .personName {
-
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-
 
   color: #000000;
 }
 
 .personTitle {
-
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
 
-
   color: #e45720;
 }
-
-
-
