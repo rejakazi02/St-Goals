@@ -6,7 +6,11 @@
 }
 
 .leftSideNav {
+  position: sticky;
+  top: 0px;
   margin-left: 25px;
+  left: 0px;
+
 }
 
 .leftmainDiv {
@@ -20,16 +24,16 @@
   margin-top: 10px;
   position: relative;
   width: 100%;
- 
+
 }
 
 .videoDivImg {
-  
+
   width: 26px;
 }
 
 .videoDiv a {
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -37,7 +41,7 @@
 }
 
 .PageDivImg {
- 
+
   width: 30px;
 }
 
@@ -47,7 +51,7 @@
 }
 
 .submenus {
-  
+
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -62,7 +66,7 @@
 }
 
 .SeeAll a {
-  
+
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -74,7 +78,7 @@
 }
 
 .advertise {
-  
+
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -90,7 +94,7 @@
 
 .middlemenuMainDiv {
   margin: 10px 20px 90px 20px;
- 
+
 }
 
 .postsection {
@@ -147,7 +151,7 @@
   border: none;
   background-color: #ffffff;
   gap: 15px;
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -174,10 +178,10 @@
   box-sizing: border-box;
   margin-top: 8px;
   width: 593px;
-  
+
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
+
 }
 
 .postProfileMainDiv {
@@ -210,17 +214,17 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
- 
+
 
   color: #000000;
 }
 
 .postProfileDtailsPTag {
- 
+
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
- 
+
 
   color: rgba(228, 87, 32, 0.6);
 }
@@ -244,11 +248,11 @@
   align-items: center;
   justify-content: center;
   margin: 0px 10px;
- 
+
 }
 
 .postTextPtag {
- 
+
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -262,7 +266,7 @@
   border-top: 0.3px solid #000000;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  
+
   height: 50px;
 }
 
@@ -294,10 +298,10 @@
 }
 
 .videoSectionMainDiv {
-  
+
   box-sizing: border-box;
   width: 593px;
- 
+
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -317,7 +321,7 @@
 }
 
 .postImg {
- 
+
   width: 324px;
   height: 191px;
   padding: 10px 0;
@@ -327,6 +331,8 @@
 
 .rightSideMainDiv {
   margin: 0px 0px 90px 0px;
+  position: sticky;
+  top: 10px;
 }
 
 .addFeedDiv {
@@ -340,7 +346,7 @@
 }
 
 .addFeedHeader {
- 
+
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -366,17 +372,17 @@
 }
 
 .personName {
-  
+
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
- 
+
 
   color: #000000;
 }
 
 .personTitle {
- 
+
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;

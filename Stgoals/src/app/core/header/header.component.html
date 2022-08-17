@@ -4,7 +4,7 @@
       <!-- logo section  -->
 
       <div class="logo">
-        <div> 
+        <div>
           <a href="" routerLink="/home"><img class="logoImg" src="../../../assets/images/logo/logo.png" alt="" /></a>
         </div>
 
@@ -39,7 +39,7 @@
 
         <div class="menuDiv">
           <div class="subMenu">
-            <a class="menuATAg" href=""><img src="../../../assets/images/header/icon _notification_.png" alt=""></a>
+            <a class="menuATAg" (click)="notiownSlider()"><img src="../../../assets/images/header/icon _notification_.png" alt=""></a>
           </div>
         </div>
       </div>
@@ -53,4 +53,11 @@
       </div>
     </div>
   </div>
+</div>
+
+
+<!-- notification  -->
+
+<div class="noti-Slider" [class]="notiSlider==true?'noti-Slider-active':'noti-Slider-inactive'">
+
 </div>

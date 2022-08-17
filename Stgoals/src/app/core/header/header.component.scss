@@ -235,3 +235,25 @@
 }
 
 
+.noti-Slider{
+  max-width: 400px;
+    width: 100%;
+    height: 85vh;
+    position: fixed;
+    top: 85px;
+    // bottom: 20px;
+  right: -100%;
+  background-color: #ffffff;
+  z-index: 4000;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  border: 2px solid black;
+}
+
+
+.noti-Slider-active{
+  right: 0px;
+}
