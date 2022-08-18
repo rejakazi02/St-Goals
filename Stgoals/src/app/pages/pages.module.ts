@@ -14,6 +14,7 @@ import { OtpformComponent } from './otpform/otpform.component';
 import { UserloginComponent } from './userlogin/userlogin.component';
 import { VideosComponent } from './videos/videos.component';
 import { ClubsComponent } from './clubs/clubs.component';
+import { NotificationComponent } from './notification/notification.component';
 
 
 
@@ -28,6 +29,7 @@ import { ClubsComponent } from './clubs/clubs.component';
     UserloginComponent,
     VideosComponent,
     ClubsComponent,
+    NotificationComponent,
 
   ],
   imports: [
