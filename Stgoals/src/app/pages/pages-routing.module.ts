@@ -66,6 +66,11 @@ const routes: Routes = [
         path:"clubs",
           loadChildren: () => import('./clubs/clubs.module').then(m => m.ClubsModule)
 
+      },
+      {
+        path:"notification",
+          loadChildren: () => import('./notification/notification.module').then(m => m.NotificationModule)
+
       }
     ]
   }

@@ -26,20 +26,20 @@
       <div class="menuSection">
         <div class="menuDiv">
           <div class="subMenu homeIcon">
-            <a class="menuATAg" href=""><img src="../../../assets/images/header/icon _home_.png" alt=""></a>
+            <a class="menuATAg" href=""><img src="../../../assets/images/header/icon _home_.png" alt="" /></a>
           </div>
         </div>
 
         <div class="menuDiv">
           <div class="subMenu">
-            <a class="menuATAg" href=""
-              ><img src="../../../assets/images/header/educational-institute.png" alt=""></a>
+            <a class="menuATAg" href=""><img src="../../../assets/images/header/educational-institute.png" alt="" /></a>
           </div>
         </div>
 
         <div class="menuDiv">
           <div class="subMenu">
-            <a class="menuATAg" (click)="notiownSlider()"><img src="../../../assets/images/header/icon _notification_.png" alt=""></a>
+            <a class="menuATAg" (click)="notiownSlider()"><img
+                src="../../../assets/images/header/icon _notification_.png" alt="" /></a>
           </div>
         </div>
       </div>
@@ -47,131 +47,113 @@
       <!-- Grid menu section  -->
 
       <div class="GridmenuDiv">
-        <a href="" class="menuATAg"
-          ><img src="../../../assets/images/header/icon _app menu_.png" alt=""></a
-        >
+        <a href="" class="menuATAg"><img src="../../../assets/images/header/icon _app menu_.png" alt="" /></a>
       </div>
     </div>
   </div>
 </div>
 
+<!-- notification button -->
 
-<!-- notification  -->
+<div class="noti-Slider notiMaunDiv" [class]="notiSlider == true ? 'noti-Slider-active' : 'noti-Slider-inactive'">
+  <div class="notifyDiv">
+    <h1 class="notiHeader">Notification</h1>
+    <div class="allUnreadDiv">
+      <button class="AllNotiBtn">All</button>
+      <button class="UnreadBtn">Unread</button>
+    </div>
 
-<div class="noti-Slider notiMaunDiv" [class]="notiSlider==true?'noti-Slider-active':'noti-Slider-inactive'">
-<div class="notifyDiv">
-<h1 class="notiHeader">Notification</h1>
-<div class="allUnreadDiv">
-  <button class="AllNotiBtn">All</button>
-  <button class="UnreadBtn">Unread</button>
-</div>
+    <div class="newSeeAllDiv">
+      <h1 class="newHeader">New</h1>
+      <a class="SeeAllBtn" routerLink="/notification">See All</a>
+    </div>
 
-<div class="newSeeAllDiv">
-  <h1 class="newHeader">New</h1>
-  <a class="SeeAllBtn" href="">See All</a>
-</div>
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Rlike.png" alt="" />
+    </div>
 
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Runlike.png" alt="" />
+    </div>
+
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Rheart.png" alt="" />
+    </div>
+
+    <!-- l --------------------------------------------------------------------------- -->
+
+    <h1 class="newHeader">Earlier</h1>
+
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Rlike.png" alt="" />
+    </div>
+
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Runlike.png" alt="" />
+    </div>
+
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Rheart.png" alt="" />
+    </div>
+
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Rlike.png" alt="" />
+    </div>
+
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Runlike.png" alt="" />
+    </div>
+
+    <div class="notifyprofileDiv">
+      <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="" />
+      <div class="notifyprofileInfo">
+        <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
+        <p class="notifyReactionTime">About 1 hour ago</p>
+      </div>
+      <img class="reactionImg" src="../../../assets/images/reaction/Rheart.png" alt="" />
+    </div>
   </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Rlike.png" alt="">
 </div>
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Runlike.png" alt="">
-</div>
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Rheart.png" alt="">
-</div>
-
-
-<!-- l --------------------------------------------------------------------------- -->
-
-<h1 class="newHeader">Earlier</h1>
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Rlike.png" alt="">
-</div>
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Runlike.png" alt="">
-</div>
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Rheart.png" alt="">
-</div>
-
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Rlike.png" alt="">
-</div>
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Runlike.png" alt="">
-</div>
-
-<div class="notifyprofileDiv">
-  <img class="notifyprofileImg" src="../../../assets/images/postProfile/Ellipse 19.png" alt="">
-  <div class="notifyprofileInfo">
-    <h1 class="notifyprofileName">Fazlul Hauque React on your post</h1>
-    <p class="notifyReactionTime">About 1 hour ago</p>
-  </div>
-  <img class="reactionImg" src="../../../assets/images/reaction/Rheart.png" alt="">
-</div>
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- <div class="noti-Slider" [class]="notiSlider==true?'noti-Slider-active':'noti-Slider-inactive'">
 
