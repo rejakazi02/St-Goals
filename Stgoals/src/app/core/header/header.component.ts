@@ -12,7 +12,8 @@ export class HeaderComponent implements OnInit {
 
 headerHide=true;
 notiSlider=false;
-
+userProfile=false;
+closeBtn=true;
 
 
   constructor(
@@ -27,11 +28,25 @@ notiSlider=false;
 
   }
 
+// notification btn work
 
   notiownSlider(){
     this.notiSlider=!this.notiSlider;
 
   }
+
+// user Profile
+
+ownUserProfile(){
+  this.userProfile=!this.userProfile;
+}
+
+// close btn
+ownCloseBtn(){
+  this.userProfile=!this.closeBtn;
+}
+
+  // header controle
 
 headerHideControle(){
 

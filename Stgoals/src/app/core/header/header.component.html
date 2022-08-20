@@ -47,7 +47,7 @@
       <!-- Grid menu section  -->
 
       <div class="GridmenuDiv">
-        <a href="" class="menuATAg"><img src="../../../assets/images/header/icon _app menu_.png" alt="" /></a>
+        <a  class="menuATAg" (click)="ownUserProfile()"><img src="../../../assets/images/header/icon _app menu_.png" alt="" /></a>
       </div>
     </div>
   </div>
@@ -154,6 +154,19 @@
     </div>
   </div>
 </div>
+
+
+
+
+<!----------------------------------------------- user profile section ------------------------------------------------------------------ -->
+
+<div class="user-Profile" [class]="userProfile == true ? 'userProfile-active':'userProfile-inactive'">
+  <button class="closeBtn" (click)="ownCloseBtn()">close</button>
+</div>
+
+
+
+
 
 <!-- <div class="noti-Slider" [class]="notiSlider==true?'noti-Slider-active':'noti-Slider-inactive'">
 
