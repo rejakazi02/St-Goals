@@ -366,39 +366,78 @@
 }
 
 
-.closeBtn{
-  width: 88px;
-  height: 31px;
+.UserProfileMainDiv{
 display: flex;
+flex-direction: column;
 align-items: center;
-justify-content: center;
-color: #ffffff;
-  background: #E45720;
+// justify-content: center;
+
+}
+
+.closeBtn{
+  color: #ffffff;
+  background: red;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  border-radius: 40%;
   border: #ffffff;
-  float: right;
-    margin: 25px 22px 0 0;
+  width: 23%;
+  height: 50%;
+font-size: larger;
+}
+
+.closeBtn:hover{
+background-color: skyblue;
+color: red;
 }
 
 
+.uProDiv{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 30px;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.42);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-// notification button css.......................................
+.userInfoDiv{
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  gap: 20px;
+  margin-left: 10%;
+}
 
-// .noti-Slider {
-//   max-width: 572px;
-//   width: 100%;
-//   height: 85vh;
-//   position: fixed;
-//   top: 85px;
-//   // bottom: 20px;
-//   right: -100%;
-//   background-color: #ffffff;
-//   z-index: 4000;
-//   transition: all 0.3s linear;
+.userInfoImg{
+  width: 52px;
+height: 53px;
+}
 
-// }
+.userNameDiv{
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
-// .noti-Slider-active {
-//   right: 0px;
-// }
+.userNameDiv h1{
+
+  font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+
+.userNameDiv p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+
+  color: rgba(228, 87, 32, 0.6);
+}

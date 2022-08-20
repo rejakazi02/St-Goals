@@ -26,7 +26,8 @@
       <div class="menuSection">
         <div class="menuDiv">
           <div class="subMenu homeIcon">
-            <a class="menuATAg" href="" routerLink="/home"><img src="../../../assets/images/header/icon _home_.png" alt="" /></a>
+            <a class="menuATAg" href="" routerLink="/home"><img src="../../../assets/images/header/icon _home_.png"
+                alt="" /></a>
           </div>
         </div>
 
@@ -47,7 +48,8 @@
       <!-- Grid menu section  -->
 
       <div class="GridmenuDiv">
-        <a  class="menuATAg" (click)="ownUserProfile()"><img src="../../../assets/images/header/icon _app menu_.png" alt="" /></a>
+        <a class="menuATAg" (click)="ownUserProfile()"><img src="../../../assets/images/header/icon _app menu_.png"
+            alt="" /></a>
       </div>
     </div>
   </div>
@@ -155,18 +157,26 @@
   </div>
 </div>
 
-
-
-
 <!----------------------------------------------- user profile section ------------------------------------------------------------------ -->
 
-<div class="user-Profile" [class]="userProfile == true ? 'userProfile-active':'userProfile-inactive'">
-  <button class="closeBtn" (click)="ownCloseBtn()">close</button>
+<div class="user-Profile UserProfileMainDiv"
+  [class]="userProfile == true ? 'userProfile-active' : 'userProfile-inactive'">
+  <!-- account profile  -->
+  <div class="uProDiv">
+    <div class="userInfoDiv">
+      <img class="userInfoImg" src="../../../assets/images/postProfile/Ellipse 21.png" alt="" />
+      <div class="userNameDiv">
+        <h1>Md Junayed</h1>
+        <p>Students</p>
+      </div>
+    </div>
+    <button class="closeBtn" (click)="ownCloseBtn()">X</button>
+  </div>
+
+<!-- other info  -->
+
+
 </div>
-
-
-
-
 
 <!-- <div class="noti-Slider" [class]="notiSlider==true?'noti-Slider-active':'noti-Slider-inactive'">
 
