@@ -55,7 +55,7 @@
   </div>
 </div>
 
-<!-- notification button -->
+<!-- notification section -->
 
 <div class="noti-Slider notiMaunDiv" [class]="notiSlider == true ? 'noti-Slider-active' : 'noti-Slider-inactive'">
   <div class="notifyDiv">
@@ -176,20 +176,39 @@
 <!-- other info  -->
 <div class="otherAccountDiv">
 
+
+  <!-- ------------------------PROFILE section---------------------------------- -->
+
+
   <div class="AllAccountDiv">
     <mat-accordion>
-      <mat-expansion-panel hideToggle>
+      <mat-expansion-panel hideToggle class="hideToggle">
         <mat-expansion-panel-header class="All-info-BTN">
           <mat-panel-title class="All-info-Titel">
             <button class="All-header-BTN">PROFILE </button>
           </mat-panel-title>
 
         </mat-expansion-panel-header>
-<div>
-  <h1>First Name</h1>
-  <input type="text" name="" id="">
-  <h1>Last Name</h1>
-  <input type="text" name="" id="">
+<div class="dropDowMainDiv">
+  <h1 class="profileName">First Name</h1>
+  <input class="profileInputFiled" type="text" name="" id="" placeholder="First Name">
+  <h1 class="profileName">Last Name</h1>
+  <input class="profileInputFiled" type="text" name="" id="" placeholder="Last Name">
+
+  <h1 class="profileName">Identity</h1>
+ <select name="" id="" class="profileInputFiled">
+  <option value="" class="identityOption IdentitySelect">Select</option>
+  <option value="" class="identityOption">Student</option>
+  <option value="" class="identityOption">Parent</option>
+  <option value="" class="identityOption">Teacher</option>
+ </select>
+ <h1 class="profileName">Add Photo</h1>
+
+ <!-- <input type="file" name="" id=""> -->
+ <input class="profileInputFiled inputFile" type="file" name="" id="">
+
+ <button class="UPDATE-BTN">UPDATE </button>
+
 
 </div>
       </mat-expansion-panel>
@@ -202,17 +221,22 @@
 
 
 
-<!-- ---------------------------------------------------------- -->
+<!-- ------------------------veritfy section---------------------------------- -->
+
   <div class="AllAccountDiv">
     <mat-accordion>
-      <mat-expansion-panel hideToggle>
+      <mat-expansion-panel hideToggle class="hideToggle">
         <mat-expansion-panel-header class="All-info-BTN">
           <mat-panel-title class="All-info-Titel">
             <button class="All-header-BTN">Verify </button>
           </mat-panel-title>
 
         </mat-expansion-panel-header>
-<p>zjxh</p>
+<div class="dropDowMainDiv">
+  <button class="CommmonBtn">Profile Verify</button>
+  <button class="CommmonBtn">Page Verify</button>
+  <button class="CommmonBtn">Club Verify</button>
+</div>
       </mat-expansion-panel>
       <mat-expansion-panel (opened)="panelOpenState = true"
                            (closed)="panelOpenState = false">
@@ -223,9 +247,33 @@
 
 
 
-  <button class="All-header-BTN">PROFILE </button>
-  <button class="All-header-BTN">Verify </button>
-  <button class="All-header-BTN">Settings </button>
+<!-- ------------------------Settings section---------------------------------- -->
+
+
+
+  <div class="AllAccountDiv">
+    <mat-accordion>
+      <mat-expansion-panel hideToggle class="hideToggle">
+        <mat-expansion-panel-header class="All-info-BTN">
+          <mat-panel-title class="All-info-Titel">
+            <button class="All-header-BTN">Settings </button>
+          </mat-panel-title>
+
+        </mat-expansion-panel-header>
+<div class="dropDowMainDiv">
+  <button class="CommmonBtn">Profile Verify</button>
+  <button class="CommmonBtn">Page Verify</button>
+  <button class="CommmonBtn">Club Verify</button>
+</div>
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+ 
   <button class="All-header-BTN">Helps & Settings </button>
   <button class="All-header-BTN">Report & Policy </button>
   <button class="All-header-BTN">About US </button>
