@@ -175,12 +175,61 @@
 
 <!-- other info  -->
 <div class="otherAccountDiv">
-  <button class="All-info-BTN">PROFILE </button>
-  <button class="All-info-BTN">Verify </button>
-  <button class="All-info-BTN">Settings </button>
-  <button class="All-info-BTN">Helps & Settings </button>
-  <button class="All-info-BTN">Report & Policy </button>
-  <button class="All-info-BTN">About US </button>
+
+  <div class="AllAccountDiv">
+    <mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header class="All-info-BTN">
+          <mat-panel-title class="All-info-Titel">
+            <button class="All-header-BTN">PROFILE </button>
+          </mat-panel-title>
+
+        </mat-expansion-panel-header>
+<div>
+  <h1>First Name</h1>
+  <input type="text" name="" id="">
+  <h1>Last Name</h1>
+  <input type="text" name="" id="">
+
+</div>
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+
+
+<!-- ---------------------------------------------------------- -->
+  <div class="AllAccountDiv">
+    <mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header class="All-info-BTN">
+          <mat-panel-title class="All-info-Titel">
+            <button class="All-header-BTN">Verify </button>
+          </mat-panel-title>
+
+        </mat-expansion-panel-header>
+<p>zjxh</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+
+
+  <button class="All-header-BTN">PROFILE </button>
+  <button class="All-header-BTN">Verify </button>
+  <button class="All-header-BTN">Settings </button>
+  <button class="All-header-BTN">Helps & Settings </button>
+  <button class="All-header-BTN">Report & Policy </button>
+  <button class="All-header-BTN">About US </button>
+  <button class="LOGOUT-BTN">LOGOUT </button>
 </div>
 
 </div>

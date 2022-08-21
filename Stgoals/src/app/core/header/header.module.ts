@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header.component';
 import {MatMenuModule} from '@angular/material/menu';
-
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,8 @@ import {MatMenuModule} from '@angular/material/menu';
     CommonModule,
     RouterModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    MatExpansionModule
   ],
   exports:[
     HeaderComponent,

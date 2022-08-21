@@ -9,6 +9,7 @@ import { NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  panelOpenState = false;
 
 headerHide=true;
 notiSlider=false;

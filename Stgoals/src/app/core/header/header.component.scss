@@ -341,10 +341,6 @@
   // margin-top: -17px;
 }
 
-
-
-
-
 // user profile section --------------------------------------------
 
 .user-Profile {
@@ -357,24 +353,20 @@
   background-color: #ffffff;
   z-index: 9999999;
   transition: all 0.3s linear;
-
 }
 
-.userProfile-active{
-
+.userProfile-active {
   right: 0px;
 }
 
-
-.UserProfileMainDiv{
-display: flex;
-flex-direction: column;
-align-items: center;
-// justify-content: center;
-
+.UserProfileMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
 }
 
-.closeBtn{
+.closeBtn {
   color: #ffffff;
   background: red;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -382,28 +374,28 @@ align-items: center;
   border: #ffffff;
   width: 23%;
   height: 50%;
-font-size: larger;
-margin-left: 40%;
+  font-size: larger;
+  margin-left: 40%;
 }
 
-.closeBtn:hover{
-background-color: skyblue;
-color: red;
+.closeBtn:hover {
+  background-color: skyblue;
+  color: black;
+  font-size: x-large;
 }
 
-
-.uProDiv{
+.uProDiv {
   display: grid;
   grid-template-columns: 4fr 1fr;
-  margin-top: 30px;
+  margin-top: 12px;
   width: 100%;
   align-items: center;
   padding-bottom: 20px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.42);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.userInfoDiv{
+.userInfoDiv {
   display: flex;
   align-items: center;
   // justify-content: center;
@@ -411,58 +403,102 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-left: 10%;
 }
 
-.userInfoImg{
+.userInfoImg {
   width: 52px;
-height: 53px;
+  height: 53px;
 }
 
-.userNameDiv{
+.userNameDiv {
   display: flex;
   // align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.userNameDiv h1{
-
+.userNameDiv h1 {
   font-weight: 500;
-font-size: 20px;
-line-height: 24px;
+  font-size: 20px;
+  line-height: 24px;
 
-color: #000000;
+  color: #000000;
 }
 
-
-.userNameDiv p{
+.userNameDiv p {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
 
-
   color: rgba(228, 87, 32, 0.6);
 }
 
-
-.otherAccountDiv{
+.otherAccountDiv {
   display: flex;
   justify-content: center;
-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
   margin-top: 30px;
 }
 
 
-.All-info-BTN
-{
+.AllAccountDiv{
+  margin-top: 20px;
+}
+// .mat-form-field + .mat-form-field {
+//   margin-left: 8px;
+// }
+
+.All-info-BTN {
+  //background-color: #000000 !important;
   width: 305px;
-height: 52px;
-margin-top: 20px;
-background: #FFFFFF;
-border: 2px solid #E45720;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
+  height: 52px;
+  //margin-top: 20px;
+  background-color: #ffffff;
+  border: 2px solid #e45720;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 
-color: #E45720;
+  color: #e45720;
+  // border-bottom: 2.6px solid #E45720;
+  // border-left: 2.6px solid #E45720 !important;
+  // box-shadow: none !important;
+  // border-radius: 5px ;
+}
 
+.All-info-BTN:hover {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.All-info-Titel {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  // box-shadow: none !important;
+  margin-right: 0px !important;
+  background-color: #ffffff;
+}
+
+.All-header-BTN {
+  background: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #e45720;
+}
+
+.LOGOUT-BTN {
+  width: 344px;
+  height: 44px;
+  background: #e45720;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 40px;
+  border: none;
 }
