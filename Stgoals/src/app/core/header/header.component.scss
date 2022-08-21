@@ -494,7 +494,15 @@
 
   color: #e45720;
 }
-
+.proBtn{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.proImg{
+  width: 34.87px;
+  height: 35.8px;
+}
 .dropDowMainDiv{
 
   margin-top: 20px;
@@ -573,6 +581,20 @@ font-size: 20px;
 line-height: 24px;
 color: #000000;
 
+
+}
+
+.All-header-link{
+  width: 305px;
+  height: 52px;
+  background: #FFFFFF;
+  border: 2px solid #E45720;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #E45720;
 
 }
 
