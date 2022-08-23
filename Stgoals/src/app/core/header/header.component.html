@@ -33,7 +33,8 @@
 
         <div class="menuDiv">
           <div class="subMenu">
-            <a class="menuATAg" routerLink="/institutelist"><img src="../../../assets/images/header/educational-institute.png" alt="" /></a>
+            <a class="menuATAg" routerLink="/institutelist"><img
+                src="../../../assets/images/header/educational-institute.png" alt="" /></a>
           </div>
         </div>
 
@@ -173,117 +174,115 @@
     <button class="closeBtn" (click)="ownCloseBtn()">X</button>
   </div>
 
-<!-- other info  -->
-<div class="otherAccountDiv">
+  <!-- other info  -->
+  <div class="otherAccountDiv">
 
 
-  <!-- ------------------------PROFILE section---------------------------------- -->
+    <!-- ------------------------PROFILE section---------------------------------- -->
 
 
-  <div class="AllAccountDiv">
-    <mat-accordion>
-      <mat-expansion-panel hideToggle class="hideToggle">
-        <mat-expansion-panel-header class="All-info-BTN">
-          <mat-panel-title class="All-info-Titel">
-            <button class="All-header-BTN proBtn"> <img class="proImg" src="../../../assets/images/footerIcon/icon _profile default_.png" alt=""> PROFILE </button>
-          </mat-panel-title>
+    <div class="AllAccountDiv">
+      <mat-accordion>
+        <mat-expansion-panel hideToggle class="hideToggle">
+          <mat-expansion-panel-header class="All-info-BTN">
+            <mat-panel-title class="All-info-Titel">
+              <button class="All-header-BTN proBtn"> <img class="proImg"
+                  src="../../../assets/images/footerIcon/icon _profile default_.png" alt=""> PROFILE </button>
+            </mat-panel-title>
 
-        </mat-expansion-panel-header>
-<div class="dropDowMainDiv">
-  <h1 class="profileName">First Name</h1>
-  <input class="profileInputFiled" type="text" name="" id="" placeholder="First Name">
-  <h1 class="profileName">Last Name</h1>
-  <input class="profileInputFiled" type="text" name="" id="" placeholder="Last Name">
+          </mat-expansion-panel-header>
+          <div class="dropDowMainDiv">
+            <h1 class="profileName">First Name</h1>
+            <input class="profileInputFiled" type="text" name="" id="" placeholder="First Name">
+            <h1 class="profileName">Last Name</h1>
+            <input class="profileInputFiled" type="text" name="" id="" placeholder="Last Name">
 
-  <h1 class="profileName">Identity</h1>
- <select name="" id="" class="profileInputFiled">
-  <option value="" class="identityOption IdentitySelect">Select</option>
-  <option value="" class="identityOption">Student</option>
-  <option value="" class="identityOption">Parent</option>
-  <option value="" class="identityOption">Teacher</option>
- </select>
- <h1 class="profileName">Add Photo</h1>
+            <h1 class="profileName">Identity</h1>
+            <select name="" id="" class="profileInputFiled">
+              <option value="" class="identityOption IdentitySelect">Select</option>
+              <option value="" class="identityOption">Student</option>
+              <option value="" class="identityOption">Parent</option>
+              <option value="" class="identityOption">Teacher</option>
+            </select>
+            <h1 class="profileName">Add Photo</h1>
 
- <!-- <input type="file" name="" id=""> -->
- <input class="profileInputFiled inputFile" type="file" name="" id="">
+            <!-- <input type="file" name="" id=""> -->
+            <input class="profileInputFiled inputFile" type="file" name="" id="">
 
- <button class="UPDATE-BTN">UPDATE </button>
+            <button class="UPDATE-BTN">UPDATE </button>
 
 
-</div>
-      </mat-expansion-panel>
-      <mat-expansion-panel (opened)="panelOpenState = true"
-                           (closed)="panelOpenState = false">
+          </div>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
 
-      </mat-expansion-panel>
-    </mat-accordion>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+
+
+
+
+
+    <!-- ------------------------veritfy section---------------------------------- -->
+
+    <div class="AllAccountDiv">
+      <mat-accordion>
+        <mat-expansion-panel hideToggle class="hideToggle">
+          <mat-expansion-panel-header class="All-info-BTN">
+            <mat-panel-title class="All-info-Titel">
+              <button class="All-header-BTN">Verify </button>
+            </mat-panel-title>
+
+          </mat-expansion-panel-header>
+          <div class="dropDowMainDiv">
+            <button class="CommmonBtn">Profile Verify</button>
+            <button class="CommmonBtn">Page Verify</button>
+            <button class="CommmonBtn">Club Verify</button>
+          </div>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+
+
+
+    <!-- ------------------------Settings section---------------------------------- -->
+
+
+
+    <div class="AllAccountDiv">
+      <mat-accordion>
+        <mat-expansion-panel hideToggle class="hideToggle">
+          <mat-expansion-panel-header class="All-info-BTN">
+            <mat-panel-title class="All-info-Titel">
+              <button class="All-header-BTN">Settings </button>
+            </mat-panel-title>
+
+          </mat-expansion-panel-header>
+          <div class="dropDowMainDiv">
+            <button class="CommmonBtn">Change Password</button>
+            <button class="CommmonBtn">Forgot Password</button>
+            <button class="CommmonBtn">Change Number</button>
+            <button class="CommmonBtn">Chat Delete</button>
+            <button class="CommmonBtn">Block List</button>
+            <button class="CommmonBtn">Account Delete</button>
+          </div>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+
+
+    <button class="All-header-link">Helps & Settings </button>
+    <button class="All-header-link">Report & Policy </button>
+    <button class="All-header-link">About US </button>
+    <button class="LOGOUT-BTN">LOGOUT </button>
   </div>
-
-
-
-
-
-<!-- ------------------------veritfy section---------------------------------- -->
-
-  <div class="AllAccountDiv">
-    <mat-accordion>
-      <mat-expansion-panel hideToggle class="hideToggle">
-        <mat-expansion-panel-header class="All-info-BTN">
-          <mat-panel-title class="All-info-Titel">
-            <button class="All-header-BTN">Verify </button>
-          </mat-panel-title>
-
-        </mat-expansion-panel-header>
-<div class="dropDowMainDiv">
-  <button class="CommmonBtn">Profile Verify</button>
-  <button class="CommmonBtn">Page Verify</button>
-  <button class="CommmonBtn">Club Verify</button>
-</div>
-      </mat-expansion-panel>
-      <mat-expansion-panel (opened)="panelOpenState = true"
-                           (closed)="panelOpenState = false">
-
-      </mat-expansion-panel>
-    </mat-accordion>
-  </div>
-
-
-
-<!-- ------------------------Settings section---------------------------------- -->
-
-
-
-  <div class="AllAccountDiv">
-    <mat-accordion>
-      <mat-expansion-panel hideToggle class="hideToggle">
-        <mat-expansion-panel-header class="All-info-BTN">
-          <mat-panel-title class="All-info-Titel">
-            <button class="All-header-BTN">Settings </button>
-          </mat-panel-title>
-
-        </mat-expansion-panel-header>
-<div class="dropDowMainDiv">
-  <button class="CommmonBtn">Change Password</button>
-  <button class="CommmonBtn">Forgot Password</button>
-  <button class="CommmonBtn">Change Number</button>
-  <button class="CommmonBtn">Chat Delete</button>
-  <button class="CommmonBtn">Block List</button>
-  <button class="CommmonBtn">Account Delete</button>
-</div>
-      </mat-expansion-panel>
-      <mat-expansion-panel (opened)="panelOpenState = true"
-                           (closed)="panelOpenState = false">
-
-      </mat-expansion-panel>
-    </mat-accordion>
-  </div>
-
-
-  <button class="All-header-link">Helps & Settings </button>
-  <button class="All-header-link">Report & Policy </button>
-  <button class="All-header-link">About US </button>
-  <button class="LOGOUT-BTN">LOGOUT </button>
-</div>
 
 </div>
 

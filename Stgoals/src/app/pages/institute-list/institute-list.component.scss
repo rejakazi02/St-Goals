@@ -1,73 +1,71 @@
-
-
-.institutelistMainDiv{
+.institute-list-Main-Div {
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 35px;
 }
 
-.addInstituteDiv{
+.add-Institute-Div {
   margin-left: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-
 }
 
-.addInstituteLink{
+.addInstituteLink {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-width: 25vw;
-height: 37px;
-background: #E45720;
-border-radius: 5px;
-display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-
-.advertigeDiv{
-  width: 23vw;
-  height: 128px;
-  background: #E5C6D6;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 25vw;
+  height: 37px;
+  background: #e45720;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.advertigeTag{
+.advertigeDiv {
+  width: 23vw;
+  height: 128px;
+  background: #e5c6d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.advertigeTag {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
-font-size: 26px;
-line-height: 31px;
+  font-size: 26px;
+  line-height: 31px;
 
-color: #000000;
+  color: #000000;
 }
 
-.listed-Institute-Main-Div{
-background-color: skyblue;
-margin-right: 109px;
-
+.listed-Institute-Main-Div {
+  // background-color: skyblue;
+  margin: 0px 12% 60% 0px;
 }
 
-.listed-Header{
+.listed-Header {
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
-
+  font-family: "Inter";
+  font-style: normal;
   padding: 30px 0;
   color: #000000;
-
 }
 
-
-.searchFieldDiv {
+.search-Field-Div {
   position: relative;
   width: 100%;
   display: flex;
@@ -75,7 +73,7 @@ margin-right: 109px;
   align-items: center;
 }
 
-.searchField {
+.search-Field {
   box-sizing: border-box;
   width: 100%;
   height: 39px;
@@ -83,11 +81,13 @@ margin-right: 109px;
   border: 1px solid rgba(0, 0, 0, 0.6);
   border-radius: 20px;
   // margin-right: 8px;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-padding-left: 50px;
-color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 50px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .matIcon {
@@ -108,7 +108,66 @@ color: rgba(0, 0, 0, 0.6);
   color: #000000;
 }
 
+.institute-details-card-Div {
+  height: 18%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+  background: #ffffff;
+  border: 0.4px solid skyblue;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
 
+.institute-details-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 5%;
+  gap: 5px;
+}
 
+.institute-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e45720;
+}
 
+.institute-address {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
 
+.institute-details-Btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 8%;
+}
+
+.institute-details-Btn {
+  width: 141px;
+  height: 34px;
+  background: rgba(228, 87, 32, 0.6);
+  border-radius: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
