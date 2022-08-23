@@ -15,6 +15,7 @@ import { UserloginComponent } from './userlogin/userlogin.component';
 import { VideosComponent } from './videos/videos.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { NotificationComponent } from './notification/notification.component';
+import { InstituteListComponent } from './institute-list/institute-list.component';
 
 
 
@@ -30,6 +31,7 @@ import { NotificationComponent } from './notification/notification.component';
     VideosComponent,
     ClubsComponent,
     NotificationComponent,
+    InstituteListComponent,
 
   ],
   imports: [
