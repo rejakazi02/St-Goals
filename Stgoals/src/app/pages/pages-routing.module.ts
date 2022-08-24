@@ -76,6 +76,11 @@ const routes: Routes = [
         path:"institutelist",
           loadChildren: () => import('./institute-list/institute-list.module').then(m => m.InstituteListModule)
 
+      },
+      {
+        path:"institute-chart",
+          loadChildren: () => import('./institute-chart/institute-chart.module').then(m => m.InstituteChartModule)
+
       }
     ]
   }
