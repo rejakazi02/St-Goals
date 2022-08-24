@@ -16,6 +16,7 @@ import { VideosComponent } from './videos/videos.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { NotificationComponent } from './notification/notification.component';
 import { InstituteListComponent } from './institute-list/institute-list.component';
+import { InstituteChartComponent } from './institute-chart/institute-chart.component';
 
 
 
@@ -32,6 +33,7 @@ import { InstituteListComponent } from './institute-list/institute-list.componen
     ClubsComponent,
     NotificationComponent,
     InstituteListComponent,
+    InstituteChartComponent,
 
   ],
   imports: [

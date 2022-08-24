@@ -17,11 +17,11 @@ export class FooterComponent implements OnInit {
     this.footerHideControle();
   }
 
-  
+
 footerHideControle(){
 
-  // int render section 
-  
+  // int render section
+
   if(this.router.url=='/login' || this.router.url=='/otpform' || this.router.url=='/userlogin' || this.router.url=='/registration' || this.router.url=='/regform' || this.router.url=='/addressform'){
        this.footerHide=false;
     }
@@ -29,11 +29,11 @@ footerHideControle(){
     {
       this.footerHide=true;
     }
-   
-   
-  
-    // nav int section 
-  
+
+
+
+    // nav int section
+
     this.router.events.subscribe(()=>{
       if(this.router.url=='/login' || this.router.url=='/otpform' || this.router.url=='/userlogin' || this.router.url=='/registration' || this.router.url=='/regform' || this.router.url=='/addressform'){
         this.footerHide=false;
