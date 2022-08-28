@@ -17,6 +17,7 @@ import { ClubsComponent } from './clubs/clubs.component';
 import { NotificationComponent } from './notification/notification.component';
 import { InstituteListComponent } from './institute-list/institute-list.component';
 import { InstituteChartComponent } from './institute-chart/institute-chart.component';
+import { DetailsInstituteComponent } from './details-institute/details-institute.component';
 
 
 
@@ -34,6 +35,7 @@ import { InstituteChartComponent } from './institute-chart/institute-chart.compo
     NotificationComponent,
     InstituteListComponent,
     InstituteChartComponent,
+    DetailsInstituteComponent,
 
   ],
   imports: [

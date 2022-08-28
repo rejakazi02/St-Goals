@@ -81,6 +81,11 @@ const routes: Routes = [
         path:"institute-chart",
           loadChildren: () => import('./institute-chart/institute-chart.module').then(m => m.InstituteChartModule)
 
+      },
+      {
+        path:"details-institute",
+          loadChildren: () => import('./details-institute/details-institute.module').then(m => m.DetailsInstituteModule)
+
       }
     ]
   }
