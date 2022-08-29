@@ -86,6 +86,11 @@ const routes: Routes = [
         path:"details-institute",
           loadChildren: () => import('./details-institute/details-institute.module').then(m => m.DetailsInstituteModule)
 
+      },
+      {
+        path:"admission-form",
+          loadChildren: () => import('./admission-form/admission-form.module').then(m => m.AdmissionFormModule)
+
       }
     ]
   }

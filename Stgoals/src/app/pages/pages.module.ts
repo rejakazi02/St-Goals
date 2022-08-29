@@ -18,6 +18,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { InstituteListComponent } from './institute-list/institute-list.component';
 import { InstituteChartComponent } from './institute-chart/institute-chart.component';
 import { DetailsInstituteComponent } from './details-institute/details-institute.component';
+import { AdmissionFormComponent } from './admission-form/admission-form.component';
 
 
 
@@ -36,6 +37,7 @@ import { DetailsInstituteComponent } from './details-institute/details-institute
     InstituteListComponent,
     InstituteChartComponent,
     DetailsInstituteComponent,
+    AdmissionFormComponent,
 
   ],
   imports: [
