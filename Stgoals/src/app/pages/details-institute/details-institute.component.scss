@@ -88,6 +88,94 @@
   // right side css start ------------------------------------------------------------------------
 
   .right-side {
-    background-color: skyblue;
+    h1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000;
+    }
+
+    form {
+      margin-top: 34px;
+
+      .input-Div {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        align-items: center;
+        margin-top: 14px;
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          color: #000000;
+          text-align: start;
+        }
+
+        input {
+          width: 85%;
+          height: 40px;
+          padding-left: 10px;
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.37);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          color: #000000;
+        }
+
+        select {
+          width: 85%;
+          height: 40px;
+          padding-left: 10px;
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.37);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          color: #000000;
+        }
+
+        .address-Filed {
+          height: 95px;
+        }
+      }
+
+      button {
+        border: none;
+
+        padding: 16px 25px;
+        float: right;
+        margin-right: 12%;
+        margin-top: 20px;
+        background-color: blue;
+        color: white;
+        border-radius: 7px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        a{
+          color: white;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        }
+      }
+    }
   }
 }
