@@ -1,0 +1,126 @@
+.st-admission-main-div {
+  padding-bottom: 90px;
+  .st-admission-header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 40px;
+  }
+  // Institute Admisson Form start ------------------------------------------------------
+  .institute-admission-div {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 18px;
+
+
+    .institute-admission-form-div {
+      margin-right: 5%;
+      display: flex;
+      justify-content: end;
+      // align-items: center;
+
+      .form {
+        width: 55%;
+        height: 229px;
+        border: 1px solid rgba(0, 0, 0, 0.28);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        .input-filed-div {
+          display: grid;
+          grid-template-columns: 0.7fr 1fr;
+          align-items: center;
+          gap: 10px;
+
+          h1 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: end;
+            color: #000000;
+          }
+          input {
+            width: 23vw;
+            height: 33px;
+
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.27);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+        }
+      }
+    }
+
+    .institute-admission-form-img-div {
+
+    
+      img {
+        width: 279px;
+        height: 360px;
+        margin-top: -20%;
+      }
+    }
+  }
+
+
+  // Student Full Information similar their certificate  start ---------------------------------
+
+  .student-Name-main-Div{
+    h1{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+      text-align: center;
+    }
+
+.name-Div{
+  border: 1px solid rgba(0, 0, 0, 0.28);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 20px 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 150px;
+gap: 10px;
+.input-filed-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 10px;
+
+  h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: end;
+    color: #000000;
+  }
+  input {
+    width: 53vw;
+    height: 33px;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+}
+
+  }
+}
