@@ -51,6 +51,13 @@
             width: 23vw;
             height: 33px;
 
+            padding-left: 7px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
             background: #ffffff;
             border: 1px solid rgba(0, 0, 0, 0.27);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -111,6 +118,13 @@
           width: 53vw;
           height: 33px;
 
+          padding-left: 7px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
           background: #ffffff;
           border: 1px solid rgba(0, 0, 0, 0.27);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -140,9 +154,8 @@
         line-height: 24px;
         color: #000000;
         text-align: center;
-       padding: 2% 0;
-       text-decoration: underline;
-
+        padding: 2% 0;
+        text-decoration: underline;
       }
 
       .input-filed-div {
@@ -161,12 +174,18 @@
           text-align: end;
           color: #000000;
           text-decoration: none;
-
         }
         input {
           width: 60vw;
           height: 33px;
 
+          padding-left: 7px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
           background: #ffffff;
           border: 1px solid rgba(0, 0, 0, 0.27);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -175,12 +194,9 @@
     }
   }
 
-
   // <!-- Fillup the similar information of Birth Certificate  start -------------------------------------- -->
 
-
-  .student-Birth-Certificate-main-Div{
-
+  .student-Birth-Certificate-main-Div {
     margin-top: 20px;
     h1 {
       font-family: "Inter";
@@ -221,30 +237,87 @@
           width: 53vw;
           height: 33px;
 
+          padding-left: 7px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
           background: #ffffff;
           border: 1px solid rgba(0, 0, 0, 0.27);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
       }
     }
-
   }
-
-
 
   // <!-- Address section  start -=------------------------------------------------------------ -->
 
-.Address-info-main-div{
- padding: 60px 0;
-  margin: 60px 100px;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.28);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .info-main-div {
+  .Address-info-main-div {
+    padding: 60px 0;
+    margin: 60px 100px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .info-main-div {
+      h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        text-align: center;
+        padding: 3% 0;
+        text-decoration: underline;
+      }
+
+      .input-filed-div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: end;
+          color: #000000;
+          text-decoration: none;
+        }
+        input {
+          width: 53vw;
+          height: 33px;
+
+          padding-left: 7px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+      }
+    }
+  }
+
+  // <!-- Previous School Information  start -------------------------------------- -->
+
+  .Previous-School-Information-main-Div {
+    margin-top: 20px;
+
     h1 {
       font-family: "Inter";
       font-style: normal;
@@ -253,47 +326,85 @@
       line-height: 24px;
       color: #000000;
       text-align: center;
-     padding: 3% 0;
-     text-decoration: underline;
-
     }
 
-    .input-filed-div {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
+    .if-not-Div {
+      display: flex;
       align-items: center;
+      justify-content: center;
       gap: 10px;
       margin-top: 10px;
-
       h1 {
         font-family: "Inter";
         font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
+        font-weight: 500;
+        font-size: 20px;
         line-height: 24px;
-        text-align: end;
         color: #000000;
-        text-decoration: none;
-
       }
-      input {
-        width: 53vw;
-        height: 33px;
 
+      input {
+        width: 24px;
+        height: 22px;
         background: #ffffff;
-        border: 1px solid rgba(0, 0, 0, 0.27);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 2px solid #000000;
+
+        padding-left: 7px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+      }
+    }
+
+    .Card-Div {
+      border: 1px solid rgba(0, 0, 0, 0.28);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin: 20px 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px 0;
+      gap: 10px;
+      .input-filed-div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 10px;
+
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: end;
+          color: #000000;
+        }
+        input {
+          width: 53vw;
+          height: 33px;
+
+          padding-left: 7px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .reason-of-changing {
+          height: 75px;
+        }
       }
     }
   }
-  
-}
-
-
-
-
-
-
-
-  
 }
