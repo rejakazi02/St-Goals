@@ -96,6 +96,11 @@ const routes: Routes = [
         path:"student-admission-form",
           loadChildren: () => import('./student-admission-form/student-admission-form.module').then(m => m.StudentAdmissionFormModule)
 
+      },
+      {
+        path:"sms-info",
+          loadChildren: () => import('./sms-info/sms-info.module').then(m => m.SmsInfoModule)
+
       }
     ]
   }
