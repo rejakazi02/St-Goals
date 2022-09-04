@@ -1,13 +1,62 @@
 @import "../../../theme/base";
 @import "../../../theme/variables";
 
-
-
-.SMS-ALERT-Main-Div{
-
+.SMS-ALERT-Main-Div {
   margin-top: 90px;
-  background-color: $color-light-gray;
+  padding-bottom: 20px;
+  h1 {
+    text-align: center;
+    padding: 30px 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .sms-card-Main-Div {
+    margin: 30px 20%;
+
+    .sms-info-div {
+      display: flex;
+      justify-content: space-between;
+
+      h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+      }
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+      }
+    }
+
+    .sms-text-div {
+      margin-top: 5px;
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.26);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      P {
+
+        padding: 20px 15px 30px 15px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
 }
-
-
- 
