@@ -20,6 +20,7 @@ import { InstituteChartComponent } from './institute-chart/institute-chart.compo
 import { DetailsInstituteComponent } from './details-institute/details-institute.component';
 import { AdmissionFormComponent } from './admission-form/admission-form.component';
 import { StudentAdmissionFormComponent } from './student-admission-form/student-admission-form.component';
+import { SmsInfoComponent } from './sms-info/sms-info.component';
 
 
 
@@ -40,6 +41,7 @@ import { StudentAdmissionFormComponent } from './student-admission-form/student-
     DetailsInstituteComponent,
     AdmissionFormComponent,
     StudentAdmissionFormComponent,
+    SmsInfoComponent,
 
   ],
   imports: [
