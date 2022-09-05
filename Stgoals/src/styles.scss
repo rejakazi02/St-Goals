@@ -26,7 +26,7 @@ body .slick-next {
 }
 ::selection{
   color: #fff;
-  background-color: $color-primary;
+  background-color: $color-selector;
   font-family: "Inter";
   font-style: normal;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 html, body { height: 100%; }
-body { 
+body {
   margin: 0; font-family: "Inter";
   font-style: normal;
  }
