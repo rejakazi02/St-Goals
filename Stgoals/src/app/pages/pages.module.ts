@@ -21,6 +21,7 @@ import { DetailsInstituteComponent } from './details-institute/details-institute
 import { AdmissionFormComponent } from './admission-form/admission-form.component';
 import { StudentAdmissionFormComponent } from './student-admission-form/student-admission-form.component';
 import { SmsInfoComponent } from './sms-info/sms-info.component';
+import { CurriculamComponent } from './curriculam/curriculam.component';
 
 
 
@@ -42,6 +43,7 @@ import { SmsInfoComponent } from './sms-info/sms-info.component';
     AdmissionFormComponent,
     StudentAdmissionFormComponent,
     SmsInfoComponent,
+    CurriculamComponent,
 
   ],
   imports: [

@@ -101,6 +101,11 @@ const routes: Routes = [
         path:"sms-info",
           loadChildren: () => import('./sms-info/sms-info.module').then(m => m.SmsInfoModule)
 
+      },
+      {
+        path:"curriculam",
+          loadChildren: () => import('./curriculam/curriculam.module').then(m => m.CurriculamModule)
+
       }
     ]
   }
