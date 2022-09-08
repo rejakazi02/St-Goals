@@ -106,6 +106,11 @@ const routes: Routes = [
         path:"curriculam",
           loadChildren: () => import('./curriculam/curriculam.module').then(m => m.CurriculamModule)
 
+      },
+      {
+        path:"routine",
+          loadChildren: () => import('./routine/routine.module').then(m => m.RoutineModule)
+
       }
     ]
   }
