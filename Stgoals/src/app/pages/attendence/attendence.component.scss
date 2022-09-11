@@ -1,0 +1,461 @@
+@import "../.././../theme/variables";
+@import "../.././../theme/base";
+
+.carriculam-main-div {
+  h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-decoration-line: underline;
+    text-align: center;
+    color: #000000;
+    padding: 20px 0;
+  }
+
+  .carriculam-sub-main-div {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 30px;
+
+    // left side start here ----------------------------------------------------------
+    .left-side-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.21);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      margin: 0 2% 5% 10%;
+
+      h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        text-decoration-line: none;
+      }
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        padding-right: 20%;
+        padding-bottom: 10px;
+        color: #000000;
+      }
+
+      .class-view-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        // gap: 5px;
+        margin-bottom: 15px;
+
+        .subClass-view-div {
+          .name-header-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .Class {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+              padding-bottom: 20px;
+              color: #000000;
+              padding-left: 20%;
+              text-align: left;
+            }
+
+            .Class-Link {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+              padding-bottom: 20px;
+              color: #000000;
+              text-align: right;
+              padding-right: 7%;
+            }
+          }
+
+          .class-div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 15px;
+
+            .class-btn {
+              width: 13vw;
+              height: 56px;
+              background: #ffffff;
+              border: 1px solid rgba(0, 0, 0, 0.29);
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+              color: #000000;
+            }
+
+            .view-bttn {
+              width: 4.5vw;
+              height: 56px;
+
+              background: #ffffff;
+              border: 1px solid rgba(0, 0, 0, 0.29);
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 28px;
+                height: 35px;
+              }
+            }
+
+            .download-btn {
+              width: 4.5vw;
+              height: 56px;
+
+              background: #ffffff;
+              border: 1px solid rgba(0, 0, 0, 0.29);
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 28px;
+                height: 35px;
+              }
+            }
+
+            .subclick-link-div {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+
+              .click-link-Btn {
+                width: 15vw;
+                height: 56px;
+                background: #ffffff;
+                border: 1px solid rgba(0, 0, 0, 0.29);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+
+                color: #000000;
+                margin-left: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // right side start here ----------------------------------------------------------
+
+    .right-side-div {
+      display: flex;
+      align-items: center;
+      // flex-direction: column;
+      justify-content: center;
+
+
+      .card-div {
+        display: flex;
+        // align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 82%;
+
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        padding: 70px 0 70px 0px;
+        margin-bottom: 5px;
+        h2 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          padding: 0 0 15px 6.5%;
+          color: #e45720;
+        }
+
+        // select main div -------------------------------------
+
+        .select-main-div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 15px;
+          // <!-- select Class -------------------------------------- -->
+
+          .select-class {
+            width: 43%;
+            height: 56px;
+            padding-left: 20px;
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.24);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+
+            color: #000000;
+
+            .optionts {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+
+              color: #000000;
+            }
+          }
+
+          // <!-- select Section -------------------------------------- -->
+
+          .select-section {
+            width: 20%;
+            height: 56px;
+            padding-left: 7px;
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.24);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+
+            color: #000000;
+
+            .optionts {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+
+              color: #000000;
+            }
+          }
+
+          // <!-- select group -------------------------------------- -->
+
+          .select-group {
+            width: 20%;
+            height: 56px;
+            padding-left: 7px;
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.24);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+
+            color: #000000;
+
+            .optionts {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+
+              color: #000000;
+            }
+          }
+        }
+
+        .file-view-div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 15px;
+
+
+          .view-bttn {
+            width: 4.5vw;
+            height: 56px;
+
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.29);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              width: 28px;
+              height: 35px;
+            }
+          }
+
+          .download-btn {
+            width: 4.5vw;
+            height: 56px;
+
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.29);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              width: 28px;
+              height: 35px;
+            }
+          }
+
+          .submitt-btn {
+            width: 5.5vw;
+            height: 56px;
+            padding: 0 50px;
+            background: #e45720;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.29);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carriculam-main-div {
+    .carriculam-sub-main-div {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+      place-items: center;
+
+      // left side start here ----------------------------------------------------------
+      .left-side-div {
+        p {
+          padding-right: 50%;
+        }
+
+        .class-view-div {
+          .class-btn {
+            width: 30vw;
+          }
+
+          .view-bttn {
+            width: 12.5vw;
+          }
+
+          .download-btn {
+            width: 12.5vw;
+          }
+        }
+      }
+
+      // right side start here ----------------------------------------------------------
+
+      .right-side-div {
+        .card-div {
+          width: 90vw;
+
+          padding: 20px 0 0px 0px;
+          margin-bottom: 25px;
+
+          // select main div -------------------------------------
+
+          .select-main-div {
+            // <!-- select Class -------------------------------------- -->
+
+            .select-class {
+              width: 40%;
+              font-size: 10px;
+              padding-left: 1px;
+            }
+
+            // <!-- select Section -------------------------------------- -->
+
+            .select-section {
+              width: 20%;
+              font-size: 10px;
+              padding-left: 1px;
+            }
+
+            // <!-- select group -------------------------------------- -->
+
+            .select-group {
+              width: 20%;
+              font-size: 10px;
+              padding-left: 1px;
+            }
+          }
+
+          .file-view-div {
+            .file-btn {
+              width: 35vw;
+            }
+
+            .view-bttn {
+              width: 10vw;
+            }
+
+            .download-btn {
+              width: 10vw;
+            }
+
+            .submitt-btn {
+              width: 12.5vw;
+              padding: 0 30px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
