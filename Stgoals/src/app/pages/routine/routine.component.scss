@@ -1,5 +1,6 @@
 @import "../.././../theme/variables";
 @import "../.././../theme/base";
+
 .carriculam-main-div {
   h1 {
     font-family: "Inter";
@@ -15,8 +16,9 @@
 
   .carriculam-sub-main-div {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     margin-top: 30px;
+
     // left side start here ----------------------------------------------------------
     .left-side-div {
       display: flex;
@@ -29,6 +31,7 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
       margin: 0 2% 5% 10%;
+
       h1 {
         font-family: "Inter";
         font-style: normal;
@@ -52,22 +55,44 @@
 
       .class-view-div {
         display: grid;
-        grid-template-columns: 1.5fr 1fr;
+        grid-template-columns: 1fr;
         place-items: center;
         // gap: 5px;
         margin-bottom: 15px;
 
         .subClass-view-div {
-          h2 {
-            font-family: "Inter";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
-            padding-bottom: 20px;
-            color: #000000;
-            padding-left: 20%;
+
+          .name-header-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .Class {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+              padding-bottom: 20px;
+              color: #000000;
+              padding-left: 20%;
+              text-align: left;
+            }
+
+            .Class-Link {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+              padding-bottom: 20px;
+              color: #000000;
+              text-align: right;
+              padding-right: 7%
+            }
+
+
           }
+
 
           .class-div {
             display: flex;
@@ -125,49 +150,36 @@
                 height: 35px;
               }
             }
+
+            .subclick-link-div {
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+
+              .click-link-Btn {
+                width: 15vw;
+                height: 56px;
+                background: #FFFFFF;
+                border: 1px solid rgba(0, 0, 0, 0.29);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+
+                color: #000000;
+                margin-left: 30px;
+              }
+            }
           }
         }
 
 
-.click-link-div{
-  margin-top: -20%;
-p{
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  padding-bottom: 20px;
-  color: #000000;
-text-align: center;
 
-}
-
-
-  .subclick-link-div{
-
-    display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-    .click-link-Btn{
-width: 15vw;
-height: 56px;
-      background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.29);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-
-color: #000000;
-margin-bottom: 10px;
-    }
-  }
-}
 
 
       }
@@ -176,199 +188,158 @@ margin-bottom: 10px;
     // right side start here ----------------------------------------------------------
 
     .right-side-div {
-      .card-div {
-        display: flex;
-        // align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 82%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
 
-        background: #ffffff;
-        border: 1px solid rgba(0, 0, 0, 0.38);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.21);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-        padding: 70px 0 80px 0px;
-        margin-bottom: 25px;
-        h2 {
-          font-family: "Inter";
-          font-style: normal;
-          font-weight: 500;
-          font-size: 20px;
-          line-height: 24px;
-          padding: 0 0 15px 65px;
-          color: #e45720;
-        }
+      margin: 0 10% 5% 2%;
 
-        // select main div -------------------------------------
+      h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 6px;
+        color: #000000;
+        text-decoration-line: none;
+      }
 
-        .select-main-div {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 10px;
-          margin-bottom: 15px;
-          // <!-- select Class -------------------------------------- -->
 
-          .select-class {
-            width: 43%;
-            height: 56px;
-            padding-left: 20px;
-            background: #ffffff;
-            border: 1px solid rgba(0, 0, 0, 0.24);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-            font-family: "Inter";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
+      .class-view-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        // gap: 5px;
+        margin-bottom: 15px;
 
-            color: #000000;
+        .subClass-view-div {
 
-            .optionts {
+          .name-header-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .Class {
               font-family: "Inter";
               font-style: normal;
               font-weight: 500;
               font-size: 20px;
               line-height: 24px;
-
+              padding-bottom: 20px;
               color: #000000;
+              padding-left: 35%;
+              text-align: left;
             }
-          }
 
-          // <!-- select Section -------------------------------------- -->
-
-          .select-section {
-            width: 20%;
-            height: 56px;
-            padding-left: 7px;
-            background: #ffffff;
-            border: 1px solid rgba(0, 0, 0, 0.24);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-            font-family: "Inter";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
-
-            color: #000000;
-
-            .optionts {
+            .Class-Link {
               font-family: "Inter";
               font-style: normal;
               font-weight: 500;
               font-size: 20px;
               line-height: 24px;
-
+              padding-bottom: 20px;
               color: #000000;
+              text-align: right;
+              padding-right: 7%
             }
+
+
           }
 
-          // <!-- select group -------------------------------------- -->
 
-          .select-group {
-            width: 20%;
-            height: 56px;
-            padding-left: 7px;
-            background: #ffffff;
-            border: 1px solid rgba(0, 0, 0, 0.24);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          .class-div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 15px;
 
-            font-family: "Inter";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
+            .class-btn {
+              width: 13vw;
+              height: 56px;
+              background: #ffffff;
+              border: 1px solid rgba(0, 0, 0, 0.29);
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-            color: #000000;
-
-            .optionts {
               font-family: "Inter";
               font-style: normal;
               font-weight: 500;
               font-size: 20px;
               line-height: 24px;
-
               color: #000000;
             }
+
+            .view-bttn {
+              width: 4.5vw;
+              height: 56px;
+
+              background: #ffffff;
+              border: 1px solid rgba(0, 0, 0, 0.29);
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 28px;
+                height: 35px;
+              }
+            }
+
+            .download-btn {
+              width: 4.5vw;
+              height: 56px;
+
+              background: #ffffff;
+              border: 1px solid rgba(0, 0, 0, 0.29);
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 28px;
+                height: 35px;
+              }
+            }
+
+            .subclick-link-div {
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+
+              .click-link-Btn {
+                width: 15vw;
+                height: 56px;
+                background: #FFFFFF;
+                border: 1px solid rgba(0, 0, 0, 0.29);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+
+                color: #000000;
+                margin-left: 30px;
+              }
+            }
           }
         }
 
-        .file-view-div {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 10px;
-          margin-bottom: 15px;
-          .file-btn {
-            width: 15vw;
-            height: 56px;
-            background: #ffffff;
-            border: 1px solid rgba(0, 0, 0, 0.29);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
-            input {
-              padding-left: 10px;
-            }
-          }
 
-          .view-bttn {
-            width: 4.5vw;
-            height: 56px;
 
-            background: #ffffff;
-            border: 1px solid rgba(0, 0, 0, 0.29);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
-            img {
-              width: 28px;
-              height: 35px;
-            }
-          }
-
-          .download-btn {
-            width: 4.5vw;
-            height: 56px;
-
-            background: #ffffff;
-            border: 1px solid rgba(0, 0, 0, 0.29);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            img {
-              width: 28px;
-              height: 35px;
-            }
-          }
-
-          .submitt-btn {
-            width: 5.5vw;
-            height: 56px;
-            padding: 0 50px;
-            background: #e45720;
-            font-family: "Inter";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
-            color: #ffffff;
-            border: 1px solid rgba(0, 0, 0, 0.29);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-        }
       }
     }
   }
@@ -381,6 +352,7 @@ margin-bottom: 10px;
       grid-template-columns: 1fr;
       margin-top: 30px;
       place-items: center;
+
       // left side start here ----------------------------------------------------------
       .left-side-div {
         p {
