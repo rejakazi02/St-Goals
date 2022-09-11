@@ -111,6 +111,11 @@ const routes: Routes = [
         path:"routine",
           loadChildren: () => import('./routine/routine.module').then(m => m.RoutineModule)
 
+      },
+      {
+        path:"attendence",
+          loadChildren: () => import('./attendence/attendence.module').then(m => m.AttendenceModule)
+
       }
     ]
   }
