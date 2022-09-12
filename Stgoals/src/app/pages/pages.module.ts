@@ -24,6 +24,7 @@ import { SmsInfoComponent } from './sms-info/sms-info.component';
 import { CurriculamComponent } from './curriculam/curriculam.component';
 import { RoutineComponent } from './routine/routine.component';
 import { AttendenceComponent } from './attendence/attendence.component';
+import { OnlineClassComponent } from './online-class/online-class.component';
 
 
 
@@ -48,6 +49,7 @@ import { AttendenceComponent } from './attendence/attendence.component';
     CurriculamComponent,
     RoutineComponent,
     AttendenceComponent,
+    OnlineClassComponent,
 
   ],
   imports: [
