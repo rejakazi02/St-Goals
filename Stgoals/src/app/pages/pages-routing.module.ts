@@ -116,6 +116,11 @@ const routes: Routes = [
         path:"attendence",
           loadChildren: () => import('./attendence/attendence.module').then(m => m.AttendenceModule)
 
+      },
+      {
+        path:"online-class",
+          loadChildren: () => import('./online-class/online-class.module').then(m => m.OnlineClassModule)
+
       }
     ]
   }
