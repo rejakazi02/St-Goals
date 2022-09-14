@@ -121,6 +121,11 @@ const routes: Routes = [
         path:"online-class",
           loadChildren: () => import('./online-class/online-class.module').then(m => m.OnlineClassModule)
 
+      },
+      {
+        path:"online-exam",
+          loadChildren: () => import('./online-exam/online-exam.module').then(m => m.OnlineExamModule)
+
       }
     ]
   }
