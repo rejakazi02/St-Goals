@@ -1,3 +1,13 @@
+@mixin font {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
 .online-exam-main-div {
   padding-bottom: 5%;
 
@@ -11,6 +21,7 @@
     text-align: center;
     color: #000000;
   }
+
   //   <!-- selected section start -------------------------------->
   .cards-div {
     display: flex;
@@ -175,29 +186,116 @@
     }
   }
 
-
   // time-and-mark-div section ---------------------------------------------
 
-  .time-and-mark-div{
+  .time-and-mark-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 5%;
 
-    background-color: red;
+    .exam-mark {
+      @include font;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
 
-
-
-
-
-    
+    .exam-time {
+      @include font;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
   }
 
+  // all-question-main-div start ---------------------------------------------------
+
+  .all-question-main-div {
+    margin: 20px 5%;
+padding-top: 40px;
+    // question-div1 start --------------------------------
+
+    .question-div1 {
+      margin-top: 20px;
+      padding: 30px 20px;
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.32);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      p {
+        @include font;
+      }
+
+      .question-option-div {
+        display: flex;
+        flex-direction: row;
+        margin-top: 17px;
+        padding-left: 15px;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20%;
+
+        .option-div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+
+          .answer-checkbox {
+            margin-top: 5px;
+          }
+
+          p {
+            @include font;
+          }
+        }
+      }
+    }
+
+    // question-div2 start --------------------------------
+
+    .question-div2 {
+      margin-top: 20px;
+
+      padding: 30px 20px;
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.32);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      p {
+        @include font;
+      }
+
+      .questions-option-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 17px;
+        padding-left: 15px;
+        gap: 15px;
+        padding-right: 20%;
+
+        .option-div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+
+          .answer-checkbox {
+            margin-top: 5px;
+          }
+
+          p {
+            @include font;
+          }
+        }
+      }
+    }
 
 
+    // submit-btn strat -----------------------------------
 
-
-
-
-
-
+    .submit-btn{
+      
+    }
+  }
 }
