@@ -212,7 +212,7 @@
 
   .all-question-main-div {
     margin: 20px 5%;
-padding-top: 40px;
+    padding-top: 40px;
     // question-div1 start --------------------------------
 
     .question-div1 {
@@ -291,11 +291,21 @@ padding-top: 40px;
       }
     }
 
-
     // submit-btn strat -----------------------------------
+    .submit-btn-div {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      .submit-btn {
+        margin-top: 20px;
+        width: 150px;
+        height: 55px;
 
-    .submit-btn{
-      
+        @include font;
+        color: #ffffff;
+        background: #e45720;
+        border: none;
+      }
     }
   }
 }
