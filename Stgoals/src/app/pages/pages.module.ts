@@ -28,6 +28,7 @@ import { OnlineClassComponent } from './online-class/online-class.component';
 import { OnlineExamComponent } from './online-exam/online-exam.component';
 import { ExamResultComponent } from './exam-result/exam-result.component';
 import { ResultCardComponent } from './result-card/result-card.component';
+import { CardSectionComponent } from './card-section/card-section.component';
 
 
 
@@ -56,6 +57,7 @@ import { ResultCardComponent } from './result-card/result-card.component';
     OnlineExamComponent,
     ExamResultComponent,
     ResultCardComponent,
+    CardSectionComponent,
 
   ],
   imports: [
