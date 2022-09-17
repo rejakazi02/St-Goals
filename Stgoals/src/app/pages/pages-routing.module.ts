@@ -126,6 +126,11 @@ const routes: Routes = [
         path:"online-exam",
           loadChildren: () => import('./online-exam/online-exam.module').then(m => m.OnlineExamModule)
 
+      },
+      {
+        path:"exam-result",
+          loadChildren: () => import('./exam-result/exam-result.module').then(m => m.ExamResultModule)
+
       }
     ]
   }
