@@ -1,0 +1,80 @@
+@mixin font-style {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+@mixin button-style {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 184px;
+  height: 46px;
+  border-top: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e45720;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.exam-result-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    @include font-style;
+    text-decoration: underline;
+    padding-top: 30px;
+  }
+
+  p {
+    @include font-style;
+  }
+
+  .id-no {
+    padding-top: 60px;
+  }
+
+  .total-mark {
+    padding-top: 20px;
+  }
+
+  .time-duration {
+    padding-top: 60px;
+  }
+
+  .finished-Time {
+    padding-top: 10px;
+  }
+
+  .remaining-time {
+    padding-top: 10px;
+  }
+
+  // button-div start ---------------------------------------
+
+  .button-div {
+    padding-top: 60px;
+    gap: 20px;
+    display: flex;
+
+    .Re-Check-btn {
+      @include button-style;
+    }
+
+    .next-btn {
+      @include button-style;
+    }
+  }
+}
