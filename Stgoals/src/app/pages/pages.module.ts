@@ -27,6 +27,7 @@ import { AttendenceComponent } from './attendence/attendence.component';
 import { OnlineClassComponent } from './online-class/online-class.component';
 import { OnlineExamComponent } from './online-exam/online-exam.component';
 import { ExamResultComponent } from './exam-result/exam-result.component';
+import { ResultCardComponent } from './result-card/result-card.component';
 
 
 
@@ -54,6 +55,7 @@ import { ExamResultComponent } from './exam-result/exam-result.component';
     OnlineClassComponent,
     OnlineExamComponent,
     ExamResultComponent,
+    ResultCardComponent,
 
   ],
   imports: [
