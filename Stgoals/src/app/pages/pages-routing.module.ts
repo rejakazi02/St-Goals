@@ -131,6 +131,11 @@ const routes: Routes = [
         path:"exam-result",
           loadChildren: () => import('./exam-result/exam-result.module').then(m => m.ExamResultModule)
 
+      },
+      {
+        path:"result-card",
+          loadChildren: () => import('./result-card/result-card.module').then(m => m.ResultCardModule)
+
       }
     ]
   }
