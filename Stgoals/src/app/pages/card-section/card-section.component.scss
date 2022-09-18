@@ -1,0 +1,56 @@
+.card-section-main-div {
+  padding-bottom: 60px;
+  h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    padding: 30px 0;
+  }
+
+  // card-design-section-main-div start -------------------------------------
+  .card-design-section-main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+
+    // left-side-div-------------------------------------------------------
+    .left-side-div {
+      .input-div {
+        margin-top: 20px;
+        p {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+
+        .input-filed {
+          width: 30vw;
+          height: 45px;
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+          padding-left: 11px;
+          margin-top: 10px;
+        }
+
+        .input-filed-file {
+          margin-top: 15px;
+        }
+      }
+    }
+    // right-side-div------------------------------------------------
+    .right-side-div {
+
+      
+    }
+  }
+}
