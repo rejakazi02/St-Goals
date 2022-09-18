@@ -136,6 +136,11 @@ const routes: Routes = [
         path:"result-card",
           loadChildren: () => import('./result-card/result-card.module').then(m => m.ResultCardModule)
 
+      },
+      {
+        path:"card-section",
+          loadChildren: () => import('./card-section/card-section.module').then(m => m.CardSectionModule)
+
       }
     ]
   }
