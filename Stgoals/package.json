@@ -23,7 +23,6 @@
     "f": "^1.4.0",
     "jquery": "^3.6.0",
     "ngx-slick-carousel": "^0.6.0",
-    "ngx-toastr": "^16.0.1",
     "rxjs": "~7.5.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^8.2.2",
@@ -46,13 +45,3 @@
     "typescript": "~4.6.2"
   }
 }
-
- "typescript": "~4.6.2"
-  }
-}
-   "typesc
-   "~4.6.2"
-  }
-}
-   "typesc
-   
