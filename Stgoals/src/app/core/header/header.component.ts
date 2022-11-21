@@ -1,6 +1,7 @@
 import { CarouselCntrlService } from './../../services/carousel-cntrl.service';
 import { Component, HostListener, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { AuthService } from 'src/app/services/auth.service';
 
 
 @Component({
@@ -19,7 +20,8 @@ closeBtn=true;
 
   constructor(
 
-    private router:Router
+    private router:Router,
+    private authService: AuthService,
 
     ) { }
 
@@ -77,5 +79,11 @@ if(this.router.url=='/login' || this.router.url=='/otpform' || this.router.url==
 }
 
 
+
+
+logout(): void {
+  this.authService.logOut();
+  this.userProfile=false;
+}
 
 }

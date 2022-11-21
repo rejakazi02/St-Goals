@@ -4,49 +4,45 @@
       <!-- header section  -->
 
       <div class="headerDiv">
-        <a class="RegisLoginBTN" href="" routerLink="/login"
-          routerLinkActive="router-link-active">Login</a>
+        <a class="RegisLoginBTN" href="" routerLink="/login" routerLinkActive="router-link-active">Login</a>
         <a class="helpBTN" href="" routerLink="/home" routerLinkActive="router-link-active">Help</a>
       </div>
     </div>
-    
 
-<!-- registration pages  -->
+    <!-- registration pages  -->
 
-<div class="loginMainDiv">
+    <div class="loginMainDiv">
+      <div class="logo">
+        <img class="logooImg" src="../..//../assets/images/regform/reg.png" alt="" />
 
-  <div class="logo">
-    <img class="logooImg" src="../..//../assets/images/regform/reg.png" alt="">
+        <p>Login</p>
+      </div>
 
-    <p>Login</p>
-  </div>
+      <div class="regAllBtn">
+        <form [formGroup]="form" (ngSubmit)="logIn()">
 
-  <div class="regAllBtn">
 
-    <div class="inputDiv">
-      <p>Enter Your Phone Number</p>
-      <input class="InputFiled" type="text" name="" id="" placeholder="Phone Number">
+          <div class="inputDiv">
+            <p>Enter Your Phone Number</p>
+            <input formControlName="email" class="InputFiled" type="text" name="" id="" placeholder="Phone Number" />
+          </div>
+  
+          <div class="inputDiv">
+            <p>Enter Password</p>
+            <input formControlName="password" class="InputFiled" type="text" name="" id="" placeholder="Password" />
+          </div>
+  
+          <button type="submit" class="submitt">
+            Log In
+          </button>
+          <!-- <input class="submit" type="submit" value="Continue"> -->.
+
+
+        </form>
+
+        
+      </div>
     </div>
-
-
-    <div class="inputDiv">
-      <p>Enter Password </p>
-      <input class="InputFiled" type="text" name="" id="" placeholder="Password">
-
-    </div>
-
-
-
-    <a class="submit" href="" routerLink="/home" routerLinkActive="router-link-active" >Log In </a>
-    <!-- <input class="submit" type="submit" value="Continue"> -->
-    </div>
-</div>
-
-
-
-
-
-
   </div>
 
   <div class="Info">

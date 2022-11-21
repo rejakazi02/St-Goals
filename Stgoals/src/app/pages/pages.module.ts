@@ -11,7 +11,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { RegformComponent } from './regform/regform.component';
 import { AddressformComponent } from './addressform/addressform.component';
 import { OtpformComponent } from './otpform/otpform.component';
-import { UserloginComponent } from './userlogin/userlogin.component';
+
 import { VideosComponent } from './videos/videos.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { NotificationComponent } from './notification/notification.component';
@@ -40,7 +40,7 @@ import { CardSectionComponent } from './card-section/card-section.component';
     RegformComponent,
     AddressformComponent,
     OtpformComponent,
-    UserloginComponent,
+    
     VideosComponent,
     ClubsComponent,
     NotificationComponent,

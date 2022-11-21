@@ -8,6 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Import your library
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+
+
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -18,6 +24,10 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     SwiperModule,
     BrowserAnimationsModule,
     SlickCarouselModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    
    
   ],
   providers: [],
