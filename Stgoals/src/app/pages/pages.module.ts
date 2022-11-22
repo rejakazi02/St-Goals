@@ -36,28 +36,6 @@ import { CardSectionComponent } from './card-section/card-section.component';
   declarations: [
     PagesComponent,
  
-    RegistrationComponent,
-    RegformComponent,
-    AddressformComponent,
-    OtpformComponent,
-    
-    VideosComponent,
-    ClubsComponent,
-    NotificationComponent,
-    InstituteListComponent,
-    InstituteChartComponent,
-    DetailsInstituteComponent,
-    AdmissionFormComponent,
-    StudentAdmissionFormComponent,
-    SmsInfoComponent,
-    CurriculamComponent,
-    RoutineComponent,
-    AttendenceComponent,
-    OnlineClassComponent,
-    OnlineExamComponent,
-    ExamResultComponent,
-    ResultCardComponent,
-    CardSectionComponent,
 
   ],
   imports: [

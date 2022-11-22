@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AttendenceRoutingModule } from './attendence-routing.module';
+import { AttendenceComponent } from './attendence.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [AttendenceComponent],
   imports: [
     CommonModule,
     AttendenceRoutingModule
