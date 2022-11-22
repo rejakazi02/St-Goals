@@ -16,7 +16,7 @@ headerHide=true;
 notiSlider=false;
 userProfile=false;
 closeBtn=true;
-
+responceData:any;
 
   constructor(
 
@@ -27,7 +27,7 @@ closeBtn=true;
 
   ngOnInit(): void {
     this.headerHideControle();
-
+this.userDataList();
 
   }
 
@@ -42,11 +42,13 @@ closeBtn=true;
 
 ownUserProfile(){
   this.userProfile=!this.userProfile;
+  // this.userDataList();
 }
 
 // close btn
 ownCloseBtn(){
   this.userProfile=!this.closeBtn;
+ 
 }
 
   // header controle
@@ -78,9 +80,18 @@ if(this.router.url=='/login' || this.router.url=='/otpform' || this.router.url==
   })
 }
 
+// user Data List
+userDataList() {
+  this.authService.userDataList().subscribe((result) => {
+    this.responceData = result;
+    console.log('user dataresponceData',this.responceData);
+    // this.classtList()
+  });
+  
+}
 
 
-
+// logout section  
 logout(): void {
   this.authService.logOut();
   this.userProfile=false;

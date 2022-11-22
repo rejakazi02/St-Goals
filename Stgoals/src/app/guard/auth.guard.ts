@@ -14,7 +14,7 @@ constructor(private authService: AuthService, private rout: Router){}
 
   canActivate() {
       if(this.authService.IsLoggedIn()){
-       
+        // this.rout.navigate(['/home']);
         return true;
         
       }
