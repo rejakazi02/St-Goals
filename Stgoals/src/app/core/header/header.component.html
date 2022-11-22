@@ -164,11 +164,11 @@
   [class]="userProfile == true ? 'userProfile-active' : 'userProfile-inactive'">
   <!-- account profile  -->
   <div class="uProDiv">
-    <div class="userInfoDiv">
-      <img class="userInfoImg" src="../../../assets/images/postProfile/Ellipse 21.png" alt="" />
+    <div  class="userInfoDiv">
+      <img class="userInfoImg" src="{{responceData?.user?.image}}" alt="" />
       <div class="userNameDiv">
-        <h1>Md Junayed</h1>
-        <p>Students</p>
+        <h1> {{responceData?.user?.name}}</h1>
+        <p> {{ userRole }}</p>
       </div>
     </div>
     <button class="closeBtn" (click)="ownCloseBtn()">X</button>

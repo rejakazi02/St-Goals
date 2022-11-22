@@ -42,7 +42,7 @@ this.userDataList();
 
 ownUserProfile(){
   this.userProfile=!this.userProfile;
-  // this.userDataList();
+  this.userDataList();
 }
 
 // close btn
@@ -80,11 +80,27 @@ if(this.router.url=='/login' || this.router.url=='/otpform' || this.router.url==
   })
 }
 
+
+get userRole(){
+  if(this.responceData?.user?.role === 'admin'){
+    return 'Admin'
+  }
+   else if(this.responceData?.user?.role === 'student'){
+    return 'Student'
+   }
+   else if(this.responceData?.user?.role === 'staff'){
+    return 'Teacher'
+   }
+   else{
+    return ''
+   }
+}
+
 // user Data List
 userDataList() {
   this.authService.userDataList().subscribe((result) => {
     this.responceData = result;
-    console.log('user dataresponceData',this.responceData);
+    // console.log('user dataresponceData',this.responceData);
     // this.classtList()
   });
   
