@@ -12,7 +12,7 @@ const routes: Routes = [
 
       {
         path:'',
-        redirectTo:"videos",
+        redirectTo:"home",
         pathMatch:"full"
       },
       {
