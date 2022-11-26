@@ -32,6 +32,11 @@ userDataList(){
   return this.http.get<any>(apiurl + 'my-info')
 }
 
+
+// instituteDataList(){
+//   return this.http.get<any>(apiurl + 'admin/institutes?page=1')
+// }
+
 IsLoggedIn(){
   return localStorage.getItem('token')!=null;
 }

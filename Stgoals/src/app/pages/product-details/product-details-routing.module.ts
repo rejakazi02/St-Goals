@@ -47,13 +47,18 @@ const routes: Routes = [
           loadChildren: () => import('../institute-list/institute-list.module').then(m => m.InstituteListModule)
 
       },
+      // {
+      //   path:"institute-chart",
+      //     loadChildren: () => import('../institute-chart/institute-chart.module').then(m => m.InstituteChartModule)
+
+      // },
       {
-        path:"institute-chart",
+        path:"institute-chart/:id",
           loadChildren: () => import('../institute-chart/institute-chart.module').then(m => m.InstituteChartModule)
 
       },
       {
-        path:"details-institute",
+        path:"details-institute/:id",
           loadChildren: () => import('../details-institute/details-institute.module').then(m => m.DetailsInstituteModule)
 
       },

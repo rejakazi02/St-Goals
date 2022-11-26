@@ -4,13 +4,23 @@
 
     <div class="add-Institute-Div">
       <a class="addInstituteLink" href="">Add Your Institute</a>
+      <a class="addInstituteLink" href="">Settings</a>
+      <a class="addInstituteLink" href="">Privacy & Policy</a>
 
       <div class="advertigeDiv">
-        <p class="advertigeTag">Advertige</p>
+       
+        <img  class="advertigeTag" src="../../../assets/images/chart/book1.png" alt="">
+     
       </div>
 
       <div class="advertigeDiv">
-        <p class="advertigeTag">Advertige</p>
+        <img  class="advertigeTag" src="../../../assets/images/chart/book2.png" alt="">
+      </div>
+      <div class="advertigeDiv">
+        <img  class="advertigeTag" src="../../../assets/images/chart/book3.png" alt="">
+      </div>
+      <div class="advertigeDiv">
+        <img  class="advertigeTag" src="../../../assets/images/chart/book4.png" alt="">
       </div>
     </div>
 
@@ -22,90 +32,28 @@
       <!-- search institute section  -->
 
       <div class="search-Field-Div">
-        <input class="search-Field" type="" name="" id="" placeholder="Search Institutes" />
-        <span class="matIcon">
+        <input #seachValue class="search-Field" type="" name="" id="" placeholder="Search Institutes" />
+        <button type="submit" class="matIcon" (click)="search(seachValue.value)">
           <mat-icon class="matIcon1">search</mat-icon>
-        </span>
+        </button>
       </div>
 
       <!-- institute details card section  -->
 
-      <div class="institute-details-card-Div">
+      <div *ngFor="let item of responceData?.institutes?.data" class="institute-details-card-Div" >
         <div class="institute-details-div">
-          <h1 class="institute-name">Rajuk Uttara Model College</h1>
-          <p class="institute-address">Uttara, Dhaka- 1230.</p>
+          <a [routerLink]="['/institute-chart', item.slug]" class="institute-name">{{item.institute_name}}</a>
+          <p class="institute-address">{{item.union}}</p>
         </div>
 
         <div class="institute-details-Btn-div">
-          <a  class="institute-details-Btn" routerLink="/institute-chart">Details</a>
+          <a  class="institute-details-Btn" [routerLink]="['/details-institute', item.slug]">Details</a>
+          <a  class="institute-details-Btn" routerLink="/admission-form">Online Application</a>
         </div>
       </div>
 
-      <div class="institute-details-card-Div">
-        <div class="institute-details-div">
-          <h1 class="institute-name">Rajuk Uttara Model College</h1>
-          <p class="institute-address">Uttara, Dhaka- 1230.</p>
-        </div>
-
-        <div class="institute-details-Btn-div">
-          <a  class="institute-details-Btn" routerLink="/institute-chart">Details</a>
-        </div>
-      </div>
-
-      <div class="institute-details-card-Div">
-        <div class="institute-details-div">
-          <h1 class="institute-name">Rajuk Uttara Model College</h1>
-          <p class="institute-address">Uttara, Dhaka- 1230.</p>
-        </div>
-
-        <div class="institute-details-Btn-div">
-          <a  class="institute-details-Btn" routerLink="/institute-chart">Details</a>
-        </div>
-      </div>
-
-      <div class="institute-details-card-Div">
-        <div class="institute-details-div">
-          <h1 class="institute-name">Rajuk Uttara Model College</h1>
-          <p class="institute-address">Uttara, Dhaka- 1230.</p>
-        </div>
-
-        <div class="institute-details-Btn-div">
-          <a  class="institute-details-Btn" routerLink="/institute-chart">Details</a>
-        </div>
-      </div>
-
-      <div class="institute-details-card-Div">
-        <div class="institute-details-div">
-          <h1 class="institute-name">Rajuk Uttara Model College</h1>
-          <p class="institute-address">Uttara, Dhaka- 1230.</p>
-        </div>
-
-        <div class="institute-details-Btn-div">
-          <a  class="institute-details-Btn" routerLink="/institute-chart">Details</a>
-        </div>
-      </div>
-
-      <div class="institute-details-card-Div">
-        <div class="institute-details-div">
-          <h1 class="institute-name">Rajuk Uttara Model College</h1>
-          <p class="institute-address">Uttara, Dhaka- 1230.</p>
-        </div>
-
-        <div class="institute-details-Btn-div">
-          <a  class="institute-details-Btn" routerLink="/institute-chart">Details</a>
-        </div>
-      </div>
-
-      <div class="institute-details-card-Div">
-        <div class="institute-details-div">
-          <h1 class="institute-name">Rajuk Uttara Model College</h1>
-          <p class="institute-address">Uttara, Dhaka- 1230.</p>
-        </div>
-
-        <div class="institute-details-Btn-div">
-          <a  class="institute-details-Btn" routerLink="/institute-chart">Details</a>
-        </div>
-      </div>
+    
+     
     </div>
   </div>
 </section>

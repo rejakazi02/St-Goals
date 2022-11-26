@@ -1,28 +1,33 @@
 <section>
+
+  <div class="chart-header-maindiv">
+    d
+  </div>
   <div class="institute-Chart-main-div">
     <!-- left div section start  --------------------------->
 
     <div class="left-main-Div">
 
-      <a routerLink="/details-institute">Details of the institute</a>
+      <a  routerLink="/details-institute">Details of the institute</a>
+      <!-- <a *ngIf="userRole.toLowerCase().trim()==='admin'
+       || userRole.toLowerCase().trim()==='staff'" routerLink="/details-institute">Details of the institute</a> -->
       <a routerLink="/admission-form">Admission Form</a>
       <a routerLink="/student-admission-form">Sudents Details</a>
       <a routerLink="/sms-info" >SMS System</a>
       <a routerLink="/curriculam" >Curriculam</a>
       <a routerLink="/routine">Routine</a>
-      <a routerLink="/attendence" >Attendence</a>
+      <a  routerLink="/attendence" >Attendence</a>
       <a routerLink="/online-class" >Online Class</a>
       <a routerLink="/online-exam" >Online Exam</a>
       <a routerLink="/exam-result" >Result Card</a>
       <a routerLink="/card-section" >Card Section</a>
 
-      <button class="delete-Btn">Delete Your Institute</button>
-      <button>Edit Your Institute</button>
+     
     </div>
 
     <!-- Middle div section start  --------------------------->
     <div class="middle-main-Div">
-<h1>Institute <span>(Rajuk Uttara Model College)</span> </h1>
+<h1>Institute <span>({{getInstiData?.institute?.institute_name}})</span> </h1>
 
 <div class="chart-main-div">
 
@@ -54,7 +59,7 @@
 
     <!-- right div section start  --------------------------->
     <div class="right-main-Div">
-      <a class="go-To-Dashboard" href="http://stgoles.omegaitsys.com/auth/login">Go to Dashboard</a>
+      <a class="go-To-Dashboard" href="http://localhost:5000/#/auth/login">Go to Dashboard</a>
 
       <a class="notice-Board">NOTICE BOARD</a>
       <a>Result Card</a>
@@ -66,8 +71,8 @@
       <a>Sports</a>
       <a>Health Care</a>
       <a class="complain-Box"> COMPLAIN BOX</a>
-      <a class="message-Box">Message  Box <img src="../../../assets/images/footerIcon/icon _chat_.png" alt=""> </a>
-
+      <button class="delete-Btn">Delete Your Institute</button>
+      <button>Edit Your Institute</button>
     </div>
   </div>
 </section>

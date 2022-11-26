@@ -8,9 +8,10 @@
   margin-left: 25px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
   height: 100vh;
+  margin-top: 28px;
 }
 
 .addInstituteLink {
@@ -28,6 +29,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  padding: 10px 0;
 }
 
 .advertigeDiv {
@@ -38,6 +40,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  // flex-direction: column;
 }
 
 .advertigeTag {
@@ -98,6 +101,8 @@
   margin-left: 10px;
   font-size: 29px !important;
   color: #000000;
+  border: none;
+  background-color: #ffffff;
 }
 
 .matIcon1 {
@@ -109,7 +114,7 @@
 }
 
 .institute-details-card-Div {
-  height: 18%;
+  // height: 18%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 25px;
@@ -117,6 +122,7 @@
   border: 0.4px solid skyblue;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+  padding: 25px 0;
 }
 
 .institute-details-div {
@@ -148,14 +154,16 @@
 
 .institute-details-Btn-div {
   display: flex;
-  justify-content: center;
+  display: flex;
+  justify-content: end;
   align-items: flex-end;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-right: 8%;
+  gap: 10px;
 }
 
 .institute-details-Btn {
-  width: 141px;
+  width: 153px;
   height: 34px;
   background: rgba(228, 87, 32, 0.6);
   border-radius: 5px;
