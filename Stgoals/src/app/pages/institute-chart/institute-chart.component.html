@@ -24,7 +24,7 @@
 
     <div class="left-main-Div">
 
-      <a  routerLink="/details-institute">Details of the institute</a>
+      <a  [routerLink]="['/details-institute', getInstiData?.institute?.slug]">Details of the institute</a>
       <!-- <a *ngIf="userRole.toLowerCase().trim()==='admin'
        || userRole.toLowerCase().trim()==='staff'" routerLink="/details-institute">Details of the institute</a> -->
       <a routerLink="/admission-form">Admission Form</a>
