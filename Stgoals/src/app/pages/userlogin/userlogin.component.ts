@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
 
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
-
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-userlogin',
@@ -22,7 +22,7 @@ export class UserloginComponent implements OnInit {
     private fb: FormBuilder,
     private authService: AuthService,
     private route: Router,
-    // private toastr: ToastrService
+    private toastr: ToastrService
   ) {}
   ngOnInit(): void {
     // throw new Error('Method not implemented.');
@@ -48,17 +48,17 @@ export class UserloginComponent implements OnInit {
             // console.log('login token',this.responceData.access_token);
             if (this.responceData?.role === 'admin') {
               this.route.navigate(['/', 'home']);
-              // this.toastr.success(result.message);
+              this.toastr.success(result.message);
               console.log('user Id:', this.responceData?.role);
             }
             if (this.responceData?.role === 'student') {
               this.route.navigate(['/', 'home']);
-              // this.toastr.success(result.message);
+              this.toastr.success(result.message);
               console.log('user Id:', this.responceData?.role);
             }
             if (this.responceData?.role === 'staff') {
               this.route.navigate(['/', 'home']);
-              // this.toastr.success(result.message);
+              this.toastr.success(result.message);
               console.log('user Id:', this.responceData?.role);
             }
           }
@@ -66,10 +66,10 @@ export class UserloginComponent implements OnInit {
         (err) => {
           this.errorMessage = err.error.errors;
           if (err.error.errors.email) {
-            // this.toastr.error(err.error.errors.email);
+            this.toastr.error(err.error.errors.email);
           }
           if (err.error.errors.password) {
-            // this.toastr.error(err.error.errors.password);
+            this.toastr.error(err.error.errors.password);
           }
 
           // alert(err.error.message)
