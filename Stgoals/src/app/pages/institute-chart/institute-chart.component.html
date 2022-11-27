@@ -87,8 +87,8 @@
       <a>Sports</a>
       <a>Health Care</a>
       <a class="complain-Box"> COMPLAIN BOX</a>
-      <button class="delete-Btn">Delete Your Institute</button>
-      <button>Edit Your Institute</button>
+      <button *ngIf="userRole.toLowerCase().trim()==='admin'" class="delete-Btn">Delete Your Institute</button>
+      <button *ngIf="userRole.toLowerCase().trim()==='admin'">Edit Your Institute</button>
     </div>
   </div>
 </section>
