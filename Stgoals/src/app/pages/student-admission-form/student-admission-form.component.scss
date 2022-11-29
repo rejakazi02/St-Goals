@@ -1,5 +1,7 @@
 .st-admission-main-div {
-  padding-bottom: 90px;
+  padding-bottom: 1px;
+  position: relative;
+
   .st-admission-header {
     font-family: "Inter";
     font-style: normal;
@@ -10,28 +12,55 @@
     color: #000000;
     padding-top: 40px;
   }
+
+  .img-div{
+    .image2{
+      position: absolute;
+      width: 847.5px;
+      height: 756.84px;
+      top: 34%;
+      z-index: -1;
+    }
+    .image3{
+      position: absolute;
+      width: 847.5px;
+      height: 756.84px;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
   // Institute Admisson Form start ------------------------------------------------------===
   .institute-admission-div {
-
     margin-top: 18px;
 
     .institute-admission-form-div {
-        
       display: flex;
       justify-content: center;
       align-items: center;
 
+      .image1 {
+        width: 664px;
+        height: 593px;
+        position: absolute;
+        z-index: -89;
+        opacity: 0.2;
+        margin-top: 22%;
+      }
+
       .form {
-        width: 55%;
-        height: 229px;
+        width: 35%;
+        // height: 250px;
         border: 1px solid rgba(0, 0, 0, 0.28);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
         gap: 15px;
-
+        background-color: #ffffff;
+        margin-top: 4%;
+        padding: 35px 0;
         .input-filed-div {
           display: grid;
           grid-template-columns: 0.7fr 1fr;
@@ -47,6 +76,7 @@
             text-align: end;
             color: #000000;
           }
+
           input {
             width: 23vw;
             height: 33px;
@@ -65,39 +95,65 @@
         }
       }
     }
-
-
   }
 
   // Student Full Information similar their certificate  start ---------------------------------
 
   .student-Name-main-Div {
-    margin-top: 20px;
-    h1 {
-      font-family: "Inter";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 24px;
-      color: #000000;
-      text-align: center;
-    }
+    margin-top: -14px;
 
     .name-Div {
       border: 1px solid rgba(0, 0, 0, 0.28);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      margin: 20px 100px;
+      box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+      margin: 70px 100px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      height: 150px;
+      // height: 150px;
       gap: 10px;
+      padding: 3% 0 4% 0;
+      background-color: white;
+      position: relative;
+
+      h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        text-align: center;
+      }
+
+      .edit-btn {
+        border: none;
+        position: absolute;
+        right: 2.5%;
+        top: 10%;
+        width: 119px;
+        height: 46px;
+
+        background: #68e1fd;
+
+        .edit {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          color: #ffffff;
+          margin-left: 10px;
+        }
+      }
+
       .input-filed-div {
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
         gap: 10px;
+
+        margin-top: 2%;
 
         h1 {
           font-family: "Inter";
@@ -108,6 +164,7 @@
           text-align: end;
           color: #000000;
         }
+
         input {
           width: 53vw;
           height: 33px;
@@ -130,16 +187,25 @@
   // <!-- parents section  start ------------------------------------------------------------ -->
 
   .parents-info-main-div {
-    padding: 60px 0;
+    padding: 0 0 60px 0;
     margin: 60px 100px;
-    background: #ffffff;
+   background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.28);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+//     .image2{
+//       position: absolute;
+//       width: 1353.5px;
+// height: 756.84px;
+//     }
     .info-main-div {
+      position: relative;
+    
+
       h1 {
         font-family: "Inter";
         font-style: normal;
@@ -150,6 +216,26 @@
         text-align: center;
         padding: 2% 0;
         // text-decoration: underline;
+      }
+
+      .edit-btn {
+        border: none;
+        position: absolute;
+        right: 0%;
+        top: 6%;
+        width: 119px;
+        height: 46px;
+        background: #68e1fd;
+
+        .edit {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          color: #ffffff;
+          margin-left: 10px;
+        }
       }
 
       .input-filed-div {
@@ -169,6 +255,7 @@
           color: #000000;
           text-decoration: none;
         }
+
         input {
           width: 60vw;
           height: 33px;
@@ -192,31 +279,54 @@
 
   .student-Birth-Certificate-main-Div {
     margin-top: 20px;
-    h1 {
-      font-family: "Inter";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 24px;
-      color: #000000;
-      text-align: center;
-    }
+
+   
 
     .Card-Div {
       border: 1px solid rgba(0, 0, 0, 0.28);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      margin: 20px 100px;
+      margin: 0px 100px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      padding: 50px 0;
+      padding: 30px 0 50px 0;
       gap: 10px;
+position: relative;
+      h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        text-align: center;
+      }
+      .edit-btn {
+        border: none;
+        position: absolute;
+        right: 2.3%;
+    top: 4%;
+        width: 119px;
+        height: 46px;
+        background: #68e1fd;
+
+        .edit {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          color: #ffffff;
+          margin-left: 10px;
+        }
+      }
       .input-filed-div {
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
         gap: 10px;
+        margin-top: 14px;
 
         h1 {
           font-family: "Inter";
@@ -227,9 +337,10 @@
           text-align: end;
           color: #000000;
         }
+
         input {
           width: 53vw;
-          height: 33px;
+          height: 40px;
 
           padding-left: 7px;
           font-family: "Inter";
@@ -249,7 +360,7 @@
   // <!-- Address section  start -=------------------------------------------------------------ -->
 
   .Address-info-main-div {
-    padding: 60px 0;
+    padding: 0 0 60px 0;
     margin: 60px 100px;
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.28);
@@ -258,6 +369,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
     .info-main-div {
       h1 {
         font-family: "Inter";
@@ -269,6 +381,26 @@
         text-align: center;
         padding: 3% 0;
         // text-decoration: underline;
+      }
+
+      .edit-btn {
+        border: none;
+        position: absolute;
+        right: 2.3%;
+        top: 4%;
+        width: 119px;
+        height: 46px;
+        background: #68e1fd;
+
+        .edit {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          color: #ffffff;
+          margin-left: 10px;
+        }
       }
 
       .input-filed-div {
@@ -288,6 +420,7 @@
           color: #000000;
           text-decoration: none;
         }
+
         input {
           width: 53vw;
           height: 33px;
@@ -307,46 +440,46 @@
     }
   }
 
-
-
   // <!-- fotter btn --------------------------------------------------------------- -->
 
   .btn-main-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 150px 100px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    margin: 40px 100px 60px 0;
 
-    .check-again-btn {
-      width: 165px;
-      height: 51px;
-      background: #ffffff;
-      border: 5px solid rgba(0, 0, 0, 0.26);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      font-family: "Inter";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 22px;
-      color: #000000;
-    }
+    // .check-again-btn {
+    //   width: 165px;
+    //   height: 51px;
+    //   background: #ffffff;
+    //   border: 5px solid rgba(0, 0, 0, 0.26);
+    //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    //   font-family: "Inter";
+    //   font-style: normal;
+    //   font-weight: 600;
+    //   font-size: 18px;
+    //   line-height: 22px;
+    //   color: #000000;
+    // }
 
     .submit-btn-div {
       display: flex;
       align-items: center;
       justify-content: end;
-      .Submit-Download-btn {
-        width: 200px;
-        height: 51px;
-        background: #ffffff;
-        border: 5px solid rgba(0, 0, 0, 0.26);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-        color: #000000;
+      .Submit-Download-btn {
+        width: 153px;
+height: 46px;
+left: 1157px;
+top: 3217.23px;
+border: none;
+background: #7289FF;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
       }
     }
   }
