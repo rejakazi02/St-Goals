@@ -53,15 +53,25 @@ const routes: Routes = [
 
       // },
       {
-        path:"institute-chart/:id",
+        path:"institute-chart",
           loadChildren: () => import('../institute-chart/institute-chart.module').then(m => m.InstituteChartModule)
 
       },
+      // {
+      //   path:"institute-chart/:id",
+      //     loadChildren: () => import('../institute-chart/institute-chart.module').then(m => m.InstituteChartModule)
+
+      // },
       {
-        path:"details-institute/:id",
+        path:"details-institute",
           loadChildren: () => import('../details-institute/details-institute.module').then(m => m.DetailsInstituteModule)
 
       },
+      // {
+      //   path:"details-institute/:id",
+      //     loadChildren: () => import('../details-institute/details-institute.module').then(m => m.DetailsInstituteModule)
+
+      // },
       {
         path:"admission-form",
           loadChildren: () => import('../admission-form/admission-form.module').then(m => m.AdmissionFormModule)

@@ -62,6 +62,21 @@
             border: 1px solid rgba(0, 0, 0, 0.27);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           }
+          select{
+            width: 23vw;
+            height: 33px;
+
+            padding-left: 7px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.27);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
         }
       }
     }
@@ -115,6 +130,21 @@
           color: #000000;
         }
         input {
+          width: 53vw;
+          height: 33px;
+
+          padding-left: 7px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        select {
           width: 53vw;
           height: 33px;
 
@@ -402,7 +432,18 @@
         }
 
         .reason-of-changing {
-          height: 75px;
+          width: 53vw;
+          height: 50px;
+          font-size: 16px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          padding-left: 7px;
+          color: #000000;
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+          padding-top: 12px;
         }
       }
     }
