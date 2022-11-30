@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./payment-type.component.scss']
 })
 export class PaymentTypeComponent implements OnInit {
-
+vvv=false;
+tt:any
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  test(){
+    console.log('seaa');
+    this.tt=true;
+    // if(sea){
+    //  this.vvv=true; 
+    // }
+
   }
 
 }

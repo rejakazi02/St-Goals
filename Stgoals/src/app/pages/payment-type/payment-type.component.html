@@ -1,18 +1,73 @@
-
 <section>
-    <div class="payment-main-div">
-        <div class="left-div">
-            <div class="img-div">
-                <img class="img1" src="../../../assets/images/static/logo1 (1).png" alt="">
-                <img class="img2" src="../../../assets/images/static/logo1 (5).png" alt="">
-                <img class="img3" src="../../../assets/images/static/logo1 (2).png" alt="">
-                <img class="img4" src="../../../assets/images/static/logo1 (8).png" alt="">
-                <img class="img5" src="../../../assets/images/static/logo1 (7).png" alt="">
-                <img class="img6" src="../../../assets/images/static/logo1 (3).png" alt="">
-                <img class="img7" src="../../../assets/images/static/logo1 (4).png" alt="">
-            </div>
-        </div>
-        <div class="mid-div">a</div>
-        <div class="left-div">a</div>
+  <div class="payment-main-div">
+
+    <!-- left-div----------------------------------------------------------------- -->
+    <div class="left-div">
+      <div class="img-div">
+        <img class="img1" src="../../../assets/images/static/logo1 (1).png" alt="" />
+        <img class="img2" src="../../../assets/images/static/logo1 (5).png" alt="" />
+        <img class="img3" src="../../../assets/images/static/logo1 (2).png" alt="" />
+        <img class="img4" src="../../../assets/images/static/logo1 (8).png" alt="" />
+        <img class="img5" src="../../../assets/images/static/logo1 (7).png" alt="" />
+        <img class="img6" src="../../../assets/images/static/logo1 (3).png" alt="" />
+        <img class="img7" src="../../../assets/images/static/logo1 (4).png" alt="" />
+      </div>
     </div>
+
+    <!-- mid-div---------------------------------------------------------------------------------- -->
+
+    <div class="mid-div">
+      <div class="header-div">
+        <h1>Payment</h1>
+      </div>
+
+      <div class="pay-with-div">
+        <h2>Pay With:</h2>
+        <div class="pay-with-radio-div">
+          <button (click)="test()">
+            <input [class]="tt" type="radio" name="" id="" /> Card
+          </button>
+          <button (click)="test()">
+            <input [class]="tt" type="radio" name="" id="" /> Bank
+          </button>
+          <button (click)="test()">
+            <input [class]="tt" type="radio" name="" id="" /> Transfer
+          </button>
+        </div>
+      </div>
+
+      <div class="card-number-div">
+        <h2>Card Number</h2>
+        <div class="card-number-input-div">
+          <input type="text" name="" id="" placeholder="1234  5678  9101  1121" />
+        </div>
+      </div>
+      <div class="card-number-div">
+        <h2>Expiration Date</h2>
+        <div class="card-number-input-div">
+          <input class="expirationDate" type="date" name="" id="" placeholder="1234  5678  9101  1121" />
+        </div>
+      </div>
+
+      <div class="save-card-details-div">
+        <input type="checkbox" name="" id="" />
+        <p>Save card details</p>
+      </div>    
+
+      <a class="payment-button">Payment</a>
+      <div class="purposes-Described-div">
+        <p class="purposes-Described">
+          Your personal data will be used to process your order, support your
+          experience throughout this website, and for other purposes described
+          in our privacy policy.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- right-div----------------------------------------------------------------- -->
+    <div class="right-div">
+      <img src="../../../assets/images/static/logo1 (6).png" alt="" />
+    </div>
+  </div>
 </section>
