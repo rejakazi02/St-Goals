@@ -7,7 +7,7 @@ const routes: Routes = [
   {
     path:"",
     component:ProductDetailsComponent,
-    canActivate: [AuthGuard],
+    // canActivate: [AuthGuard],
     children:[
 
       {
@@ -120,6 +120,11 @@ const routes: Routes = [
       {
         path:"result-card",
           loadChildren: () => import('../result-card/result-card.module').then(m => m.ResultCardModule)
+
+      },
+      {
+        path:"payment",
+          loadChildren: () => import('../payment-type/payment-type.module').then(m => m.PaymentTypeModule)
 
       },
       {
