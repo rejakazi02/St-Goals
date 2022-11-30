@@ -29,12 +29,14 @@ import { OnlineExamComponent } from './online-exam/online-exam.component';
 import { ExamResultComponent } from './exam-result/exam-result.component';
 import { ResultCardComponent } from './result-card/result-card.component';
 import { CardSectionComponent } from './card-section/card-section.component';
+import { PaymentSuccesfullComponent } from './payment-succesfull/payment-succesfull.component';
 
 
 
 @NgModule({
   declarations: [
     PagesComponent,
+    PaymentSuccesfullComponent,
  
 
   ],
