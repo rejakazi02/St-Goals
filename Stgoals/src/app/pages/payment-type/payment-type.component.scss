@@ -1,0 +1,61 @@
+
+
+.payment-main-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+    .left-div{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         margin-bottom: 40%;
+        .img-div{
+            display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+            .img1{
+                margin-top: 45px;
+                width: 137px;
+                height: 115px;
+            }
+            .img2{
+                margin-top: 20px;
+                width: 185px;
+                height: 22px;
+            }
+            .img3{
+                margin-top: 50px;
+                width: 296px;
+height: 34px;
+            }
+            .img4{
+                margin-top: 50px;
+                width: 192px;
+height: 79px;
+                
+            }
+            .img5{
+                margin-top: 50px;
+                width: 155px;
+height: 68px;
+            }
+            .img6{
+                margin-top: 50px;
+                width: 195px;
+                height: 115px;
+            }
+            .img7{
+                margin-top: 50px;
+                width: 183px;
+                height: 82px;
+            }
+        }
+    }
+
+    .mid-div{
+        
+    }
+}
