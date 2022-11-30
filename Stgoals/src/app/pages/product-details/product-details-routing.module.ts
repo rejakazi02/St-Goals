@@ -128,6 +128,16 @@ const routes: Routes = [
 
       },
       {
+        path:"payment",
+          loadChildren: () => import('../payment-type/payment-type.module').then(m => m.PaymentTypeModule)
+
+      },
+      {
+        path:"payment-succesful",
+          loadChildren: () => import('../payment-succesful/payment-succesful.module').then(m => m.PaymentSuccesfulModule)
+
+      },
+      {
         path:"card-section",
           loadChildren: () => import('../card-section/card-section.module').then(m => m.CardSectionModule)
 
