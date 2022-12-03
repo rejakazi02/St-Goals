@@ -368,21 +368,58 @@ color: #000000;
 
     // submit-btn strat -----------------------------------
     .submit-btn-div {
+display: grid;
+grid-template-columns: 1fr 1fr;
 
-      
-      display: flex;
-      align-items: center;
-      justify-content: end;
-      .submit-btn {
-        margin-top: 20px;
-        width: 150px;
-        height: 55px;
+.recheck-div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .submit-btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 55px;
 
-        @include font;
-        color: #ffffff;
-        background: #e45720;
-        border: none;
-      }
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+    background: #7289FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+  }
+}
+
+.next-div{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+
+
+
+  .submit-btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 55px;
+
+   
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+    background: #7289FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+  }
+}
+     
     }
   }
 }
