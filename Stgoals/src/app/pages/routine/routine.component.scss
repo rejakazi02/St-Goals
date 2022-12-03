@@ -16,8 +16,9 @@
 
   .carriculam-sub-main-div {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 0.8fr 1.1fr;
     margin-top: 30px;
+    gap: 3%;
 
     // left side start here ----------------------------------------------------------
     .left-side-div {
@@ -26,12 +27,12 @@
       justify-content: center;
       flex-direction: column;
 
-      background: #ffffff;
+      background: #FFD6D6;
       border: 1px solid rgba(0, 0, 0, 0.21);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-      margin: 0 2% 5% 10%;
-
+      // margin: 0 2% 5% 10%;
+      margin: 0 10% 3% 0%;
       h1 {
         font-family: "Inter";
         font-style: normal;
@@ -87,7 +88,7 @@
               padding-bottom: 20px;
               color: #000000;
               text-align: right;
-              padding-right: 7%
+              padding-right: 10%
             }
 
 
@@ -104,16 +105,16 @@
             .class-btn {
               width: 13vw;
               height: 56px;
-              background: #ffffff;
-              border: 1px solid rgba(0, 0, 0, 0.29);
-              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              background: #E45720;
+border: 1px solid rgba(0, 0, 0, 0.29);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
               font-family: "Inter";
               font-style: normal;
               font-weight: 500;
               font-size: 20px;
               line-height: 24px;
-              color: #000000;
+              color: #FFFFFF;
             }
 
             .view-bttn {
@@ -159,9 +160,9 @@
               gap: 10px;
 
               .click-link-Btn {
-                width: 15vw;
+                width: 11vw;
                 height: 56px;
-                background: #FFFFFF;
+                background: #7289FF;
                 border: 1px solid rgba(0, 0, 0, 0.29);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -171,7 +172,7 @@
                 font-size: 20px;
                 line-height: 24px;
 
-                color: #000000;
+                color: #FFFFFF;
                 margin-left: 30px;
               }
             }
@@ -193,11 +194,11 @@
       justify-content: center;
       flex-direction: column;
 
-      background: #ffffff;
+      background: #FFD6D6;
       border: 1px solid rgba(0, 0, 0, 0.21);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-      margin: 0 10% 5% 2%;
+      margin: 0 0% 5% 15%;
 
       h1 {
         font-family: "Inter";
@@ -262,16 +263,16 @@
             .class-btn {
               width: 13vw;
               height: 56px;
-              background: #ffffff;
-              border: 1px solid rgba(0, 0, 0, 0.29);
-              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              background: #E45720;
+border: 1px solid rgba(0, 0, 0, 0.29);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
               font-family: "Inter";
               font-style: normal;
               font-weight: 500;
               font-size: 20px;
               line-height: 24px;
-              color: #000000;
+              color: #FFFFFF;
             }
 
             .view-bttn {

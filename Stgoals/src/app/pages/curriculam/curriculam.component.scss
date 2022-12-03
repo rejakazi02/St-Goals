@@ -330,6 +330,7 @@ border: none;
       place-items: center;
       // left side start here ----------------------------------------------------------
       .left-side-div {
+        margin-left: 0%;
         p {
           padding-right: 50%;
         }
@@ -338,7 +339,9 @@ border: none;
           .class-btn {
             width: 30vw;
           }
-
+          .group-dropdown{
+            width: 25vw;
+          }
           .view-bttn {
             width: 12.5vw;
           }
