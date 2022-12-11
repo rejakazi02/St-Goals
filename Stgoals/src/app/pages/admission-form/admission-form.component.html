@@ -1,5 +1,8 @@
 <section>
-  <div class="st-admission-main-div">
+
+  <form  [formGroup]="admissionForm" (ngSubmit)="onSubmit()">
+
+      <div class="st-admission-main-div">
     <h1 class="st-admission-header">Institute Admisson Form</h1>
     <!-- Institute Admisson Form start ------------------------------------------------------ -->
     <div class="institute-admission-div">
@@ -14,19 +17,17 @@
           <div class="input-filed-div">
             <h1>Date:</h1>
 
-            <input type="date" name="" id="" />
+            <input formControlName="admission_date" type="date" name="" id="" />
           </div>
 
           <div class="input-filed-div">
             <h1>Class:</h1>
 
-            <select>
-              <option value="">1</option>
-              <option value="">2</option>
-              <option value="">3</option>
-              <option value="">4</option>
-              <option value="">5</option>
-              <option value="">6</option>
+            <select formControlName="class_id">
+              <option disabled selected>Choose...</option>
+                  <option *ngFor="let item of classDatas" [value]="item.id">
+                    {{ item.name }}
+                  </option>
             </select>
           </div>
 
@@ -54,12 +55,12 @@
         <div class="input-filed-div">
           <h1>Name(Bangali):</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your name by bangali"/>
+          <input formControlName="student_bn_name" type="text" name="" id="" placeholder="Enter your name by bangali"/>
         </div>
         <div class="input-filed-div">
           <h1>Name(English by Capotal Latter):</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your name by english"/>
+          <input formControlName="student_name" type="text" name="" id="" placeholder="Enter your name by english"/>
         </div>
       </div>
     </div>
@@ -73,24 +74,24 @@
         <div class="input-filed-div">
           <h1>Name:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your father’s name "/>
+          <input formControlName="father_name" type="text" name="" id="" placeholder="Enter your father’s name "/>
         </div>
 
         <div class="input-filed-div">
           <h1>Occupation:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your father Occupation"/>
+          <input formControlName="father_occupation" type="text" name="" id="" placeholder="Enter your father Occupation"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Phone:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your father’s phone number"/>
+          <input formControlName="guardian_phone_1" type="text" name="" id="" placeholder="Enter your father’s phone number"/>
         </div>
         <div class="input-filed-div">
           <h1>Email:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your father’s mail"/>
+          <input formControlName="father_email" type="text" name="" id="" placeholder="Enter your father’s mail"/>
         </div>
       </div>
 
@@ -101,19 +102,19 @@
         <div class="input-filed-div">
           <h1>Name:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your mother’s name"/>
+          <input formControlName="mother_name" type="text" name="" id="" placeholder="Enter your mother’s name"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Occupation:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your mother’s occupation"/>
+          <input formControlName="mother_occupation" type="text" name="" id="" placeholder="Enter your mother’s occupation"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Phone:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your mother’s phone number"/>
+          <input formControlName="guardian_phone_2" type="text" name="" id="" placeholder="Enter your mother’s phone number"/>
         </div>
         <div class="input-filed-div">
           <h1>Email:</h1>
@@ -160,30 +161,37 @@
         <div class="input-filed-div">
           <h1>Birth Certificate No:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your Birth certificate no."/>
+          <input formControlName="birth_certificate_no" type="text" name="" id="" placeholder="Enter your Birth certificate no."/>
         </div>
         <div class="input-filed-div">
           <h1>Birth Date:</h1>
 
-          <input type="date" name="" id="" placeholder="mm/dd/yyyy"/>
+          <input formControlName="birth_date" type="date" name="" id="" placeholder="mm/dd/yyyy"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Nationality:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your nationality"/>
+          <input formControlName="nationality" type="text" name="" id="" placeholder="Enter your nationality"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Gender:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your gender"/>
+          <select formControlName="gender" >
+            <option selected>Choose...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+           
+          </select>
+          <!-- <input type="text" name="" id="" placeholder="Enter your gender"/> -->
         </div>
 
         <div class="input-filed-div">
-          <h1>Relagion:</h1>
+          <h1>Religion:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your relagion"/>
+          <input formControlName="religion" type="text" name="" id="" placeholder="Enter your relagion"/>
         </div>
       </div>
     </div>
@@ -197,7 +205,7 @@
         <div class="input-filed-div">
           <h1>Village:</h1>
 
-          <input type="text" name="" id="" placeholder="Village"/>
+          <input type="text" name="" id="" placeholder="Village" (change)="getMartk($event)" />
         </div>
 
         <div class="input-filed-div">
@@ -340,7 +348,7 @@
     <!-- Important Information For admin  start -------------------------------------- -->
 
     <div class="attending-any-public-exam-main-Div">
-      <h1 class="attending">Important Information For admin</h1>
+      <h1 class="attending">Important Information For Student</h1>
 
       <div class="Card-Div">
         <div class="input-filed-div">
@@ -351,24 +359,24 @@
         <div class="input-filed-div">
           <h1>Phone:</h1>
 
-          <input type="text" name="" id="" placeholder="Phone"/>
+          <input formControlName="student_phone" type="text" name="" id="" placeholder="Phone"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Email:</h1>
 
-          <input type="text" name="" id="" placeholder="Email"/>
+          <input formControlName="student_email" type="text" name="" id="" placeholder="Email"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Signature:</h1>
 
-          <input class="signature" type="file" name="" id="" />
+          <input class="signature" type="file" name="" id="" accept="image/*" (change)="onSignatureSelected($event)"/>
         </div>
         <div class="input-filed-div">
           <h1>Photo:</h1>
 
-          <input class="signature" type="file" name="" id="" />
+          <input class="signature" type="file" name="" id="" accept="image/*" (change)="onPhotoSelected($event)"/>
         </div>
       </div>
     </div>
@@ -379,8 +387,10 @@
       <button class="check-again-btn">Check Again</button>
 
       <div class="submit-btn-div">
-        <button class="Submit-Download-btn">Submit & Download</button>
+        <button type="submit" class="Submit-Download-btn">Submit & Download</button>
       </div>
     </div>
   </div>
+    </form>
+
 </section>

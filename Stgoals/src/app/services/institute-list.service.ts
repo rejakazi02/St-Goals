@@ -10,6 +10,7 @@ import { catchError, throwError } from 'rxjs';
 // import { TokenService } from './token.service';
 
 let apiurl = ' https://api.omegaitsys.com/api/v1/';
+let baseurl = ' https://api.omegaitsys.com/api/v1/institutes/';
 
 @Injectable({
   providedIn: 'root'
@@ -37,6 +38,20 @@ getInstiInfo(instInfoSlug:any){
   return this.http.get<any>(apiurl + 'institutes/'+instInfoSlug)
 }
 
+
+// admission from api ----------------------------------------------------------------------------
+
+// admission from post 
+
+admissionPost(admission: any) {
+  return this.http.post<any>(baseurl + 'admission-forms', admission);
+}
+
+
+classData() {
+ 
+  return this.http.get(apiurl + 'all-classes');
+}
  
   //Global token
   IsLoggedIn() {
