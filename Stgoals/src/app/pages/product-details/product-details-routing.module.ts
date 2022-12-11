@@ -63,13 +63,13 @@ const routes: Routes = [
       //     loadChildren: () => import('../details-institute/details-institute.module').then(m => m.DetailsInstituteModule)
 
       // },
-      {
+      {     
         path:"details-institute/:id",
           loadChildren: () => import('../details-institute/details-institute.module').then(m => m.DetailsInstituteModule)
 
       },
       {
-        path:"admission-form",
+        path:"admission-form/:id",
           loadChildren: () => import('../admission-form/admission-form.module').then(m => m.AdmissionFormModule)
 
       },

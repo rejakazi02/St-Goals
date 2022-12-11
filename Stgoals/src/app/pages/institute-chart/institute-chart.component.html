@@ -27,7 +27,7 @@
       <a  [routerLink]="['/details-institute', getInstiData?.institute?.slug]">Details of the institute</a>
       <!-- <a *ngIf="userRole.toLowerCase().trim()==='admin'
        || userRole.toLowerCase().trim()==='staff'" routerLink="/details-institute">Details of the institute</a> -->
-      <a routerLink="/admission-form">Admission Form</a>
+      <a [routerLink]="['/admission-form', getInstiData?.institute?.slug]" >Admission Form</a>
       <a routerLink="/student-admission-form">Sudents Details</a>
       <a routerLink="/sms-info" >SMS System</a>
       <a routerLink="/curriculam" >Curriculam</a>

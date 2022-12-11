@@ -48,7 +48,7 @@
 
         <div class="institute-details-Btn-div">
           <a  class="institute-details-Btn" [routerLink]="['/details-institute', item.slug]">Details</a>
-          <a  class="institute-details-Btn" routerLink="/admission-form">Online Application</a>
+          <a  class="institute-details-Btn" [routerLink]="['/admission-form', item.slug]">Online Application</a>
         </div>
       </div>
 
