@@ -11,7 +11,7 @@
           <div class="input-filed-div">
             <h1>Roll No:</h1>
 
-            <input type="text" name="" id="" placeholder="Roll No"/>
+            <input formControlName="roll_no" type="text" name="" id="" placeholder="Roll No"/>
           </div>
 
           <div class="input-filed-div">
@@ -33,9 +33,10 @@
 
           <div class="input-filed-div">
             <h1>Version:</h1>
-            <select>
-              <option value="">English</option>
-              <option value="">Bangla</option>
+            <select formControlName="version">
+              <option value="">Choose</option>
+              <option value="english">English</option>
+              <option value="bangla">Bangla</option>
              
             </select>
           </div>
@@ -119,7 +120,7 @@
         <div class="input-filed-div">
           <h1>Email:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your mother’s phone mail"/>
+          <input formControlName="mother_email" type="text" name="" id="" placeholder="Enter your mother’s phone mail"/>
         </div>
       </div>
 
@@ -130,24 +131,24 @@
         <div class="input-filed-div">
           <h1>Name:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your gaurdians name"/>
+          <input formControlName="local_gaurdian_name" type="text" name="" id="" placeholder="Enter your gaurdians name"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Occupation:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your gaurdians occupation"/>
+          <input formControlName="local_gaurdian_occupation" type="text" name="" id="" placeholder="Enter your gaurdians occupation"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Phone:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your gaurdians phone number"/>
+          <input formControlName="guardian_phone_3" type="text" name="" id="" placeholder="Enter your gaurdians phone number"/>
         </div>
         <div class="input-filed-div">
           <h1>Email:</h1>
 
-          <input type="text" name="" id="" placeholder="Enter your gaurdians phone mail"/>
+          <input formControlName="local_gaurdian_email" type="text" name="" id="" placeholder="Enter your gaurdians phone mail"/>
         </div>
       </div>
     </div>
@@ -172,7 +173,14 @@
         <div class="input-filed-div">
           <h1>Nationality:</h1>
 
-          <input formControlName="nationality" type="text" name="" id="" placeholder="Enter your nationality"/>
+          <!-- <input formControlName="nationality" type="text" name="" id="" placeholder="Enter your nationality"/> -->
+          <select formControlName="nationality" >
+            <option selected>Choose...</option>
+            <option value="bangladeshi">Bangladeshi</option>
+            <!-- <option value="female">Female</option>
+            <option value="other">Other</option> -->
+           
+          </select>
         </div>
 
         <div class="input-filed-div">
@@ -191,7 +199,14 @@
         <div class="input-filed-div">
           <h1>Religion:</h1>
 
-          <input formControlName="religion" type="text" name="" id="" placeholder="Enter your relagion"/>
+          <select formControlName="religion"  >
+            <option [value]="null" disabled>Choose...</option>
+            <option value="islam">Islam</option>
+            <option value="hindu">Hindu</option>
+            <option value="buddha">Buddha</option>
+            <option value="christian">Christian</option>
+            <option value="others">Others</option>
+          </select>
         </div>
       </div>
     </div>
@@ -205,30 +220,30 @@
         <div class="input-filed-div">
           <h1>Village:</h1>
 
-          <input type="text" name="" id="" placeholder="Village" (change)="getMartk($event)" />
+          <input formControlName="present_village" type="text" name="" id="" placeholder="Village"  />
         </div>
 
         <div class="input-filed-div">
           <h1>Union:</h1>
 
-          <input type="text" name="" id="" placeholder="Union"/>
+          <input formControlName="present_union" type="text" name="" id="" placeholder="Union"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Post Code:</h1>
 
-          <input type="text" name="" id="" placeholder="Post Code"/>
+          <input formControlName="present_post_code" type="text" name="" id="" placeholder="Post Code"/>
         </div>
         <div class="input-filed-div">
           <h1>Thana:</h1>
 
-          <input type="text" name="" id="" placeholder="Thana"/>
+          <input formControlName="present_thana" type="text" name="" id="" placeholder="Thana"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Zilla:</h1>
 
-          <input type="text" name="" id="" placeholder="Zilla"/>
+          <input formControlName="present_zilla" type="text" name="" id="" placeholder="Zilla"/>
         </div>
       </div>
 
@@ -239,29 +254,29 @@
         <div class="input-filed-div">
           <h1>Village/Road No/Area:</h1>
 
-          <input type="text" name="" id="" placeholder="Village/Road No/Area"/>
+          <input formControlName="permanent_village" type="text" name="" id="" placeholder="Village/Road No/Area"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Union:</h1>
 
-          <input type="text" name="" id="" placeholder="Union"/>
+          <input formControlName="permanent_union" type="text" name="" id="" placeholder="Union"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Post Office & Post Code:</h1>
 
-          <input type="text" name="" id="" placeholder="Post Office & Post Code"/>
+          <input formControlName="permanent_post_code" type="text" name="" id="" placeholder="Post Office & Post Code"/>
         </div>
         <div class="input-filed-div">
           <h1>Thana:</h1>
 
-          <input type="text" name="" id="" placeholder="Thana"/>
+          <input formControlName="permanent_thana" type="text" name="" id="" placeholder="Thana"/>
         </div>
         <div class="input-filed-div">
           <h1>Zilla:</h1>
 
-          <input type="text" name="" id="" placeholder="Zilla"/>
+          <input formControlName="permanent_zilla" type="text" name="" id="" placeholder="Zilla"/>
         </div>
       </div>
     </div>
@@ -280,23 +295,23 @@
         <div class="input-filed-div">
           <h1>Name of the Institute:</h1>
 
-          <input type="text" name="" id="" placeholder="Name of the Institute"/>
+          <input formControlName="previous_institute_name" type="text" name="" id="" placeholder="Name of the Institute"/>
         </div>
         <div class="input-filed-div">
           <h1>Address:</h1>
 
-          <input type="text" name="" id="" placeholder="Address"/>
+          <input formControlName="previous_institute_address" type="text" name="" id="" placeholder="Address"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Previous Class:</h1>
 
-          <input type="text" name="" id="" placeholder="Previous Class"/>
+          <input formControlName="previous_institute_class" type="text" name="" id="" placeholder="Previous Class"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Reason for the changing:</h1>
-<textarea class="reason-of-changing" name="" id="" placeholder="Reason for the changing">
+<textarea formControlName="institute_changing_reason" class="reason-of-changing" name="" id="" placeholder="Reason for the changing">
 
 </textarea>
           <!-- <input class="reason-of-changing" type="text" name="" id="" /> -->
@@ -318,29 +333,29 @@
         <div class="input-filed-div">
           <h1>Calss:</h1>
 
-          <input type="text" name="" id="" placeholder="class"/>
+          <input formControlName="public_exam_name" type="text" name="" id="" placeholder="class"/>
         </div>
         <div class="input-filed-div">
-          <h1>Rag No:</h1>
+          <h1>Reg No:</h1>
 
-          <input type="text" name="" id="" placeholder="Rag No"/>
+          <input formControlName="public_exam_reg_no" type="text" name="" id="" placeholder="Rag No"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Roll No:</h1>
 
-          <input type="text" name="" id="" placeholder="Roll No"/>
+          <input formControlName="public_exam_roll_no" type="text" name="" id="" placeholder="Roll No"/>
         </div>
 
         <div class="input-filed-div">
           <h1>Passing Year:</h1>
 
-          <input type="text" name="" id="" placeholder="Passing Year"/>
+          <input formGroupName="public_exam_pass_year" type="text" name="" id="" placeholder="Passing Year"/>
         </div>
         <div class="input-filed-div">
           <h1>Institute Name:</h1>
 
-          <input type="text" name="" id="" placeholder="Institute Name"/>
+          <input formControlName="public_exam_pass_inst_name" type="text" name="" id="" placeholder="Institute Name"/>
         </div>
       </div>
     </div>
@@ -354,7 +369,7 @@
         <div class="input-filed-div">
           <h1>Name:</h1>
 
-          <input type="text" name="" id="" placeholder="Name"/>
+          <input formControlName="student_user_name" type="text" name="" id="" placeholder="Name"/>
         </div>
         <div class="input-filed-div">
           <h1>Phone:</h1>
@@ -369,15 +384,20 @@
         </div>
 
         <div class="input-filed-div">
-          <h1>Signature:</h1>
-
-          <input class="signature" type="file" name="" id="" accept="image/*" (change)="onSignatureSelected($event)"/>
-        </div>
-        <div class="input-filed-div">
           <h1>Photo:</h1>
 
           <input class="signature" type="file" name="" id="" accept="image/*" (change)="onPhotoSelected($event)"/>
+          <p class="imgg-divvv1">NOTE: (Image size must width=300px & Height=300px)</p>
+          <p class="imgg-divvv">NOTE: (Image size must width=300px & Height=300px)</p>
         </div>
+        <div class="input-filed-div">
+          <h1>Signature:</h1>
+
+          <input class="signature" type="file" name="" id="" accept="image/*" (change)="onSignatureSelected($event)"/>
+          <p class="imgg-divvv1">NOTE: (Image size must width=150px & Height=80px)</p>
+          <p class="imgg-divvv">NOTE: (Image size must width=150px & Height=80px)</p>
+        </div>
+        
       </div>
     </div>
 
