@@ -26,6 +26,7 @@ export class AdmissionFormComponent implements OnInit {
   selectedUploadFile: any;
   selectedStuImage: any;
   marksdata: any;
+Date: any;
 
   constructor(
     private fb: FormBuilder,
@@ -45,7 +46,7 @@ export class AdmissionFormComponent implements OnInit {
     });
 
     this.admissionForm = this.fb.group({
-      roll_no: ['', Validators.required],
+      roll_no: [Date.now(), Validators.required],
       class_id: ['', Validators.required],
       admission_date: ['', Validators.required],
       version: ['', Validators.required],
