@@ -321,22 +321,120 @@ Date: any;
         this.admissionForm.reset();
         this.toastr.success(result.message);
         this.errorMessage = null;
+        // this.selectedStuImage=null;
+        // this.selectedUploadFile=null;
+
+        // this.admissionForm.resetForm();
 
         // window.location.reload();
       },
       (err) => {
         this.errorMessage = err.error.errors;
 
-        // if (err.error.errors.class_section_id) {
-        //   this.toastr.error(err.error.errors.class_section_id);
-        // }
-        // if (err.error.errors.subject_id) {
-        //   this.toastr.error(err.error.errors.subject_id);
-        // }
+     
+        if (err?.error?.errors?.birth_certificate_no) {
+          this.toastr.error(err?.error?.errors?.birth_certificate_no);
+        }
+        if (err.error.errors.birth_date) {
+          this.toastr.error(err.error.errors.birth_date);
+        }
 
-        // if (err.error.errors.exam_id) {
-        //   this.toastr.error(err.error.errors.exam_id);
-        // }
+        if (err.error.errors.class_id) {
+          this.toastr.error(err.error.errors.class_id);
+        }
+        if (err.error.errors.father_name) {
+          this.toastr.error(err.error.errors.father_name);
+        }
+        if (err.error.errors.father_occupation) {
+          this.toastr.error(err.error.errors.father_occupation);
+        }
+
+
+        if (err.error.errors.guardian_phone_1) {
+          this.toastr.error(err.error.errors.guardian_phone_1);
+        }
+        if (err.error.errors.guardian_phone_2) {
+          this.toastr.error(err.error.errors.guardian_phone_2);
+        }
+
+                if (err.error.errors.guardian_phone_3) {
+          this.toastr.error(err.error.errors.guardian_phone_3);
+        }
+        if (err.error.errors.local_gaurdian_name) {
+          this.toastr.error(err.error.errors.local_gaurdian_name);
+        }
+        if (err.error.errors.local_gaurdian_occupation) {
+          this.toastr.error(err.error.errors.local_gaurdian_occupation);
+        }
+
+
+
+        if (err.error.errors.mother_name) {
+          this.toastr.error(err.error.errors.mother_name);
+        }
+        if (err.error.errors.mother_occupation) {
+          this.toastr.error(err.error.errors.mother_occupation);
+        }
+        if (err.error.errors.nationality) {
+          this.toastr.error(err.error.errors.nationality);
+        }
+        if (err.error.errors.permanent_post_code) {
+          this.toastr.error(err.error.errors.permanent_post_code);
+        }
+        if (err.error.errors.permanent_thana) {
+          this.toastr.error(err.error.errors.permanent_thana);
+        }
+
+
+        if (err.error.errors.permanent_union) {
+          this.toastr.error(err.error.errors.permanent_union);
+        }
+        if (err.error.errors.permanent_village) {
+          this.toastr.error(err.error.errors.permanent_village);
+        }
+        if (err.error.errors.permanent_zilla) {
+          this.toastr.error(err.error.errors.permanent_zilla);
+        }
+        if (err.error.errors.present_post_code) {
+          this.toastr.error(err.error.errors.present_post_code);
+        }
+        if (err.error.errors.present_thana) {
+          this.toastr.error(err.error.errors.present_thana);
+        }
+
+
+
+        if (err.error.errors.present_union) {
+          this.toastr.error(err.error.errors.present_union);
+        }
+        if (err.error.errors.present_village) {
+          this.toastr.error(err.error.errors.present_village);
+        }
+        if (err.error.errors.present_zilla) {
+          this.toastr.error(err.error.errors.present_zilla);
+        }
+        if (err.error.errors.student_bn_name) {
+          this.toastr.error(err.error.errors.student_bn_name);
+        }
+        if (err.error.errors.student_email) {
+          this.toastr.error(err.error.errors.student_email);
+        }
+
+        if (err.error.errors.student_name) {
+          this.toastr.error(err.error.errors.student_name);
+        }
+        if (err.error.errors.student_phone) {
+          this.toastr.error(err.error.errors.student_phone);
+        }
+        if (err.error.errors.student_photo) {
+          this.toastr.error(err.error.errors.student_photo);
+        }
+        if (err.error.errors.student_signature) {
+          this.toastr.error(err.error.errors.student_signature);
+        }
+        if (err.error.errors.version) {
+          this.toastr.error(err.error.errors.version);
+        }
       }
     );
   }
