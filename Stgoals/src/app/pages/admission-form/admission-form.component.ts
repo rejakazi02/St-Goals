@@ -326,111 +326,111 @@ Date: any;
         // window.location.reload();
       },
       (err) => {
-        this.errorMessage = err.error.errors;
+        this.errorMessage = err?.error?.errors;
 
      
-        if (err?.error?.errors?.birth_certificate_no) {
-          this.toastr.error(err?.error?.errors?.birth_certificate_no);
+        if (this.errorMessage.birth_certificate_no) {
+          this.toastr.error(this.errorMessage.birth_certificate_no);
         }
-        if (err?.error?.errors?.birth_date) {
-          this.toastr.error(err?.error?.errors?.birth_date);
-        }
-
-        if (err.error.errors.class_id) {
-          this.toastr.error(err.error.errors.class_id);
-        }
-        if (err.error.errors.father_name) {
-          this.toastr.error(err.error.errors.father_name);
-        }
-        if (err.error.errors.father_occupation) {
-          this.toastr.error(err.error.errors.father_occupation);
+        if (this.errorMessage.birth_date) {
+          this.toastr.error(this.errorMessage.birth_date);
         }
 
-
-        if (err.error.errors.guardian_phone_1) {
-          this.toastr.error(err.error.errors.guardian_phone_1);
+        if (this.errorMessage.class_id) {
+          this.toastr.error(this.errorMessage.class_id);
         }
-        if (err.error.errors.guardian_phone_2) {
-          this.toastr.error(err.error.errors.guardian_phone_2);
+        if (this.errorMessage.father_name) {
+          this.toastr.error(this.errorMessage.father_name);
         }
-
-                if (err.error.errors.guardian_phone_3) {
-          this.toastr.error(err.error.errors.guardian_phone_3);
-        }
-        if (err.error.errors.local_gaurdian_name) {
-          this.toastr.error(err.error.errors.local_gaurdian_name);
-        }
-        if (err.error.errors.local_gaurdian_occupation) {
-          this.toastr.error(err.error.errors.local_gaurdian_occupation);
+        if (this.errorMessage.father_occupation) {
+          this.toastr.error(this.errorMessage.father_occupation);
         }
 
 
-
-        if (err.error.errors.mother_name) {
-          this.toastr.error(err.error.errors.mother_name);
+        if (this.errorMessage.guardian_phone_1) {
+          this.toastr.error(this.errorMessage.guardian_phone_1);
         }
-        if (err.error.errors.mother_occupation) {
-          this.toastr.error(err.error.errors.mother_occupation);
-        }
-        if (err.error.errors.nationality) {
-          this.toastr.error(err.error.errors.nationality);
-        }
-        if (err.error.errors.permanent_post_code) {
-          this.toastr.error(err.error.errors.permanent_post_code);
-        }
-        if (err.error.errors.permanent_thana) {
-          this.toastr.error(err.error.errors.permanent_thana);
+        if (this.errorMessage.guardian_phone_2) {
+          this.toastr.error(this.errorMessage.guardian_phone_2);
         }
 
-
-        if (err.error.errors.permanent_union) {
-          this.toastr.error(err.error.errors.permanent_union);
+                if (this.errorMessage.guardian_phone_3) {
+          this.toastr.error(this.errorMessage.guardian_phone_3);
         }
-        if (err.error.errors.permanent_village) {
-          this.toastr.error(err.error.errors.permanent_village);
+        if (this.errorMessage.local_gaurdian_name) {
+          this.toastr.error(this.errorMessage.local_gaurdian_name);
         }
-        if (err.error.errors.permanent_zilla) {
-          this.toastr.error(err.error.errors.permanent_zilla);
-        }
-        if (err.error.errors.present_post_code) {
-          this.toastr.error(err.error.errors.present_post_code);
-        }
-        if (err.error.errors.present_thana) {
-          this.toastr.error(err.error.errors.present_thana);
+        if (this.errorMessage.local_gaurdian_occupation) {
+          this.toastr.error(this.errorMessage.local_gaurdian_occupation);
         }
 
 
 
-        if (err.error.errors.present_union) {
-          this.toastr.error(err.error.errors.present_union);
+        if (this.errorMessage.mother_name) {
+          this.toastr.error(this.errorMessage.mother_name);
         }
-        if (err.error.errors.present_village) {
-          this.toastr.error(err.error.errors.present_village);
+        if (this.errorMessage.mother_occupation) {
+          this.toastr.error(this.errorMessage.mother_occupation);
         }
-        if (err.error.errors.present_zilla) {
-          this.toastr.error(err.error.errors.present_zilla);
+        if (this.errorMessage.nationality) {
+          this.toastr.error(this.errorMessage.nationality);
         }
-        if (err.error.errors.student_bn_name) {
-          this.toastr.error(err.error.errors.student_bn_name);
+        if (this.errorMessage.permanent_post_code) {
+          this.toastr.error(this.errorMessage.permanent_post_code);
         }
-        if (err.error.errors.student_email) {
-          this.toastr.error(err.error.errors.student_email);
+        if (this.errorMessage.permanent_thana) {
+          this.toastr.error(this.errorMessage.permanent_thana);
         }
 
-        if (err.error.errors.student_name) {
-          this.toastr.error(err.error.errors.student_name);
+
+        if (this.errorMessage.permanent_union) {
+          this.toastr.error(this.errorMessage.permanent_union);
         }
-        if (err.error.errors.student_phone) {
-          this.toastr.error(err.error.errors.student_phone);
+        if (this.errorMessage.permanent_village) {
+          this.toastr.error(this.errorMessage.permanent_village);
         }
-        if (err.error.errors.student_photo) {
-          this.toastr.error(err.error.errors.student_photo);
+        if (this.errorMessage.permanent_zilla) {
+          this.toastr.error(this.errorMessage.permanent_zilla);
         }
-        if (err.error.errors.student_signature) {
-          this.toastr.error(err.error.errors.student_signature);
+        if (this.errorMessage.present_post_code) {
+          this.toastr.error(this.errorMessage.present_post_code);
         }
-        if (err.error.errors.version) {
-          this.toastr.error(err.error.errors.version);
+        if (this.errorMessage.present_thana) {
+          this.toastr.error(this.errorMessage.present_thana);
+        }
+
+
+
+        if (this.errorMessage.present_union) {
+          this.toastr.error(this.errorMessage.present_union);
+        }
+        if (this.errorMessage.present_village) {
+          this.toastr.error(this.errorMessage.present_village);
+        }
+        if (this.errorMessage.present_zilla) {
+          this.toastr.error(this.errorMessage.present_zilla);
+        }
+        if (this.errorMessage.student_bn_name) {
+          this.toastr.error(this.errorMessage.student_bn_name);
+        }
+        if (this.errorMessage.student_email) {
+          this.toastr.error(this.errorMessage.student_email);
+        }
+
+        if (this.errorMessage.student_name) {
+          this.toastr.error(this.errorMessage.student_name);
+        }
+        if (this.errorMessage.student_phone) {
+          this.toastr.error(this.errorMessage.student_phone);
+        }
+        if (this.errorMessage.student_photo) {
+          this.toastr.error(this.errorMessage.student_photo);
+        }
+        if (this.errorMessage.student_signature) {
+          this.toastr.error(this.errorMessage.student_signature);
+        }
+        if (this.errorMessage.version) {
+          this.toastr.error(this.errorMessage.version);
         }
       }
     );
