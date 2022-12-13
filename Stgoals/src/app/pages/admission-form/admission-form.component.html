@@ -24,7 +24,7 @@
             <h1>Class:</h1>
 
             <select formControlName="class_id">
-              <option disabled selected>Choose...</option>
+              <option value="" disabled selected>Choose...</option>
                   <option *ngFor="let item of classDatas" [value]="item.id">
                     {{ item.name }}
                   </option>
@@ -34,7 +34,7 @@
           <div class="input-filed-div">
             <h1>Version:</h1>
             <select formControlName="version">
-              <option value="">Choose</option>
+              <option value="" disabled selected>Choose...</option>
               <option value="english">English</option>
               <option value="bangla">Bangla</option>
              
@@ -175,7 +175,7 @@
 
           <!-- <input formControlName="nationality" type="text" name="" id="" placeholder="Enter your nationality"/> -->
           <select formControlName="nationality" >
-            <option selected>Choose...</option>
+            <option value="" disabled selected>Choose...</option>
             <option value="bangladeshi">Bangladeshi</option>
             <!-- <option value="female">Female</option>
             <option value="other">Other</option> -->
@@ -187,7 +187,7 @@
           <h1>Gender:</h1>
 
           <select formControlName="gender" >
-            <option selected>Choose...</option>
+            <option value="" disabled selected>Choose...</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
@@ -200,7 +200,7 @@
           <h1>Religion:</h1>
 
           <select formControlName="religion"  >
-            <option [value]="null" disabled>Choose...</option>
+            <option value="" disabled selected>Choose...</option>
             <option value="islam">Islam</option>
             <option value="hindu">Hindu</option>
             <option value="buddha">Buddha</option>
