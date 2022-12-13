@@ -299,10 +299,7 @@ Date: any;
       'student_email',
       this.admissionForm.get('student_email').value
     );
-    stuFinalData.append(
-      'student_phone',
-      this.admissionForm.get('student_phone').value
-    );
+    stuFinalData.append('student_phone', this.admissionForm.get('student_phone').value);
 
     if (this.selectedUploadFile) {
       stuFinalData.append('student_signature', this.selectedUploadFile);
@@ -335,8 +332,8 @@ Date: any;
         if (err?.error?.errors?.birth_certificate_no) {
           this.toastr.error(err?.error?.errors?.birth_certificate_no);
         }
-        if (err.error.errors.birth_date) {
-          this.toastr.error(err.error.errors.birth_date);
+        if (err?.error?.errors?.birth_date) {
+          this.toastr.error(err?.error?.errors?.birth_date);
         }
 
         if (err.error.errors.class_id) {
