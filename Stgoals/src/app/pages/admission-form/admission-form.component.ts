@@ -116,7 +116,7 @@ Date: any;
   }
   onPhotoSelected(event: any) {
     this.selectedStuImage = event.target.files[0];
-    console.log(this.selectedStuImage);
+    // console.log(this.selectedStuImage);
   }
 
   onSubmit() {
@@ -309,7 +309,7 @@ Date: any;
     }
 
     console.log('this.admissionForm.value', this.admissionForm.value);
-    console.log('stuFinalData', stuFinalData);
+    // console.log('stuFinalData', stuFinalData);
 
     this.instListService.admissionPost(stuFinalData).subscribe(
       (result) => {
