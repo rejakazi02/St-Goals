@@ -39,7 +39,7 @@ Date: any;
     // update data
     this.activateRoute.paramMap.subscribe((param) => {
       this.instSlug = param.get('id');
-      console.log('param', this.instSlug);
+      // console.log('param', this.instSlug);
       // if (this.instSlug) {
       //   this.getInstiInfo(this.instSlug);
       // }
@@ -112,7 +112,7 @@ Date: any;
   // image section
   onSignatureSelected(event: any) {
     this.selectedUploadFile = event.target.files[0];
-    console.log(this.selectedUploadFile);
+    // console.log(this.selectedUploadFile);
   }
   onPhotoSelected(event: any) {
     this.selectedStuImage = event.target.files[0];
@@ -308,7 +308,7 @@ Date: any;
       stuFinalData.append('student_photo', this.selectedStuImage);
     }
 
-    console.log('this.admissionForm.value', this.admissionForm.value);
+    // console.log('this.admissionForm.value', this.admissionForm.value);
     // console.log('stuFinalData', stuFinalData);
 
     this.instListService.admissionPost(stuFinalData).subscribe(
