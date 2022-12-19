@@ -11,7 +11,7 @@ const routes: Routes = [
     children:[
       {
         path:'',
-        redirectTo:"home",
+        redirectTo:"login",
         pathMatch:"full"
       },
       
@@ -23,11 +23,6 @@ const routes: Routes = [
       {
         path:"otpform",
           loadChildren: () => import('./otpform/otpform.module').then(m => m.OtpformModule)
-
-      },
-      {
-        path:"home",
-          loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
 
       },
       {
